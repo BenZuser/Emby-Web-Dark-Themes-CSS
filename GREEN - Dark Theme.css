@@ -278,7 +278,7 @@ div.paperList.itemsListview {background: transparent !important;}
 .darkDrawer .sidebarDivider {background: #343434 !important;}
 .darkDrawer {background-color: #222222 !important;}
 /* Top bars */
-.dashboardDocument .viewMenuBar, .viewMenuBar, .libraryViewNav {
+.dashboardDocument .viewMenuBar, .viewMenuBar, .libraryViewNav, .ui-body-b .libraryViewNav {
     background-color: rgba(16,16,16,.94);}
 /* Bottom & Now PLaying bars */
 #footer, .nowPlayingBar {background-color: rgba(16,16,16,.94) !important;}
