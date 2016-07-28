@@ -261,6 +261,15 @@ div#primaryProgress.style-scope.paper-progress {
   color: #4285F4 !important; }
 
 /* --- Pop-up Windows --- */
+.dialog .buttons button {
+  color: #4285F4 !important; }
+
+.dialog .buttons button:hover {
+  color: #9b9b9b !important; }
+
+.dialog .buttons button:focus {
+  background-color: #080808 !important; }
+
 .dialog .buttons, button.actionSheetMenuItem {
   color: #4285F4 !important; }
 
@@ -371,6 +380,9 @@ img[src='css/images/editor/missingtrailer.png'] {
 /* --- 3.1 : Buttons --- */
 /* --- 3.2 : Details --- */
 /* --- Corrections --- */
+.mdl-checkbox__input:focus + span + .mdl-checkbox__focus-helper {
+  background-color: transparent !important; }
+
 /* CSS Box */
 iron-autogrow-textarea#input.paper-input-input.style-scope.paper-textarea.x-scope.iron-autogrow-textarea-0 {
   height: 300px !important; }
