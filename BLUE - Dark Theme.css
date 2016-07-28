@@ -155,7 +155,7 @@ a.nowPlayingTabButton.selectedNowPlayingTabButton, .mediaButton.active {
   background: #4285F4 !important; }
 
 /* --- Rectangles --- */
-button[is="emby-button"].submit, button[is="emby-button"].raised.accent, button[is="emby-button"].raised.more {
+button[is="emby-button"].submit, button[is="emby-button"].raised.accent, button[is="emby-button"].raised.more, button.raised.cancelDark.mini {
   background: #4285F4 !important;
   color: #FFFFFF !important; }
 
@@ -223,7 +223,7 @@ button[is="emby-button"].accent {
 /* --- 1.2 : Details --- */
 /* --- Icons & Indicators --- */
 /* Home Page */
-.playedIndicator {
+.playedIndicator, .countIndicator {
   background-color: #4285F4 !important; }
 
 .starRatingContainer i {
@@ -248,6 +248,12 @@ div#ratingLine iron-icon.x-scope.iron-icon-0, span.storeItemReviewText iron-icon
 div#primaryProgress.style-scope.paper-progress {
   background-color: #4285F4 !important;
   border-color: #4285F4 !important; }
+
+.listItemIcon {
+  background-color: #4285F4 !important; }
+
+.mdl-checkbox__input:focus + span + .mdl-checkbox__focus-helper {
+  background-color: transparent; }
 
 /* --- Fonts --- */
 /* Dashboard */
@@ -306,11 +312,6 @@ paper-input .focused-line, paper-textarea .focused-line, [is="emby-select"]:focu
   -moz-box-shadow: 0 0 20px 3px #4285F4;
   -webkit-box-shadow: 0 0 20px 3px #4285F4;
   box-shadow: 0 0 20px 3px #4285F4; }
-
-div[data-itemtype="CollectionFolder"] .cardContent {
-  border: 1px solid rgba(66, 133, 244, 0.5);
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(66, 133, 244, 0.6);
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(66, 133, 244, 0.6); }
 
 /*Glow for userview cards */
 .itemsContainer.homeTopViews .cardContent {
