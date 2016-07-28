@@ -76,7 +76,7 @@
 /* --- Fonts --- */
 /* --- Pop-up Windows --- */
 /* --- Others --- */
-/* ------ 5.0 : Manual Fixes ------ */
+/* ------ 5.0 : Personal Modifications ------ */
 /* ---------------------------------------------------- */
 /* ------ 1.0 : Color Highlights ------ */
 /* --- 1.1 : Buttons --- */
@@ -541,7 +541,7 @@ a.sidebarLink span {
   color: #FFFFFF !important; }
 
 .adminDrawerLogo {
-  border-bottom: 1px solid #343434; }
+  border-bottom: 1px solid #343434 !important; }
 
 /* --- Icons --- */
 /* Dashboard */
@@ -631,7 +631,6 @@ input:not(.paper-input):not([type='checkbox']):not([type='radio']):not([type='fi
 [is="emby-input"] {
   border-bottom: 1px solid #737373 !important; }
 
-/* ------ 5.0 : Manual Fixes ------ */
+/* ------ 5.0 : Personal Modifications ------ */
 
 /*# sourceMappingURL=GREEN%20-%20Dark%20Theme.css.map */
-
