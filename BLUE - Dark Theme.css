@@ -472,18 +472,11 @@ div#checkbox.style-scope.paper-checkbox {
 /* Pop-up & other rectangle buttons */
 #aboutPage [data-role="button"], #popupAddTrigger [type="submit"], #popupAddTrigger [type="button"],
 #serverSecurityPage [title="Revoke"],
-#dlnaProfilePage > div.ui-content > div > form > ul > li > button.btnSave, #dlnaProfilePage [data-icon="check"], #dlnaProfilePage [type="button"],
+#dlnaProfilePage [data-icon="check"], #dlnaProfilePage [type="button"],
 #dlnaProfilePage [data-role="button"], #userParentalControlPage [type="button"],
 #popupSchedule [type="submit"], #popupSchedule [type="button"],
 div.page.type-interior.pluginConfigurationPage.esqConfigurationPage.mainAnimatedPage.ui-page.ui-page-theme-a.ui-body-a button,
-div#boxsetsConfigurationPage.page.type-interior.pluginConfigurationPage.mainAnimatedPage.ui-page.ui-page-theme-a.ui-body-a button,
-button#btnInstall, #popupEditDirectPlayProfile > div.ui-content > form > p > button:nth-child(n+0),
-#transcodingProfilePopup > div.ui-content > form > p > button:nth-child(n+0),
-#containerProfilePopup > div.ui-content > form > p:nth-child(4) > button:nth-child(n+0),
-#codecProfilePopup > div.ui-content > form > p:nth-child(4) > button:nth-child(n+0),
-#responseProfilePopup > div.ui-content > form > p > button:nth-child(n+0), #dlnaProfilePage > div.ui-content > div > form > div.tabContent.tabInfo > div:nth-child(10) > div > div > p:nth-child(2) > button,
-#subtitleProfilePopup > div.ui-content > form > p > button:nth-child(n+0),
-#xmlAttributePopup > div.ui-content > form > p > button:nth-child(n+0) {
+div#boxsetsConfigurationPage.page.type-interior.pluginConfigurationPage.mainAnimatedPage.ui-page.ui-page-theme-a.ui-body-a button {
   background-color: #404040 !important;
   border-color: #404040 !important;
   color: #FFFFFF !important; }
