@@ -311,6 +311,9 @@ a.sidebarLink.lnkMediaFolder.selectedMediaFolder i.md-icon.sidebarLinkIcon {
 paper-input .focused-line, paper-textarea .focused-line, [is="emby-select"]:focus + .emby-select-selectionbar, [is="emby-input"]:focus + .emby-input-selectionbar, [is="emby-textarea"]:focus + .emby-textarea-selectionbar {
   background-color: #52B54B !important; }
 
+div.focused-line.style-scope.paper-input-container {
+  background-color: #52B54B !important; }
+
 /* Home Page */
 .galleryImageContainer:hover {
   -moz-box-shadow: 0 0 0 5px #52B54B;
@@ -567,7 +570,7 @@ button#expandButton.emby-collapsible-button.iconRight i.md-icon, button.btnSearc
 
 /* --- Fonts --- */
 /* Dashboard */
-select, input, h1, h2, h3, .paper-checkbox-0 #checkboxLabel.paper-checkbox, p#appVersionNumber, p#pUpToDate, p#ports, p.localUrl, p.externalUrl, div#appVersionNumber, div.detailSectionHeader, table.tblApiKeys.stripedTable.ui-responsive.table-stroke.ui-table.ui-table-reflow, textarea#textarea.style-scope.iron-autogrow-textarea, div.ui-collapsible-content.ui-body-inherit, table.tblOrganizationResults.stripedTable.ui-responsive.table-stroke.ui-table.ui-table-reflow, table#movie-table.ui-responsive.ui-table.ui-table-reflow {
+select, input, h1, h2, h3, .paper-checkbox-0 #checkboxLabel.paper-checkbox, p#appVersionNumber, p#pUpToDate, p#ports, p.localUrl, p.externalUrl, div#appVersionNumber, div.detailSectionHeader, table.tblApiKeys.stripedTable.ui-responsive.table-stroke.ui-table.ui-table-reflow, textarea#textarea.style-scope.iron-autogrow-textarea, div.ui-collapsible-content.ui-body-inherit, table.tblOrganizationResults.stripedTable.ui-responsive.table-stroke.ui-table.ui-table-reflow, table#movie-table.ui-responsive.ui-table.ui-table-reflow, .legend {
   color: #FFFFFF !important; }
 
 div.fieldDescription, label, p, .ui-body-a .paper-input-container-0 .input-content.paper-input-container label, .ui-body-a .paper-input-container-0 .input-content.paper-input-container .paper-input-label, .ui-body-a paper-textarea label, .ui-body-a .selectLabel, .ui-body-a .paperListLabel, .ui-body-a .fieldDescription, .ui-body-a .inputLabel, .ui-body-a .textareaLabel, .paper-item-body-0 [secondary], .paper-toggle-button-0 .toggle-label.paper-toggle-button {
