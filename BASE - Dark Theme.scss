@@ -1,0 +1,455 @@
+/* Emby version : 3.0.6010 */
+
+/* Color HEX codes */
+
+/* RED	       : #E81123 & (232,17,35)
+/* DARK COLOR  : #94131E
+
+/* ORANGE      : #FF8000 & (255,128,0)
+/* DARK COLOR  : #BF6000
+
+/* ORANGE PLEX : #CC7B19 & (204,123,25)
+/* DARK COLOR  : #B35A00
+
+/* YELLOW      : #BDBD00 & (189,189,0)
+/* DARK COLOR  : #757500
+
+/* GREEN       : #52B54B & (82,181,75)
+/* DARK COLOR  : #3E8437
+
+/* BLUE	       : #4285F4 & (66,133,244)
+/* DARK COLOR  : #0C57D6
+
+/* PURPLE      : #673AB7 & (103,58,183)
+/* DARK COLOR  : #3F2471
+
+/* GRAY	       : #7F7F7F & (127,127,127)
+/* DARK COLOR  : #535353
+
+/* Gray 1      : #9b9b9b              (Link hover & Disabled)
+/* Gray 2      : #4D4D4D              (Sidelink Panel hover backgrounds)
+/* Gray 3      : #404040              (Button backgrounds)
+/* Dark Gray 1 : #101010 & (16,16,16) (Dialog Header/Top bar backgrounds)
+/* Dark Gray 2 : #19191A              (Dialog & General backgrounds)
+/* Dark Gray 3 : #222222              (Side Panel background)
+/* Dark Gray 4 : #2B2B2B              (Panel backgrounds)
+/* Dark Gray 5 : #343434              (Dark Divider lines)
+/* Dark Gray 6 : #444444              (Light Divider lines)
+/* Dark Gray 7 : #737373              (Border-bottom lines)
+/* Black 1     : #080808              (Light Black)
+/* Black 2     : #010101              (Dark Black & Pop-up backgrounds)
+/* White 1     : #CCCCCC              (Secondary text)
+/* White 2     : #AAAAAA              (Field descriptions)
+/* White 3     : #FFFFFF              (Real white)
+/* White 4     : #BBBBBB              (Side Panel icons)
+
+
+/* ------------ Dark Theme & Colored highlight ------------ */
+
+/* ------------ Table of Contents ------------ */
+
+/* ------ 1.0 : Color Highlights ------ */
+/* --- 1.1 : Buttons --- */
+/* --- Checkboxes --- */
+/* --- Circles --- */
+/* --- Icons & Menu Bars --- */
+/* --- Rectangles --- */
+/* --- Links --- */
+/* --- Others --- */
+/* --- 1.2 : Details --- */
+/* --- Icons & Indicators --- */
+/* --- Fonts --- */
+/* --- Pop-up Windows --- */
+/* --- Metadata Editor Page & Home Left Side Panels --- */
+/* --- Others --- */
+
+/* ------ 2.0 : Removed Elements ------ */
+/* --- 2.1 : Home Page --- */
+/* --- 2.2 : Metadata Editor Page --- */
+
+/* ------ 3.0 : Global Modifications ------ */
+/* --- 3.1 : Buttons --- */
+/* --- 3.2 : Details --- */
+/* --- Corrections --- */
+/* --- Scrollbars --- */
+
+/* ------ 4.0 : Dark Theme (Can be removed) ------ */
+/* --- 4.1 : Buttons --- */
+/* --- Checkboxes --- */
+/* --- Rectangles --- */
+/* --- 4.2 : Details --- */
+/* --- Backgrounds --- */
+/* --- Icons --- */
+/* --- Fonts --- */
+/* --- Pop-up Windows --- */
+/* --- Others --- */
+
+/* ------ 5.0 : Personal Modifications ------ */
+
+
+/* ---------------------------------------------------- */
+
+/* ------ 1.0 : Color Highlights ------ */
+
+/* --- 1.1 : Buttons --- */
+/* --- Checkboxes --- */
+/* Dashboard Page */
+div#checkbox.checked.style-scope.paper-checkbox {
+background-color: $accent-color !important;
+border-color: $accent-color;}
+paper-toggle-button #toggleButton, paper-toggle-button[checked] #toggleBar {background-color: $accent-color;}
+.radioTabButton.ui-btn-active {
+    background: $accent-color !important;
+    color: #FFFFFF !important;}
+div[data-role="controlgroup"] a.ui-btn-active[data-role='button'] {
+    background: $accent-color !important;
+    color: #FFFFFF !important;}
+.ui-page-theme-a .ui-radio-on:after, html .ui-bar-a .ui-radio-on:after, html .ui-body-a .ui-radio-on:after, html body .ui-group-theme-a .ui-radio-on:after, .ui-btn.ui-radio-on.ui-btn-a:after {
+    border-color: $accent-color !important;}
+div#checkbox.checked.style-scope.paper-checkbox {border-color: $accent-color !important;}
+/* Home Page */
+.paper-radio-button-0 #onRadio.paper-radio-button {background-color: $accent-color !important;}
+.paper-radio-button-0[checked] #offRadio.paper-radio-button {
+    border-color: $accent-color !important;}
+/* Metadata Editor & Preferences Menu Pages */
+.mdl-checkbox__input:checked + span + span + .checkboxOutline {
+    border-color: $accent-color !important;}
+.mdl-checkbox__input:checked + span + span + .checkboxOutline .mdl-checkbox__tick-outline {background-color: $accent-color !important;}
+/* Reports Page */
+.ui-btn.ui-checkbox-on:after {
+    background-color: $accent-color !important;
+    border-color: $accent-color !important;}
+/* --- Circles --- */
+.fab.blue, .fab.red, .fab.green, .fab.orange, paper-fab.blue, paper-fab.red, paper-fab.green, paper-fab.orange {
+    background-color: $accent-color !important;}
+button.fab.mini.btnCloseDialog, paper-fab.btnCancelVoiceInput.x-scope.paper-fab-0 {
+background: $accent-color !important;
+color: #FFFFFF !important;}
+/* Dashboard */
+.scheduledTaskPaperIconItem[data-status='Idle'] paper-fab, div.devicesList paper-fab.x-scope.paper-fab-0, div.paperList.folderList button.fab.mini, paper-icon-item.localReaderOption.x-scope.paper-icon-item-0 paper-fab.x-scope.paper-fab-0 {background-color: $accent-color !important;}
+.scheduledTaskPaperIconItem[data-status="Running"] paper-fab {background-color: $accent-color-dark !important;}
+/* Home Page */
+[is="emby-button"].detailFloatingButton, paper-fab.btnCancelSupporterInfo.x-scope.paper-fab-0 {
+background-color: $accent-color !important;}
+/* --- Icons & Menu Bars --- */
+button.headerButton.headerAppsButton.barsMenuButton.headerButtonLeft.autoSize,
+button.headerButton.mainDrawerButton.barsMenuButton.headerButtonLeft.autoSize,
+button.headerButton.headerButtonRight.dashboardEntryHeaderButton.autoSize {
+color: $accent-color !important; }
+/* Home Page */
+.btnUserItemRatingOn {color: $accent-color !important;}
+/* Now Playing Bar & Now Playing Page */
+button.btnCast.headerButton.headerButtonRight.autoSize.btnActiveCast, button.nowPlayingCastIcon.autoSize.btnActiveCast, button.toggleRepeatButton.mediaButton.repeatActive, button.btnCommand.repeatToggleButton.autoSize.nowPlayingPageRepeatActive, 
+a.nowPlayingTabButton.selectedNowPlayingTabButton, .mediaButton.active {color: $accent-color !important;}
+.mdl-slider__background-lower, .sliderBubble, .mdl-slider::-webkit-slider-thumb {background: $accent-color !important;}
+/* --- Rectangles --- */
+button[is="emby-button"].submit, button[is="emby-button"].raised.accent, button[is="emby-button"].raised.more, button.raised.cancelDark.mini {
+background: $accent-color !important;
+color: #FFFFFF !important;}
+/* Dashboard */
+button#btnShutdown.raised.subdued, button#btnRestart.raised.subdued, #btnUpdateApplication, button.raised.subdued.btnRestartContainer {
+background: #080808 !important;
+color: $accent-color !important;}
+div.supporterPromotion button.raised.block {
+background: $accent-color !important;
+color: #FFFFFF !important;}
+/* Home Page */
+button.raised.btnSubmit.block {
+background: $accent-color !important;
+color: #FFFFFF !important;}
+/* --- Links --- */
+div.fieldDescription a, div.dashboardFooter a, p a, div#viewPanel.viewPanel.ui-panel.ui-panel-position-right.ui-panel-display-overlay.ui-body-b.ui-panel-fixed.ui-panel-animate.ui-panel-open
+ table#tblReport.tblLibraryReport.stripedTable.ui-responsive.table-stroke.detailTable.ui-table.ui-table-reflow a, div#viewPanel.viewPanel.ui-panel.ui-panel-position-right.ui-panel-display-overlay.ui-body-b.ui-panel-fixed.ui-panel-animate.ui-panel-open
+ a.ui-collapsible-heading-toggle.ui-btn.ui-icon-plus.ui-btn-icon-left.ui-btn-inherit, div#viewPanel.viewPanel.ui-panel.ui-panel-position-right.ui-panel-display-overlay.ui-body-b.ui-panel-fixed.ui-panel-animate.ui-panel-open
+ a.ui-collapsible-heading-toggle.ui-btn.ui-btn-icon-left.ui-btn-inherit.ui-icon-minus , div#viewPanel.viewPanel.ui-panel.ui-panel-position-right.ui-panel-display-overlay.ui-body-b.ui-panel-fixed.ui-panel-animate.ui-panel-open
+ a.ui-collapsible-heading-toggle.ui-btn.ui-btn-icon-left.ui-btn-inherit.ui-mini.ui-icon-minus, a.detailPageParentLink, div#pUpdateNow a, a.lnkPremiere {color: $accent-color !important;}
+div.fieldDescription a:hover, div.dashboardFooter a:hover, p a:hover, div#viewPanel.viewPanel.ui-panel.ui-panel-position-right.ui-panel-display-overlay.ui-body-b.ui-panel-fixed.ui-panel-animate.ui-panel-open
+ table#tblReport.tblLibraryReport.stripedTable.ui-responsive.table-stroke.detailTable.ui-table.ui-table-reflow a:hover, div#viewPanel.viewPanel.ui-panel.ui-panel-position-right.ui-panel-display-overlay.ui-body-b.ui-panel-fixed.ui-panel-animate.ui-panel-open
+ a.ui-collapsible-heading-toggle.ui-btn.ui-icon-plus.ui-btn-icon-left.ui-btn-inherit:hover, a.detailPageParentLink:hover, div#pUpdateNow a:hover, a.lnkPremiere:hover {color: #9b9b9b !important;}
+div.fieldDescription a:active, div.dashboardFooter a:active, p a:active, div#viewPanel.viewPanel.ui-panel.ui-panel-position-right.ui-panel-display-overlay.ui-body-b.ui-panel-fixed.ui-panel-animate.ui-panel-open
+ table#tblReport.tblLibraryReport.stripedTable.ui-responsive.table-stroke.detailTable.ui-table.ui-table-reflow a:active, div#viewPanel.viewPanel.ui-panel.ui-panel-position-right.ui-panel-display-overlay.ui-body-b.ui-panel-fixed.ui-panel-animate.ui-panel-open
+ a.ui-collapsible-heading-toggle.ui-btn.ui-icon-plus.ui-btn-icon-left.ui-btn-inherit:active, a.detailPageParentLink:active, div#pUpdateNow a:active, a.lnkPremiere:active {color: $accent-color-dark !important;}
+/* --- Others --- */
+/* Dashboard */
+paper-tabs paper-ripple {display: none !important;}
+.dashboardDocument .viewMenuBar #selectionBar {
+    background: $accent-color !important;}
+div#tabsContent.horizontal.layout.style-scope.paper-tabs paper-tab.x-scope.paper-tab-0.iron-selected {
+    color: $accent-color !important;
+font-weight: bold !important;}
+div.libraryMenuButtonText.headerButton button.accent {
+    color: $accent-color !important;}
+div.btnNotificationsInner.levelNormal {
+    background: $accent-color !important;}
+/* Home Page */
+.libraryViewNav .pageTabButton.is-active {color: $accent-color !important;}
+.pageTabButton.is-active .pageTabButtonSelectionBar {
+    background: $accent-color !important;}
+/* Metadata Editor Page */
+button[is="emby-button"].accent {color: $accent-color;}
+
+/* --- 1.2 : Details --- */
+/* --- Icons & Indicators --- */
+/* Home Page */
+.playedIndicator, .countIndicator {background-color: $accent-color !important;}
+.starRatingContainer i {color: $accent-color !important;}
+.missingPosterRibbon {background: rgba($red,$green,$blue,.8);}
+/* Dashboard */
+paper-icon-item.scheduledTaskPaperIconItem.x-scope.paper-icon-item-0 span, div#divRunningTasks span {color: $accent-color !important;}
+p#pUpToDate svg.style-scope.iron-icon {
+    background-color: $accent-color !important;
+    border-radius: .25em;
+    color: #fff;
+    margin-right: .0em;}
+div#ratingLine iron-icon.x-scope.iron-icon-0, span.storeItemReviewText iron-icon.x-scope.iron-icon-0, div#pluginTiles div.cardText iron-icon.x-scope.iron-icon-0, div.catalog iron-icon.x-scope.iron-icon-0 {
+color: $accent-color !important;}
+div#primaryProgress.style-scope.paper-progress {
+    background-color: $accent-color !important;
+    border-color: $accent-color !important;}
+.listItemIcon {background-color: $accent-color !important;}
+.mdl-checkbox__input:focus + span + .mdl-checkbox__focus-helper {background-color: transparent;}
+/* --- Fonts --- */
+/* Dashboard */
+.type-interior h2, p.disclaimer {color: $accent-color !important;}
+/* --- Pop-up Windows --- */
+.dialog .buttons button {color: $accent-color !important;}
+.dialog .buttons button:hover {color: #9b9b9b !important;}
+.dialog .buttons button:focus {background-color: #080808 !important;}
+.dialog .buttons, button.actionSheetMenuItem {color: $accent-color !important;}
+button.actionSheetMenuItem:hover {
+color: #9b9b9b !important;
+background: transparent !important;}
+div.focuscontainer.dialog.smoothScrollY.ui-body-a.background-theme-a.adminAppsMenu.centeredDialog.opened a.adminAppsButton, div.focuscontainer.dialog.smoothScrollY.ui-body-a.background-theme-a.adminAppsMenu.centeredDialog.opened div {
+    color: $accent-color !important;}
+div.focuscontainer.dialog.smoothScrollY.ui-body-a.background-theme-a.adminAppsMenu.centeredDialog.opened a.adminAppsButton:hover, div.focuscontainer.dialog.smoothScrollY.ui-body-a.background-theme-a.adminAppsMenu.centeredDialog.opened div:hover {color: #9b9b9b !important;}
+/* --- Metadata Editor Page & Left Side Panels --- */
+div.jstree-wholerow.jstree-wholerow-clicked:hover, div.jstree-wholerow.jstree-wholerow-clicked, a.sidebarLink.lnkMediaFolder.selectedMediaFolder, .adminDrawer .sidebarLink.selectedSidebarLink, .drawerContent a.sidebarLink.selectedSidebarLink {
+    background: $accent-color !important;
+    color: #FFFFFF !important;}
+div.jstree-wholerow.jstree-wholerow-hovered, a.sidebarLink.lnkMediaFolder:hover {
+    background: #4D4D4D !important;}
+a.sidebarLink.lnkMediaFolder.selectedMediaFolder i.md-icon.sidebarLinkIcon  {color: #FFFFFF !important;}
+/* --- Others --- */
+:focus {outline: $accent-color auto 5px;}
+::selection{ background-color: $accent-color-dark !important;}
+.mdl-spinner__layer-1, .mdl-spinner__layer-2, .mdl-spinner__layer-3, .mdl-spinner__layer-4 {border-color: $accent-color !important;}
+/* Input/Select/Textarea Highlights */
+.inputLabel.focused:not(.blank) , .ui-body-a .paper-input-container-0 .input-content.label-is-highlighted.paper-input-container label, .textareaLabel.focused:not(.blank), .selectLabelFocused, label.textareaLabel.blank.focused, label.inputLabel.nofloat.blank.focused {color: $accent-color !important;}
+paper-input .focused-line, paper-textarea .focused-line, [is="emby-select"]:focus + .emby-select-selectionbar, [is="emby-input"]:focus + .emby-input-selectionbar, [is="emby-textarea"]:focus + .emby-textarea-selectionbar {background-color: $accent-color !important;}
+div.focused-line.style-scope.paper-input-container {background-color: $accent-color !important;}
+/* Home Page */
+.galleryImageContainer:hover {
+	-moz-box-shadow: 0 0 0 5px $accent-color;
+	-webkit-box-shadow: 0 0 0 5px $accent-color;
+	box-shadow: 0 0 0 5px $accent-color;}
+.itemDetailGalleryLink img:hover {
+    -moz-box-shadow: 0 0 20px 3px $accent-color;
+    -webkit-box-shadow: 0 0 20px 3px $accent-color;
+    box-shadow: 0 0 20px 3px $accent-color;}
+/*Glow for userview cards */
+.itemsContainer.homeTopViews .cardContent {
+  border: 1px solid rgba($red,$green,$blue,.5);
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba($red,$green,$blue,.6);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba($red,$green,$blue,.6);}
+.remoteImageContainer .remoteImage:hover, .remoteImageContainer .searchImageContainer:hover {
+    -moz-box-shadow: 0 0 0 5px $accent-color;
+    -webkit-box-shadow: 0 0 0 5px $accent-color;
+    box-shadow: 0 0 0 5px $accent-color;}
+/* Home Page Selection */
+div.selectionCommandsPanel {background: $accent-color;}
+.itemSelectionPanel {border: 1px solid $accent-color;}
+.checkboxOutline {border: 2px solid $accent-color;}
+.ui-body-b a {color: $accent-color;}
+.itemSelectionPanel:hover {border: 1px solid #9b9b9b;}
+.checkboxOutline:hover {border: 2px solid #9b9b9b;}
+.ui-body-b a:hover {color: #9b9b9b;}
+/* Chrome Progress bar */
+progress::-webkit-progress-value {background: $accent-color !important;}
+/* Firefox Progress bar */
+progress::-moz-progress-bar {background: $accent-color;}
+/* Edge Progress bar */
+progress {color: $accent-color !important;}
+
+
+/* ------ 2.0 : Removed Elements ------ */
+
+/* --- 2.1 : Home Page --- */
+#similarCollapsible, #scenesCollapsible{ display: none !important;}
+
+/* --- 2.2 : Metadata Editor Page --- */
+img[src='css/images/editor/missingtrailer.png'] {
+  display:none;}
+
+
+/* ------ 3.0 : Global Modifications ------ */
+
+/* --- 3.1 : Buttons --- */
+
+/* --- 3.2 : Details --- */
+/* --- Corrections --- */
+.mdl-checkbox__input:focus + span + .mdl-checkbox__focus-helper {
+  background-color: transparent !important; }
+/* CSS Box */
+iron-autogrow-textarea#input.paper-input-input.style-scope.paper-textarea.x-scope.iron-autogrow-textarea-0 {height: 300px !important;}
+/* Dashboard */
+div.readOnlyContent.dashboardHomeRightColumn.firstDashboardHomeRightColumn div.paperList.activityItems paper-fab.x-scope.paper-fab-0 {background-color: transparent !important;
+box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0), 0 1px 5px 0 rgba(0, 0, 0, 0), 0 3px 1px -2px rgba(0, 0, 0, 0);
+color: $accent-color !important;}
+.ui-body-a div.dialogHeader, .ui-body-b div.dialogHeader {
+background-color: #101010;
+    color: #FFFFFF;}
+/* Home Page */
+div#criticRatingSummary.paperList {
+background-color: transparent !important;
+box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0), 0 1px 5px 0 rgba(0, 0, 0, 0), 0 3px 1px -2px rgba(0, 0, 0, 0);}
+div.paperList.itemsListview {background: transparent !important;}
+/* Home Page Side Panel */
+.darkDrawer .sidebarDivider {background: #343434 !important;}
+.darkDrawer {background-color: #222222 !important;}
+/* Top bars */
+.dashboardDocument .viewMenuBar, .viewMenuBar, .libraryViewNav, .ui-body-b .libraryViewNav {
+    background-color: rgba(16,16,16,.94);}
+/* Bottom & Now PLaying bars */
+#footer, .nowPlayingBar {background-color: rgba(16,16,16,.94) !important;}
+.footerNotification {border-top: 1px solid rgba(16,16,16,1);}
+/* --- Scrollbars --- */
+::-webkit-scrollbar-corner {background-color: #3B3B3B;}
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+    background-color: #3B3B3B;}
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    background: #888888;}
+div.scrollContainer.smoothScrollY::-webkit-scrollbar-corner {background-color: transparent;}
+div.scrollContainer.smoothScrollY::-webkit-scrollbar {
+    width: 2px;
+    height: 2px;
+    background-color: transparent;}
+div.scrollContainer.smoothScrollY::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    background: #888888;}
+
+
+/* ------ 4.0 : Dark Theme (Can be removed) ------ */
+
+/* --- 4.1 : Buttons --- */
+/* --- Checkboxes --- */
+/* Dashboard */
+.ui-btn.ui-checkbox-off:after, .ui-btn.ui-radio-off:after {
+background: #000000 !important;}
+div[data-role="controlgroup"] a[data-role='button'] {
+    background: #404040 !important;
+    color: #FFFFFF !important;
+border-color: #343434 !important;}
+/* Dashboard */
+div#checkbox.style-scope.paper-checkbox {border-color: #FFFFFF;}
+/* --- Rectangles --- */
+/* Dashboard */
+.ui-body-a .emby-collapsible-button {background-color: #404040;}
+.ui-page-theme-a .ui-btn, html .ui-bar-a .ui-btn, html .ui-body-a .ui-btn, html body .ui-group-theme-a .ui-btn, html head + body .ui-btn.ui-btn-a, .ui-page-theme-a .ui-btn:visited, html .ui-bar-a .ui-btn:visited, html .ui-body-a .ui-btn:visited, html body .ui-group-theme-a .ui-btn:visited, html head + body .ui-btn.ui-btn-a:visited, ul[data-role="listview"] a + a {background-color: #404040 !important;
+    border-color: #404040 !important;
+    color: #FFFFFF !important;}
+[is="emby-button"].raised, [is="emby-button"].fab {
+color: #FFFFFF !important;
+background: #404040;
+border-color: #404040;}
+/* Pop-up & other rectangle buttons */
+#aboutPage [data-role="button"], #popupAddTrigger [type="submit"], #popupAddTrigger [type="button"],
+#serverSecurityPage [title="Revoke"],
+#dlnaProfilePage [data-icon="check"],#dlnaProfilePage [type="button"],
+#dlnaProfilePage [data-role="button"],#userParentalControlPage [type="button"],
+#popupSchedule [type="submit"], #popupSchedule [type="button"],
+div.page.type-interior.pluginConfigurationPage.esqConfigurationPage.mainAnimatedPage.ui-page.ui-page-theme-a.ui-body-a button,
+div#boxsetsConfigurationPage.page.type-interior.pluginConfigurationPage.mainAnimatedPage.ui-page.ui-page-theme-a.ui-body-a button {
+    background-color: #404040 !important;
+border-color: #404040 !important;
+color: #FFFFFF !important;}
+.ui-popup.ui-body-a {background: #010101 !important;}
+
+/* --- 4.2 : Details --- */
+/* --- Backgrounds --- */
+/* General */
+div.ui-page-theme-a.ui-body-a, .background-theme-a, .background-theme-b, .noBackdrop, div.backdropContainer {
+background-color: #19191A;}
+/* Panels */
+div.paperList, .activeSession:not(.playingSession) .sessionNowPlayingInnerContent, div.cardBox.visualCardBox, div.editorTileFooter {
+  background-color: #2B2B2B !important;
+  color: #FFFFFF !important;}
+div.card.activeSession > div > div:nth-child(2) {
+background: #2B2B2B !important;
+border-top: 1px solid #343434 !important;
+color: #FFFFFF !important;}
+.ui-body-a .emby-collapsible-content, .ui-body-a .collapseContent {
+    background-color: #080808 !important;}
+.ui-page-theme-a .ui-body-inherit, html .ui-bar-a .ui-body-inherit, html .ui-body-a .ui-body-inherit, html body .ui-group-theme-a .ui-body-inherit, html .ui-panel-page-container-a {background-color: #080808 !important;
+    border-color: #080808 !important;}
+.directoryPickerHeadline {background: #404040 !important;
+color: #AAAAAA !important;}
+ul[data-role="listview"] > li[data-role="list-divider"] {
+    background: #2B2B2B !important;}
+ul[data-role="listview"] , ul[data-role="listview"] > li{
+    border-color: #2B2B2B !important;}
+.ui-body-a .emby-collapsible-content, div.ui-collapsible-content.ui-body-inherit, div.directPlayProfiles, div.transcodingProfiles, .containerProfiles, .codecProfiles, .mediaProfiles {
+    border: 1px solid #2B2B2B;
+    background-color: #080808;}
+div.downloadLanguages.paperList.paperCheckboxList {
+background-color: #080808 !important;}
+/* Dashboard Side Panel */
+.adminDrawer .scrollContainer {background-color: #222222 !important;}
+a.sidebarLink:hover {background-color: #4D4D4D !important;}
+a.sidebarLink span {color: #FFFFFF !important;}
+.adminDrawerLogo {border-bottom: 1px solid #343434 !important;}
+/* --- Icons --- */
+/* Dashboard */
+.ui-body-a .emby-collapsible-button iron-icon.x-scope.iron-icon-0, form.syncSettingsForm i.md-icon, {color: #FFFFFF;}
+[is=paper-icon-button-light][title="Select Directory"] {color: #FFFFFF !important;}
+/* Home Page */
+button#expandButton.emby-collapsible-button.iconRight i.md-icon, button.btnSearchSubtitles i.md-icon {color: #FFFFFF !important;}
+/* Side Panels */
+.adminDrawer .sidebarLinkIcon, .adminDrawer .sidebarHeader {color: #BBBBBB !important;}
+/* --- Fonts --- */
+/* Dashboard */
+select, input, h1, h2, h3, .paper-checkbox-0 #checkboxLabel.paper-checkbox, p#appVersionNumber, p#pUpToDate, p#ports, p.localUrl, p.externalUrl, div#appVersionNumber, div.detailSectionHeader, table.tblApiKeys.stripedTable.ui-responsive.table-stroke.ui-table.ui-table-reflow, textarea#textarea.style-scope.iron-autogrow-textarea, div.ui-collapsible-content.ui-body-inherit, table.tblOrganizationResults.stripedTable.ui-responsive.table-stroke.ui-table.ui-table-reflow, table#movie-table.ui-responsive.ui-table.ui-table-reflow, .legend {color: #FFFFFF !important;}
+div.fieldDescription, label, p, .ui-body-a .paper-input-container-0 .input-content.paper-input-container label, .ui-body-a .paper-input-container-0 .input-content.paper-input-container .paper-input-label, .ui-body-a paper-textarea label, .ui-body-a .selectLabel, .ui-body-a .paperListLabel, .ui-body-a .fieldDescription, .ui-body-a .inputLabel, .ui-body-a .textareaLabel, .paper-item-body-0 [secondary], .paper-toggle-button-0 .toggle-label.paper-toggle-button {color: #AAAAAA;}
+legend, div.syncActivity, form.localAccessForm.localAccessSection div, .ui-body-a .paperCheckboxFieldDescription, .subtitleProfileList, .xmlDocumentAttributeList {color: #AAAAAA !important;}
+.logoLibraryMenuButtonText {color: #CCCCCC !important;}
+/* Home Page */
+form.newCollectionForm div {color: #AAAAAA !important;}
+/* --- Pop-up Windows --- */
+/* Dashboard */
+.dialog.background-theme-a, .dialog.background-theme-b {
+background-color: #19191A;}
+.ui-bar-a, .ui-page-theme-a .ui-bar-inherit, html .ui-bar-a .ui-bar-inherit, html .ui-body-a .ui-bar-inherit, html body .ui-group-theme-a .ui-bar-inherit {background-color: #101010 !important;
+    border-color: #101010 !important;}
+.adminAppsMenuRow + .adminAppsMenuRow {
+border-top: 1px solid #101010 !important;}
+.dialog:not(.background-theme-a):not(.background-theme-b), div.focuscontainer.dialog.smoothScrollY.ui-body-a.background-theme-a.adminAppsMenu.centeredDialog.opened {
+background-color: #010101 !important;}
+div.focuscontainer.dialog.smoothScrollY.centeredDialog.opened div, div.exampleCommand {color: #AAAAAA;}
+/* Home Page */
+div.focuscontainer.dialog.smoothScrollY.ui-body-a.background-theme-a.formDialog.centeredDialog.opened {background: #010101 !important;}
+div.focuscontainer.dialog.smoothScrollY.ui-body-a.background-theme-a.formDialog.filterDialog.centeredDialog.opened.dynamicFilterDialog {background: #19191A !important;}
+.paper-radio-button-0 #radioLabel.paper-radio-button {color: #AAAAAA !important;}
+/* --- Others --- */
+/* Dashboard inputs */
+input:not(.paper-input):not([type='checkbox']):not([type='radio']):not([type='file']):not([type='range']):not([is='emby-input']) {
+background: #010101;
+border-color: #404040;}
+/* Dashbboard Side Panel dividers */
+.adminDrawer .sidebarDivider {background: #343434 !important;}
+/* Select options */
+.ui-body-a select option, .ui-body-b select option {
+color: #FFFFFF !important;
+background: #080808 !important;}
+/* Dividers & Lines */
+.directoryPicker paper-item, paper-item.lnkPath.lnkDirectory.x-scope.paper-item-0 {border-bottom: 1px solid #343434 !important;}
+.ui-body-a .detailSectionHeader {
+    border: 1px solid #444444;
+    border-width: 0 0 1px 0;}
+[is="emby-input"] {border-bottom: 1px solid #737373 !important;}
+
+/* ------ 5.0 : Personal Modifications ------ */
+
