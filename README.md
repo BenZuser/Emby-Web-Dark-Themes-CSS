@@ -1,4 +1,4 @@
-# Dark Themes & Colored Highlights for Emby web client
+# Dark Themes & Colored Highlights for Emby web client ![alt tag](https://raw.githubusercontent.com/BenZuser/Emby-Dark-Themes-Resources/master/images/screenshots/Themes.png)
 
 Links below for auto updates.
 
