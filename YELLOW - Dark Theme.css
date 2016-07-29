@@ -142,6 +142,11 @@ button.fab.mini.btnCloseDialog, paper-fab.btnCancelVoiceInput.x-scope.paper-fab-
   background-color: #BDBD00 !important; }
 
 /* --- Icons & Menu Bars --- */
+button.headerButton.headerAppsButton.barsMenuButton.headerButtonLeft.autoSize,
+button.headerButton.mainDrawerButton.barsMenuButton.headerButtonLeft.autoSize,
+button.headerButton.headerButtonRight.dashboardEntryHeaderButton.autoSize {
+  color: #BDBD00 !important; }
+
 /* Home Page */
 .btnUserItemRatingOn {
   color: #BDBD00 !important; }
@@ -601,7 +606,7 @@ form.newCollectionForm div {
 .dialog:not(.background-theme-a):not(.background-theme-b), div.focuscontainer.dialog.smoothScrollY.ui-body-a.background-theme-a.adminAppsMenu.centeredDialog.opened {
   background-color: #010101 !important; }
 
-div.focuscontainer.dialog.smoothScrollY.centeredDialog.opened div {
+div.focuscontainer.dialog.smoothScrollY.centeredDialog.opened div, div.exampleCommand {
   color: #AAAAAA; }
 
 /* Home Page */
