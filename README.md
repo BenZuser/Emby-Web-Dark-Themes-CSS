@@ -1,4 +1,4 @@
-# Dark Themes & Colored Highlights for Emby web client ![alt 
+# Dark Themes & Colored Highlights for Emby web client
 
 Links below for auto updates.
 
