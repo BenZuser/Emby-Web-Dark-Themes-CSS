@@ -17,3 +17,5 @@ Choose one of the 8 accent color and copy the text in the css box ( settings - b
 * PURPLE      : @import url('https://rawgit.com/BenZuser/Emby-Web-Dark-Themes-CSS/master/PURPLE%20-%20Dark%20Theme.css'); 
 
 * GRAY        : @import url('https://rawgit.com/BenZuser/Emby-Web-Dark-Themes-CSS/master/GRAY%20-%20Dark%20Theme.css');  
+
+![alt tag](https://raw.githubusercontent.com/BenZuser/Emby-Dark-Themes-Resources/master/images/screenshots/Themes.png)
