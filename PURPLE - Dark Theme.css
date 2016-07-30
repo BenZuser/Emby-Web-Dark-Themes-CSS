@@ -346,7 +346,7 @@ div.selectionCommandsPanel {
   background: #673AB7; }
 
 .itemSelectionPanel {
-  border: 1px solid #673AB7; }
+  border: 1px solid #673AB7 !important; }
 
 .checkboxOutline {
   border: 2px solid #673AB7; }
@@ -355,7 +355,7 @@ div.selectionCommandsPanel {
   color: #673AB7; }
 
 .itemSelectionPanel:hover {
-  border: 1px solid #9b9b9b; }
+  border: 1px solid #9b9b9b !important; }
 
 .checkboxOutline:hover {
   border: 2px solid #9b9b9b; }
