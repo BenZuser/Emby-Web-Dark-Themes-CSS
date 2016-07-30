@@ -329,7 +329,9 @@ div.scrollContainer.smoothScrollY::-webkit-scrollbar-thumb {
     -webkit-border-radius: 2px;
     border-radius: 2px;
     background: #888888;}
-
+/* --- Images Files --- */
+.imgLogoIcon, .adminDrawerLogo img {content: url($logo);}
+.lnkMediaFolder div:first-child{content: url($mblogoicon);}
 
 /* ------ 4.0 : Dark Theme (Can be removed) ------ */
 
