@@ -76,7 +76,6 @@
 /* --- Fonts --- */
 /* --- Pop-up Windows --- */
 /* --- Others --- */
-/* ------ 5.0 : Personal Modifications ------ */
 /* ---------------------------------------------------- */
 /* ------ 1.0 : Color Highlights ------ */
 /* --- 1.1 : Buttons --- */
@@ -346,7 +345,7 @@ div.selectionCommandsPanel {
   background: #E81123; }
 
 .itemSelectionPanel {
-  border: 1px solid #E81123; }
+  border: 1px solid #E81123 !important; }
 
 .checkboxOutline {
   border: 2px solid #E81123; }
@@ -355,7 +354,7 @@ div.selectionCommandsPanel {
   color: #E81123; }
 
 .itemSelectionPanel:hover {
-  border: 1px solid #9b9b9b; }
+  border: 1px solid #9b9b9b !important; }
 
 .checkboxOutline:hover {
   border: 2px solid #9b9b9b; }
@@ -457,6 +456,13 @@ div.scrollContainer.smoothScrollY::-webkit-scrollbar-thumb {
   -webkit-border-radius: 2px;
   border-radius: 2px;
   background: #888888; }
+
+/* --- Images Files --- */
+.imgLogoIcon, .adminDrawerLogo img {
+  content: url(https://cdn.rawgit.com/BenZuser/Emby-Dark-Themes-Resources/master/images/logos-and-icons/RED/logo.png); }
+
+.lnkMediaFolder div:first-child {
+  content: url(https://cdn.rawgit.com/BenZuser/Emby-Dark-Themes-Resources/master/images/logos-and-icons/RED/mblogoicon.png); }
 
 /* ------ 4.0 : Dark Theme (Can be removed) ------ */
 /* --- 4.1 : Buttons --- */
@@ -644,7 +650,5 @@ input:not(.paper-input):not([type='checkbox']):not([type='radio']):not([type='fi
 
 [is="emby-input"] {
   border-bottom: 1px solid #737373 !important; }
-
-/* ------ 5.0 : Personal Modifications ------ */
 
 /*# sourceMappingURL=RED%20-%20Dark%20Theme.css.map */
