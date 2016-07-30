@@ -459,7 +459,7 @@ div.scrollContainer.smoothScrollY::-webkit-scrollbar-thumb {
 
 /* --- Images Files --- */
 .imgLogoIcon, .adminDrawerLogo img {
-  background-image: url(https://cdn.rawgit.com/BenZuser/Emby-Dark-Themes-Resources/master/images/logos-and-icons/RED/logo.png) !important; }
+  content: url(https://cdn.rawgit.com/BenZuser/Emby-Dark-Themes-Resources/master/images/logos-and-icons/RED/logo.png) !important; }
 
 .lnkMediaFolder div:first-child {
   background-image: url(https://cdn.rawgit.com/BenZuser/Emby-Dark-Themes-Resources/master/images/logos-and-icons/RED/mblogoicon.png) !important; }
