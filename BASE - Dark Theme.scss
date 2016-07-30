@@ -84,8 +84,6 @@
 /* --- Pop-up Windows --- */
 /* --- Others --- */
 
-/* ------ 5.0 : Personal Modifications ------ */
-
 
 /* ---------------------------------------------------- */
 
@@ -257,10 +255,10 @@ div.focused-line.style-scope.paper-input-container {background-color: $accent-co
     box-shadow: 0 0 0 5px $accent-color;}
 /* Home Page Selection */
 div.selectionCommandsPanel {background: $accent-color;}
-.itemSelectionPanel {border: 1px solid $accent-color;}
+.itemSelectionPanel {border: 1px solid $accent-color !important;}
 .checkboxOutline {border: 2px solid $accent-color;}
 .ui-body-b a {color: $accent-color;}
-.itemSelectionPanel:hover {border: 1px solid #9b9b9b;}
+.itemSelectionPanel:hover {border: 1px solid #9b9b9b !important;}
 .checkboxOutline:hover {border: 2px solid #9b9b9b;}
 .ui-body-b a:hover {color: #9b9b9b;}
 /* Chrome Progress bar */
@@ -450,6 +448,4 @@ background: #080808 !important;}
     border: 1px solid #444444;
     border-width: 0 0 1px 0;}
 [is="emby-input"] {border-bottom: 1px solid #737373 !important;}
-
-/* ------ 5.0 : Personal Modifications ------ */
 
