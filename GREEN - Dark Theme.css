@@ -459,10 +459,10 @@ div.scrollContainer.smoothScrollY::-webkit-scrollbar-thumb {
 
 /* --- Images Files --- */
 .imgLogoIcon, .adminDrawerLogo img {
-  content: url(https://cdn.rawgit.com/BenZuser/Emby-Dark-Themes-Resources/master/images/logos-and-icons/GREEN/logo.png) !important; }
+  background-image: url(https://cdn.rawgit.com/BenZuser/Emby-Dark-Themes-Resources/master/images/logos-and-icons/GREEN/logo.png) !important; }
 
 .lnkMediaFolder div:first-child {
-  content: url(https://cdn.rawgit.com/BenZuser/Emby-Dark-Themes-Resources/master/images/logos-and-icons/GREEN/mblogoicon.png) !important; }
+  background-image: url(https://cdn.rawgit.com/BenZuser/Emby-Dark-Themes-Resources/master/images/logos-and-icons/GREEN/mblogoicon.png) !important; }
 
 /* ------ 4.0 : Dark Theme (Can be removed) ------ */
 /* --- 4.1 : Buttons --- */
