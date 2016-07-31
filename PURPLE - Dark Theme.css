@@ -1,4 +1,4 @@
-/* Emby version : 3.0.6010 */
+/* Emby version : 3.1.82.0 */
 /* Color HEX codes */
 /* RED	       : #E81123 & (232,17,35)
 /* DARK COLOR  : #94131E
@@ -363,15 +363,15 @@ div.selectionCommandsPanel {
   color: #9b9b9b; }
 
 /* Chrome Progress bar */
-progress::-webkit-progress-value {
+progress::-webkit-progress-value, .itemProgressBarForeground {
   background: #673AB7 !important; }
 
 /* Firefox Progress bar */
-progress::-moz-progress-bar {
+progress::-moz-progress-bar, .itemProgressBarForeground {
   background: #673AB7; }
 
 /* Edge Progress bar */
-progress {
+progress, .itemProgressBarForeground {
   color: #673AB7 !important; }
 
 /* ------ 2.0 : Removed Elements ------ */
@@ -517,7 +517,7 @@ div.ui-page-theme-a.ui-body-a, .background-theme-a, .background-theme-b, .noBack
   background-color: #19191A; }
 
 /* Panels */
-div.paperList, .activeSession:not(.playingSession) .sessionNowPlayingInnerContent, div.cardBox.visualCardBox, div.editorTileFooter {
+div.paperList, .activeSession:not(.playingSession) .sessionNowPlayingInnerContent, div.cardBox.visualCardBox, div.editorTileFooter, .ui-body-a .visualCardBox .cardScalable, .ui-body-a .visualCardBox .cardFooter {
   background-color: #2B2B2B !important;
   color: #FFFFFF !important; }
 
