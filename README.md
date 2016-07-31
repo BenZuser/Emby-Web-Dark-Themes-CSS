@@ -57,3 +57,6 @@ It means there are more fixes needed on every update. As long as we can't instal
 I hope you like it!
 
 ######_**Ben Z**_
+
+###CREDITS
+######[Shaefurr's Disparity Icons](http://emby.media/community/index.php?/topic/7413-shaefurrs-disparity-icons/)
