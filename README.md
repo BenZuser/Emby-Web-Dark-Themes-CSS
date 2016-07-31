@@ -53,3 +53,5 @@ Feel free to have access to the _**Dark Themes**_ css files over here in this pa
 It means there are more fixes needed on every update. As long as we can't install themes as plugins like Emby Theater, I can't guarantee perfection with future updates, sorry for the inconvenience.
 
 I hope you like it!
+
+*Ben Z*
