@@ -47,6 +47,8 @@ Choose an accent color and *copy* the text in the css box `settings -> branding`
 
 Feel free to have access to the _**Dark Themes**_ css files over here in this page and the _**Logos & Icons Pack**_ [HERE](https://github.com/BenZuser/Emby-Dark-Themes-Resources/tree/605cea05c8a0b0a17ffe5ac1062b54c9b4e01f6f/images/logos-and-icons) even if you don't necessarily need them.
 
+###Screenshots
+
 ![alt tag](https://cdn.rawgit.com/BenZuser/Emby-Dark-Themes-Resources/master/images/screenshots/Emby%20Dark%20Themes%20no%20Header.png)
 
 ###**The web app is getting older and start being retro-fitted to adopt the newer techniques of Emby Theater.** 
