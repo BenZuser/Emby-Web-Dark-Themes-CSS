@@ -3,7 +3,7 @@
 
 ###Colored highlights (accent colors) :
 
-Choose an accent color and *copy* the text in the css box `settings -> branding`, save and refresh. It will auto update the theme.
+Choose an accent color and *copy* the text in the css box `settings -> branding`, save and refresh. It will auto update the theme. *Screenshots below.*
 
 * **RED :**
 ######`@import url('https://rawgit.com/BenZuser/Emby-Web-Dark-Themes-CSS/master/RED%20-%20Dark%20Theme.css');`
