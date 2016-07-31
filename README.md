@@ -21,10 +21,3 @@ Choose one of the 8 accent color and copy the text in the css box ( settings - b
 * **PURPLE**      : @import url('https://rawgit.com/BenZuser/Emby-Web-Dark-Themes-CSS/master/PURPLE%20-%20Dark%20Theme.css'); 
 
 * **GRAY**        : @import url('https://rawgit.com/BenZuser/Emby-Web-Dark-Themes-CSS/master/GRAY%20-%20Dark%20Theme.css');  
-
-<SPAN ID="copytext" STYLE="height:150;width:162;background-color:pink">
-This text will be copied onto the clipboard when you click the button below. Try it!
-</SPAN>
-<TEXTAREA ID="holdtext" STYLE="display:none;">
-</TEXTAREA>
-<BUTTON onClick="ClipBoard();">Copy to Clipboard</BUTTON>
