@@ -76,7 +76,6 @@
 /* --- Fonts --- */
 /* --- Pop-up Windows --- */
 /* --- Others --- */
-/* ------ 5.0 : Personal Modifications ------ */
 /* ---------------------------------------------------- */
 /* ------ 1.0 : Color Highlights ------ */
 /* --- 1.1 : Buttons --- */
@@ -346,7 +345,7 @@ div.selectionCommandsPanel {
   background: #7F7F7F; }
 
 .itemSelectionPanel {
-  border: 1px solid #7F7F7F; }
+  border: 1px solid #7F7F7F !important; }
 
 .checkboxOutline {
   border: 2px solid #7F7F7F; }
@@ -355,7 +354,7 @@ div.selectionCommandsPanel {
   color: #7F7F7F; }
 
 .itemSelectionPanel:hover {
-  border: 1px solid #9b9b9b; }
+  border: 1px solid #9b9b9b !important; }
 
 .checkboxOutline:hover {
   border: 2px solid #9b9b9b; }
@@ -458,6 +457,13 @@ div.scrollContainer.smoothScrollY::-webkit-scrollbar-thumb {
   border-radius: 2px;
   background: #888888; }
 
+/* --- Images Files --- */
+.imgLogoIcon, .adminDrawerLogo img {
+  content: url(https://cdn.rawgit.com/BenZuser/Emby-Dark-Themes-Resources/master/images/logos-and-icons/GRAY/logo.png); }
+
+.lnkMediaFolder div:first-child {
+  content: url(https://cdn.rawgit.com/BenZuser/Emby-Dark-Themes-Resources/master/images/logos-and-icons/GRAY/mblogoicon.png); }
+
 /* ------ 4.0 : Dark Theme (Can be removed) ------ */
 /* --- 4.1 : Buttons --- */
 /* --- Checkboxes --- */
@@ -537,7 +543,7 @@ ul[data-role="listview"] > li[data-role="list-divider"] {
 ul[data-role="listview"], ul[data-role="listview"] > li {
   border-color: #2B2B2B !important; }
 
-.ui-body-a .emby-collapsible-content, div.ui-collapsible-content.ui-body-inherit, div.directPlayProfiles, div.transcodingProfiles {
+.ui-body-a .emby-collapsible-content, div.ui-collapsible-content.ui-body-inherit, div.directPlayProfiles, div.transcodingProfiles, .containerProfiles, .codecProfiles, .mediaProfiles {
   border: 1px solid #2B2B2B;
   background-color: #080808; }
 
@@ -575,7 +581,7 @@ button#expandButton.emby-collapsible-button.iconRight i.md-icon, button.btnSearc
 
 /* --- Fonts --- */
 /* Dashboard */
-select, input, h1, h2, h3, .paper-checkbox-0 #checkboxLabel.paper-checkbox, p#appVersionNumber, p#pUpToDate, p#ports, p.localUrl, p.externalUrl, div#appVersionNumber, div.detailSectionHeader, table.tblApiKeys.stripedTable.ui-responsive.table-stroke.ui-table.ui-table-reflow, textarea#textarea.style-scope.iron-autogrow-textarea, div.ui-collapsible-content.ui-body-inherit, table.tblOrganizationResults.stripedTable.ui-responsive.table-stroke.ui-table.ui-table-reflow, table#movie-table.ui-responsive.ui-table.ui-table-reflow, .legend {
+select, input, h1, h2, h3, .paper-checkbox-0 #checkboxLabel.paper-checkbox, p#appVersionNumber, p#pUpToDate, p#ports, p.localUrl, p.externalUrl, div#appVersionNumber, div.detailSectionHeader, table.tblApiKeys.stripedTable.ui-responsive.table-stroke.ui-table.ui-table-reflow, textarea#textarea.style-scope.iron-autogrow-textarea, div.ui-collapsible-content.ui-body-inherit, table.tblOrganizationResults.stripedTable.ui-responsive.table-stroke.ui-table.ui-table-reflow, table#movie-table.ui-responsive.ui-table.ui-table-reflow, .legend, .subtitleProfileList, .xmlDocumentAttributeList {
   color: #FFFFFF !important; }
 
 div.fieldDescription, label, p, .ui-body-a .paper-input-container-0 .input-content.paper-input-container label, .ui-body-a .paper-input-container-0 .input-content.paper-input-container .paper-input-label, .ui-body-a paper-textarea label, .ui-body-a .selectLabel, .ui-body-a .paperListLabel, .ui-body-a .fieldDescription, .ui-body-a .inputLabel, .ui-body-a .textareaLabel, .paper-item-body-0 [secondary], .paper-toggle-button-0 .toggle-label.paper-toggle-button {
@@ -644,7 +650,5 @@ input:not(.paper-input):not([type='checkbox']):not([type='radio']):not([type='fi
 
 [is="emby-input"] {
   border-bottom: 1px solid #737373 !important; }
-
-/* ------ 5.0 : Personal Modifications ------ */
 
 /*# sourceMappingURL=GRAY%20-%20Dark%20Theme.css.map */
