@@ -1,5 +1,4 @@
-![alt tag](https://cdn.rawgit.com/BenZuser/Emby-Dark-Themes-Resources/master/images/screenshots/Header.png)
-#<h1 align="center" font size="18">Dark Themes & Colored Highlights for Emby web client</h1>
+#![alt tag](https://cdn.rawgit.com/BenZuser/Emby-Dark-Themes-Resources/master/images/screenshots/Header.png) <h1 align="center" font size="18">Dark Themes & Colored Highlights for Emby web client</h1>
 
 ###Colored highlights (accent colors) :
 
