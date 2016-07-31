@@ -5,8 +5,7 @@
 
 Choose an accent color and *copy* the text in the css box `settings -> branding`, save and refresh. It will auto update the theme. *Screenshots below.*
 
-* **RED** 
-![alt tag](https://cdn.rawgit.com/BenZuser/Emby-Dark-Themes-Resources/master/images/logos-and-icons/RED/icon%20small.png) **:**
+![alt tag](https://cdn.rawgit.com/BenZuser/Emby-Dark-Themes-Resources/master/images/logos-and-icons/RED/icon%20small.png) **RED :**
 ######`@import url('https://rawgit.com/BenZuser/Emby-Web-Dark-Themes-CSS/master/RED%20-%20Dark%20Theme.css');`
 
 * **ORANGE :**
