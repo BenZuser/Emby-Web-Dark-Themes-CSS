@@ -45,7 +45,7 @@ Choose an accent color and *copy* the text in the css box `settings -> branding`
 ![alt tag](https://cdn.rawgit.com/BenZuser/Emby-Dark-Themes-Resources/master/images/logos-and-icons/GRAY/icon%20small.png)
 ######`@import url('https://rawgit.com/BenZuser/Emby-Web-Dark-Themes-CSS/master/GRAY%20-%20Dark%20Theme.css');`  
 
-Feel free to have access to the _**Dark Themes**_ css files over here in this page and the _**Logos & Icons Pack**_ [HERE](https://github.com/BenZuser/Emby-Dark-Themes-Resources/tree/605cea05c8a0b0a17ffe5ac1062b54c9b4e01f6f/images/logos-and-icons) even if you don't need them.
+Feel free to have access to the _**Dark Themes**_ css files over here in this page and the _**Logos & Icons Pack**_ [HERE](https://github.com/BenZuser/Emby-Dark-Themes-Resources/tree/605cea05c8a0b0a17ffe5ac1062b54c9b4e01f6f/images/logos-and-icons) even if you don't necessarily need them.
 
 ![alt tag](https://cdn.rawgit.com/BenZuser/Emby-Dark-Themes-Resources/master/images/screenshots/Emby%20Dark%20Themes%20no%20Header.png)
 
