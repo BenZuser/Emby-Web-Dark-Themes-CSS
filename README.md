@@ -56,4 +56,4 @@ It means there are more fixes needed on every update. As long as we can't instal
 
 I hope you like it!
 
-*Ben Z*
+######_**Ben Z**_
