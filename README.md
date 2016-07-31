@@ -1,4 +1,4 @@
-#![alt tag](https://cdn.rawgit.com/BenZuser/Emby-Dark-Themes-Resources/master/images/screenshots/Header.png)
+#![alt tag](https://cdn.rawgit.com/BenZuser/Emby-Dark-Themes-Resources/master/images/screenshots/Header%20Dark%20Themes.png)
 <h2 align="center">Complete dark themes for Emby web client in 8 different accent colors</h2>
 ######*Screenshots below*
 ###Colored highlights (accent colors)
@@ -49,7 +49,7 @@ Feel free to have access to the _**Dark Themes**_ css files over here in this pa
 
 ###Screenshots
 
-![alt tag](https://cdn.rawgit.com/BenZuser/Emby-Dark-Themes-Resources/master/images/screenshots/Emby%20Dark%20Themes%20no%20Header.png)
+![alt tag](https://cdn.rawgit.com/BenZuser/Emby-Dark-Themes-Resources/master/images/screenshots/Dark%20Themes%201.png)
 
 ###**The web app is getting older and start being retro-fitted to adopt the newer techniques of Emby Theater.** 
 It means there are more fixes needed on every update. As long as we can't install themes as plugins like Emby Theater, I can't guarantee perfection with future updates, sorry for the inconvenience.
