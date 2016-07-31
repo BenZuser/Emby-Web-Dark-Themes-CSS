@@ -1,10 +1,10 @@
 # Dark Themes & Colored Highlights for Emby web client
 
-Links below for auto updates.
+![alt tag](https://cdn.rawgit.com/BenZuser/Emby-Dark-Themes-Resources/master/images/screenshots/Header.png)
 
-![alt tag](https://cdn.rawgit.com/BenZuser/Emby-Dark-Themes-Resources/master/images/screenshots/Emby%20Dark%20Themes.png)
+##Colored highlights (accent colors) :
 
-Choose one of the 8 accent color and copy the text in the css box ( settings - branding ), save and refresh.
+Choose an accent color and *copy* the text in the css box `settings -> branding`, save and refresh. It will auto update the theme.
 
 * **RED :**
 ######`@import url('https://rawgit.com/BenZuser/Emby-Web-Dark-Themes-CSS/master/RED%20-%20Dark%20Theme.css');`
@@ -29,3 +29,7 @@ Choose one of the 8 accent color and copy the text in the css box ( settings - b
 
 * **GRAY :**
 ######`@import url('https://rawgit.com/BenZuser/Emby-Web-Dark-Themes-CSS/master/GRAY%20-%20Dark%20Theme.css');`  
+
+Feel free to have access to the _**Dark Themes**_ css files over here in this page and the _**Logos & Icons Pack**_ [HERE](https://github.com/BenZuser/Emby-Dark-Themes-Resources/tree/605cea05c8a0b0a17ffe5ac1062b54c9b4e01f6f/images/logos-and-icons) even if you don't need them.
+
+![alt tag](https://cdn.rawgit.com/BenZuser/Emby-Dark-Themes-Resources/master/images/screenshots/Emby%20Dark%20Themes%20no%20Header.png)
