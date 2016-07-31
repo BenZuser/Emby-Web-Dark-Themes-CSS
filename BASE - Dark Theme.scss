@@ -1,4 +1,4 @@
-/* Emby version : 3.0.6010 */
+/* Emby version : 3.1.82.0 */
 
 /* Color HEX codes */
 
@@ -262,11 +262,11 @@ div.selectionCommandsPanel {background: $accent-color;}
 .checkboxOutline:hover {border: 2px solid #9b9b9b;}
 .ui-body-b a:hover {color: #9b9b9b;}
 /* Chrome Progress bar */
-progress::-webkit-progress-value {background: $accent-color !important;}
+progress::-webkit-progress-value, .itemProgressBarForeground {background: $accent-color !important;}
 /* Firefox Progress bar */
-progress::-moz-progress-bar {background: $accent-color;}
+progress::-moz-progress-bar, .itemProgressBarForeground {background: $accent-color;}
 /* Edge Progress bar */
-progress {color: $accent-color !important;}
+progress, .itemProgressBarForeground {color: $accent-color !important;}
 
 
 /* ------ 2.0 : Removed Elements ------ */
@@ -375,7 +375,7 @@ color: #FFFFFF !important;}
 div.ui-page-theme-a.ui-body-a, .background-theme-a, .background-theme-b, .noBackdrop, div.backdropContainer {
 background-color: #19191A;}
 /* Panels */
-div.paperList, .activeSession:not(.playingSession) .sessionNowPlayingInnerContent, div.cardBox.visualCardBox, div.editorTileFooter {
+div.paperList, .activeSession:not(.playingSession) .sessionNowPlayingInnerContent, div.cardBox.visualCardBox, div.editorTileFooter, .ui-body-a .visualCardBox .cardScalable, .ui-body-a .visualCardBox .cardFooter {
   background-color: #2B2B2B !important;
   color: #FFFFFF !important;}
 div.card.activeSession > div > div:nth-child(2) {
