@@ -1,5 +1,5 @@
 #![alt tag](https://cdn.rawgit.com/BenZuser/Emby-Dark-Themes-Resources/master/images/screenshots/Header%20Dark%20Themes.png)
-<h2 align="center">Complete dark themes for Emby web client in 8 different accent colors</h2>
+<h2 align="center">Complete dark themes for Emby web client in 9 different accent colors</h2>
 ######*Screenshots below*
 ##Themes for Emby stable releases
 Choose an accent color and *copy* the link in the CSS box at `settings -> branding`, *save* and *refresh*. It will auto update the theme.
@@ -42,7 +42,12 @@ Choose an accent color and *copy* the link in the CSS box at `settings -> brandi
 ![alt tag](https://cdn.rawgit.com/BenZuser/Emby-Dark-Themes-Resources/master/images/logos-and-icons/GRAY/icon%20small.png)
 **GRAY**
 ![alt tag](https://cdn.rawgit.com/BenZuser/Emby-Dark-Themes-Resources/master/images/logos-and-icons/GRAY/icon%20small.png)
-######`@import url('https://rawgit.com/BenZuser/Emby-Web-Dark-Themes-CSS/master/GRAY%20-%20Dark%20Theme.css');`  
+######`@import url('https://rawgit.com/BenZuser/Emby-Web-Dark-Themes-CSS/master/GRAY%20-%20Dark%20Theme.css');`
+
+![alt tag](https://cdn.rawgit.com/BenZuser/Emby-Dark-Themes-Resources/master/images/logos-and-icons/PINK/icon%20small.png)
+**PINK**
+![alt tag](https://cdn.rawgit.com/BenZuser/Emby-Dark-Themes-Resources/master/images/logos-and-icons/PINK/icon%20small.png)
+######`@import url('https://rawgit.com/BenZuser/Emby-Web-Dark-Themes-CSS/master/PINK%20-%20Dark%20Theme.css');`
 
 ##Note
 
