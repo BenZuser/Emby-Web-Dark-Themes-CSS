@@ -1,6 +1,6 @@
 #![alt tag](https://cdn.rawgit.com/BenZuser/Emby-Dark-Themes-Resources/master/images/screenshots/Header.png)
 <h2 align="center">Complete dark themes for Emby web client in 8 different accent colors</h2>
-<h4 align="center">For BETA releases</h4>
+<h4 align="center">For Beta releases</h4>
 ######*Screenshots below*
 ###Colored highlights (accent colors)
 Choose an accent color and *copy* the link in the CSS box at `settings -> branding`, *save* and *refresh*. It will auto update the theme.
