@@ -1,4 +1,4 @@
-/* Emby version : 3.1.82.0 */
+/* Emby version : 3.1.84.0 */
 
 /* Color HEX codes */
 
@@ -245,10 +245,10 @@ div.focused-line.style-scope.paper-input-container {background-color: $accent-co
     -webkit-box-shadow: 0 0 20px 3px $accent-color;
     box-shadow: 0 0 20px 3px $accent-color;}
 /*Glow for userview cards */
-.itemsContainer.homeTopViews .cardContent {
-  border: 1px solid rgba($red,$green,$blue,.5);
-  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba($red,$green,$blue,.6);
-  box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba($red,$green,$blue,.6);}
+div.homePageSection.section0 button.cardContent {
+  border: 1px solid rgba($red,$green,$blue,.5) !important;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba($red,$green,$blue,.6) !important;
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba($red,$green,$blue,.6) !important;}
 .remoteImageContainer .remoteImage:hover, .remoteImageContainer .searchImageContainer:hover {
     -moz-box-shadow: 0 0 0 5px $accent-color;
     -webkit-box-shadow: 0 0 0 5px $accent-color;
