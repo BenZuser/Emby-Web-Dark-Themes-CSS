@@ -126,6 +126,7 @@ color: #FFFFFF !important;}
 /* Dashboard */
 .scheduledTaskPaperIconItem[data-status='Idle'] paper-fab, div.devicesList paper-fab.x-scope.paper-fab-0, div.paperList.folderList button.fab.mini, paper-icon-item.localReaderOption.x-scope.paper-icon-item-0 paper-fab.x-scope.paper-fab-0 {background-color: $accent-color !important;}
 .scheduledTaskPaperIconItem[data-status="Running"] paper-fab {background-color: $accent-color-dark !important;}
+#pendingInstallations {color: $accent-color;}
 /* Home Page */
 [is="emby-button"].detailFloatingButton, paper-fab.btnCancelSupporterInfo.x-scope.paper-fab-0 {
 background-color: $accent-color !important;}
@@ -262,12 +263,11 @@ div.selectionCommandsPanel {background: $accent-color;}
 .checkboxOutline:hover {border: 2px solid #9b9b9b;}
 .ui-body-b a:hover {color: #9b9b9b;}
 /* Chrome Progress bar */
-progress::-webkit-progress-value, .itemProgressBarForeground {background: $accent-color !important;}
+progress::-webkit-progress-value {background: $accent-color !important;}
 /* Firefox Progress bar */
-progress::-moz-progress-bar, .itemProgressBarForeground {background: $accent-color;}
-/* Edge Progress bar */
-progress, .itemProgressBarForeground {color: $accent-color !important;}
+progress::-moz-progress-bar {background: $accent-color;}
 
+.itemProgressBarForeground{background-color: $accent-color !important;}
 
 /* ------ 2.0 : Removed Elements ------ */
 
