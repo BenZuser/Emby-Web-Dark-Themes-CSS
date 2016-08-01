@@ -1,7 +1,7 @@
 #![alt tag](https://cdn.rawgit.com/BenZuser/Emby-Dark-Themes-Resources/master/images/screenshots/Header%20Dark%20Themes.png)
 <h2 align="center">Complete dark themes for Emby web client in 8 different accent colors</h2>
 ######*Screenshots below*
-###Colored highlights (accent colors)
+##Colored highlights (accent colors)
 Choose an accent color and *copy* the link in the CSS box at `settings -> branding`, *save* and *refresh*. It will auto update the theme.
 
 ![alt tag](https://cdn.rawgit.com/BenZuser/Emby-Dark-Themes-Resources/master/images/logos-and-icons/RED/icon%20small.png)
@@ -44,11 +44,11 @@ Choose an accent color and *copy* the link in the CSS box at `settings -> brandi
 ![alt tag](https://cdn.rawgit.com/BenZuser/Emby-Dark-Themes-Resources/master/images/logos-and-icons/GRAY/icon%20small.png)
 ######`@import url('https://rawgit.com/BenZuser/Emby-Web-Dark-Themes-CSS/master/GRAY%20-%20Dark%20Theme.css');`  
 
-###Note
+##Note
 
 Feel free to download the CSS files on GitHub but you won't get auto updates this way. You can also get the _**Logos & Icons Pack**_ [HERE](https://github.com/BenZuser/Emby-Dark-Themes-Resources/tree/605cea05c8a0b0a17ffe5ac1062b54c9b4e01f6f/images/logos-and-icons) if you want them locally, but you don't have to.
 
-###Screenshots
+##Screenshots
 
 ![alt tag](https://cdn.rawgit.com/BenZuser/Emby-Dark-Themes-Resources/master/images/screenshots/Dark%20Themes%201.png)
 
@@ -59,5 +59,5 @@ I hope you like it!
 
 ######_**Ben Z**_
 
-###Credits
+##Credits
 ####[Shaefurr's Disparity Icons](http://emby.media/community/index.php?/topic/7413-shaefurrs-disparity-icons/)
