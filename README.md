@@ -4,7 +4,7 @@
 ######*Screenshots below*
 ###Colored highlights (accent colors)
 
-Choose an accent color and *copy* the text in the css box `settings -> branding`, save and refresh. It will auto update the theme.
+Choose an accent color and *copy* the link in the css box `settings -> branding`, save and refresh. It will auto update the theme.
 
 ![alt tag](https://cdn.rawgit.com/BenZuser/Emby-Dark-Themes-Resources/master/images/logos-and-icons/RED/icon%20small.png)
 **RED**
