@@ -46,7 +46,7 @@ Choose an accent color and *copy* the link in the CSS box at `settings -> brandi
 
 ##Note
 
-Feel free to download the CSS files on GitHub but you won't get auto updates this way. You can also get the _**Logos & Icons Pack**_ [HERE](https://github.com/BenZuser/Emby-Dark-Themes-Resources/tree/605cea05c8a0b0a17ffe5ac1062b54c9b4e01f6f/images/logos-and-icons) if you want them locally, but you don't have to.
+Feel free to download the CSS files on GitHub but you won't get auto updates this way. You can also get the _**Logos & Icons Pack**_ [**HERE**](https://github.com/BenZuser/Emby-Dark-Themes-Resources/tree/605cea05c8a0b0a17ffe5ac1062b54c9b4e01f6f/images/logos-and-icons) if you want them locally, but you don't have to.
 
 ##Screenshots
 
