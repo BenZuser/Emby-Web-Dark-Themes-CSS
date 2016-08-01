@@ -3,8 +3,7 @@
 <h4 align="center">For BETA releases</h4>
 ######*Screenshots below*
 ###Colored highlights (accent colors)
-
-Choose an accent color and *copy* the link in the CSS box `settings -> branding`, save and refresh. It will auto update the theme.
+Choose an accent color and *copy* the link in the CSS box at `settings -> branding`, *save* and *refresh*. It will auto update the theme.
 
 ![alt tag](https://cdn.rawgit.com/BenZuser/Emby-Dark-Themes-Resources/master/images/logos-and-icons/RED/icon%20small.png)
 **RED**
@@ -46,11 +45,13 @@ Choose an accent color and *copy* the link in the CSS box `settings -> branding`
 ![alt tag](https://cdn.rawgit.com/BenZuser/Emby-Dark-Themes-Resources/master/images/logos-and-icons/GRAY/icon%20small.png)
 ######`@import url('https://rawgit.com/BenZuser/Emby-Web-Dark-Themes-CSS/beta/GRAY%20-%20Dark%20Theme.css');`  
 
-Feel free to have access to the _**Dark Themes**_ css files over here in this page and the _**Logos & Icons Pack**_ [HERE](https://github.com/BenZuser/Emby-Dark-Themes-Resources/tree/605cea05c8a0b0a17ffe5ac1062b54c9b4e01f6f/images/logos-and-icons) even if you don't necessarily need them.
+###Note
+
+Feel free to download the CSS files on GitHub but you won't get auto updates this way. You can also get the _**Logos & Icons Pack**_ [HERE](https://github.com/BenZuser/Emby-Dark-Themes-Resources/tree/master/images/logos-and-icons) if you want them locally, but you don't have to.
 
 ###Screenshots
 
-![alt tag](https://cdn.rawgit.com/BenZuser/Emby-Dark-Themes-Resources/master/images/screenshots/Emby%20Dark%20Themes%20no%20Header.png)
+![alt tag](https://cdn.rawgit.com/BenZuser/Emby-Dark-Themes-Resources/master/images/screenshots/Dark%20Themes%201.png)
 
 ###**The web app is getting older and start being retro-fitted to adopt the newer techniques of Emby Theater.** 
 It means there are more fixes needed on every update. As long as we can't install themes as plugins like Emby Theater, I can't guarantee perfection with future updates, sorry for the inconvenience.
@@ -59,5 +60,5 @@ I hope you like it!
 
 ######_**Ben Z**_
 
-###CREDITS
-######[Shaefurr's Disparity Icons](http://emby.media/community/index.php?/topic/7413-shaefurrs-disparity-icons/)
+###Credits
+####[Shaefurr's Disparity Icons](http://emby.media/community/index.php?/topic/7413-shaefurrs-disparity-icons/)
