@@ -85,99 +85,99 @@
 /* --- Checkboxes --- */
 /* Dashboard Page */
 div#checkbox.checked.style-scope.paper-checkbox {
-  background-color: #7F7F7F !important;
-  border-color: #7F7F7F; }
+  background-color: #F707DF !important;
+  border-color: #F707DF; }
 
 paper-toggle-button #toggleButton, paper-toggle-button[checked] #toggleBar {
-  background-color: #7F7F7F; }
+  background-color: #F707DF; }
 
 .radioTabButton.ui-btn-active {
-  background: #7F7F7F !important;
+  background: #F707DF !important;
   color: #FFFFFF !important; }
 
 div[data-role="controlgroup"] a.ui-btn-active[data-role='button'] {
-  background: #7F7F7F !important;
+  background: #F707DF !important;
   color: #FFFFFF !important; }
 
 .ui-page-theme-a .ui-radio-on:after, html .ui-bar-a .ui-radio-on:after, html .ui-body-a .ui-radio-on:after, html body .ui-group-theme-a .ui-radio-on:after, .ui-btn.ui-radio-on.ui-btn-a:after {
-  border-color: #7F7F7F !important; }
+  border-color: #F707DF !important; }
 
 div#checkbox.checked.style-scope.paper-checkbox {
-  border-color: #7F7F7F !important; }
+  border-color: #F707DF !important; }
 
 /* Home Page */
 .paper-radio-button-0 #onRadio.paper-radio-button {
-  background-color: #7F7F7F !important; }
+  background-color: #F707DF !important; }
 
 .paper-radio-button-0[checked] #offRadio.paper-radio-button {
-  border-color: #7F7F7F !important; }
+  border-color: #F707DF !important; }
 
 /* Metadata Editor & Preferences Menu Pages */
 .mdl-checkbox__input:checked + span + span + .checkboxOutline {
-  border-color: #7F7F7F !important; }
+  border-color: #F707DF !important; }
 
 .mdl-checkbox__input:checked + span + span + .checkboxOutline .mdl-checkbox__tick-outline {
-  background-color: #7F7F7F !important; }
+  background-color: #F707DF !important; }
 
 /* Reports Page */
 .ui-btn.ui-checkbox-on:after {
-  background-color: #7F7F7F !important;
-  border-color: #7F7F7F !important; }
+  background-color: #F707DF !important;
+  border-color: #F707DF !important; }
 
 /* --- Circles --- */
 .fab.blue, .fab.red, .fab.green, .fab.orange, paper-fab.blue, paper-fab.red, paper-fab.green, paper-fab.orange {
-  background-color: #7F7F7F !important; }
+  background-color: #F707DF !important; }
 
 button.fab.mini.btnCloseDialog, paper-fab.btnCancelVoiceInput.x-scope.paper-fab-0 {
-  background: #7F7F7F !important;
+  background: #F707DF !important;
   color: #FFFFFF !important; }
 
 /* Dashboard */
 .scheduledTaskPaperIconItem[data-status='Idle'] paper-fab, div.devicesList paper-fab.x-scope.paper-fab-0, div.paperList.folderList button.fab.mini, paper-icon-item.localReaderOption.x-scope.paper-icon-item-0 paper-fab.x-scope.paper-fab-0 {
-  background-color: #7F7F7F !important; }
+  background-color: #F707DF !important; }
 
 .scheduledTaskPaperIconItem[data-status="Running"] paper-fab {
-  background-color: #535353 !important; }
+  background-color: #C604B3 !important; }
 
 /* Home Page */
 [is="emby-button"].detailFloatingButton, paper-fab.btnCancelSupporterInfo.x-scope.paper-fab-0 {
-  background-color: #7F7F7F !important; }
+  background-color: #F707DF !important; }
 
 /* --- Icons & Menu Bars --- */
 button.headerButton.headerAppsButton.barsMenuButton.headerButtonLeft.autoSize,
 button.headerButton.mainDrawerButton.barsMenuButton.headerButtonLeft.autoSize,
 button.headerButton.headerButtonRight.dashboardEntryHeaderButton.autoSize {
-  color: #7F7F7F !important; }
+  color: #F707DF !important; }
 
 /* Home Page */
 .btnUserItemRatingOn {
-  color: #7F7F7F !important; }
+  color: #F707DF !important; }
 
 /* Now Playing Bar & Now Playing Page */
 button.btnCast.headerButton.headerButtonRight.autoSize.btnActiveCast, button.nowPlayingCastIcon.autoSize.btnActiveCast, button.toggleRepeatButton.mediaButton.repeatActive, button.btnCommand.repeatToggleButton.autoSize.nowPlayingPageRepeatActive,
 a.nowPlayingTabButton.selectedNowPlayingTabButton, .mediaButton.active {
-  color: #7F7F7F !important; }
+  color: #F707DF !important; }
 
 .mdl-slider__background-lower, .sliderBubble, .mdl-slider::-webkit-slider-thumb {
-  background: #7F7F7F !important; }
+  background: #F707DF !important; }
 
 /* --- Rectangles --- */
 button[is="emby-button"].submit, button[is="emby-button"].raised.accent, button[is="emby-button"].raised.more, button.raised.cancelDark.mini {
-  background: #7F7F7F !important;
+  background: #F707DF !important;
   color: #FFFFFF !important; }
 
 /* Dashboard */
 button#btnShutdown.raised.subdued, button#btnRestart.raised.subdued, #btnUpdateApplication, button.raised.subdued.btnRestartContainer {
   background: #080808 !important;
-  color: #7F7F7F !important; }
+  color: #F707DF !important; }
 
 div.supporterPromotion button.raised.block {
-  background: #7F7F7F !important;
+  background: #F707DF !important;
   color: #FFFFFF !important; }
 
 /* Home Page */
 button.raised.btnSubmit.block {
-  background: #7F7F7F !important;
+  background: #F707DF !important;
   color: #FFFFFF !important; }
 
 /* --- Links --- */
@@ -186,7 +186,7 @@ table#tblReport.tblLibraryReport.stripedTable.ui-responsive.table-stroke.detailT
 a.ui-collapsible-heading-toggle.ui-btn.ui-icon-plus.ui-btn-icon-left.ui-btn-inherit, div#viewPanel.viewPanel.ui-panel.ui-panel-position-right.ui-panel-display-overlay.ui-body-b.ui-panel-fixed.ui-panel-animate.ui-panel-open
 a.ui-collapsible-heading-toggle.ui-btn.ui-btn-icon-left.ui-btn-inherit.ui-icon-minus, div#viewPanel.viewPanel.ui-panel.ui-panel-position-right.ui-panel-display-overlay.ui-body-b.ui-panel-fixed.ui-panel-animate.ui-panel-open
 a.ui-collapsible-heading-toggle.ui-btn.ui-btn-icon-left.ui-btn-inherit.ui-mini.ui-icon-minus, a.detailPageParentLink, div#pUpdateNow a, a.lnkPremiere {
-  color: #7F7F7F !important; }
+  color: #F707DF !important; }
 
 div.fieldDescription a:hover, div.dashboardFooter a:hover, p a:hover, div#viewPanel.viewPanel.ui-panel.ui-panel-position-right.ui-panel-display-overlay.ui-body-b.ui-panel-fixed.ui-panel-animate.ui-panel-open
 table#tblReport.tblLibraryReport.stripedTable.ui-responsive.table-stroke.detailTable.ui-table.ui-table-reflow a:hover, div#viewPanel.viewPanel.ui-panel.ui-panel-position-right.ui-panel-display-overlay.ui-body-b.ui-panel-fixed.ui-panel-animate.ui-panel-open
@@ -196,7 +196,7 @@ a.ui-collapsible-heading-toggle.ui-btn.ui-icon-plus.ui-btn-icon-left.ui-btn-inhe
 div.fieldDescription a:active, div.dashboardFooter a:active, p a:active, div#viewPanel.viewPanel.ui-panel.ui-panel-position-right.ui-panel-display-overlay.ui-body-b.ui-panel-fixed.ui-panel-animate.ui-panel-open
 table#tblReport.tblLibraryReport.stripedTable.ui-responsive.table-stroke.detailTable.ui-table.ui-table-reflow a:active, div#viewPanel.viewPanel.ui-panel.ui-panel-position-right.ui-panel-display-overlay.ui-body-b.ui-panel-fixed.ui-panel-animate.ui-panel-open
 a.ui-collapsible-heading-toggle.ui-btn.ui-icon-plus.ui-btn-icon-left.ui-btn-inherit:active, a.detailPageParentLink:active, div#pUpdateNow a:active, a.lnkPremiere:active {
-  color: #535353 !important; }
+  color: #C604B3 !important; }
 
 /* --- Others --- */
 /* Dashboard */
@@ -204,60 +204,60 @@ paper-tabs paper-ripple {
   display: none !important; }
 
 .dashboardDocument .viewMenuBar #selectionBar {
-  background: #7F7F7F !important; }
+  background: #F707DF !important; }
 
 div#tabsContent.horizontal.layout.style-scope.paper-tabs paper-tab.x-scope.paper-tab-0.iron-selected {
-  color: #7F7F7F !important;
+  color: #F707DF !important;
   font-weight: bold !important; }
 
 div.libraryMenuButtonText.headerButton button.accent {
-  color: #7F7F7F !important; }
+  color: #F707DF !important; }
 
 div.btnNotificationsInner.levelNormal {
-  background: #7F7F7F !important; }
+  background: #F707DF !important; }
 
 /* Home Page */
 .libraryViewNav .pageTabButton.is-active {
-  color: #7F7F7F !important; }
+  color: #F707DF !important; }
 
 .pageTabButton.is-active .pageTabButtonSelectionBar {
-  background: #7F7F7F !important; }
+  background: #F707DF !important; }
 
 /* Metadata Editor Page */
 button[is="emby-button"].accent {
-  color: #7F7F7F; }
+  color: #F707DF; }
 
 /* --- 1.2 : Details --- */
 /* --- Icons & Indicators --- */
 /* Home Page */
 .playedIndicator, .countIndicator {
-  background-color: #7F7F7F !important; }
+  background-color: #F707DF !important; }
 
 .starRatingContainer i {
-  color: #7F7F7F !important; }
+  color: #F707DF !important; }
 
 .missingPosterRibbon {
-  background: rgba(127, 127, 127, 0.8); }
+  background: rgba(247, 7, 233, 0.8); }
 
 /* Dashboard */
 paper-icon-item.scheduledTaskPaperIconItem.x-scope.paper-icon-item-0 span, div#divRunningTasks span {
-  color: #7F7F7F !important; }
+  color: #F707DF !important; }
 
 p#pUpToDate svg.style-scope.iron-icon {
-  background-color: #7F7F7F !important;
+  background-color: #F707DF !important;
   border-radius: .25em;
   color: #fff;
   margin-right: .0em; }
 
 div#ratingLine iron-icon.x-scope.iron-icon-0, span.storeItemReviewText iron-icon.x-scope.iron-icon-0, div#pluginTiles div.cardText iron-icon.x-scope.iron-icon-0, div.catalog iron-icon.x-scope.iron-icon-0 {
-  color: #7F7F7F !important; }
+  color: #F707DF !important; }
 
 div#primaryProgress.style-scope.paper-progress {
-  background-color: #7F7F7F !important;
-  border-color: #7F7F7F !important; }
+  background-color: #F707DF !important;
+  border-color: #F707DF !important; }
 
 .listItemIcon {
-  background-color: #7F7F7F !important; }
+  background-color: #F707DF !important; }
 
 .mdl-checkbox__input:focus + span + .mdl-checkbox__focus-helper {
   background-color: transparent; }
@@ -265,11 +265,11 @@ div#primaryProgress.style-scope.paper-progress {
 /* --- Fonts --- */
 /* Dashboard */
 .type-interior h2, p.disclaimer {
-  color: #7F7F7F !important; }
+  color: #F707DF !important; }
 
 /* --- Pop-up Windows --- */
 .dialog .buttons button {
-  color: #7F7F7F !important; }
+  color: #F707DF !important; }
 
 .dialog .buttons button:hover {
   color: #9b9b9b !important; }
@@ -278,21 +278,21 @@ div#primaryProgress.style-scope.paper-progress {
   background-color: #080808 !important; }
 
 .dialog .buttons, button.actionSheetMenuItem {
-  color: #7F7F7F !important; }
+  color: #F707DF !important; }
 
 button.actionSheetMenuItem:hover {
   color: #9b9b9b !important;
   background: transparent !important; }
 
 div.focuscontainer.dialog.smoothScrollY.ui-body-a.background-theme-a.adminAppsMenu.centeredDialog.opened a.adminAppsButton, div.focuscontainer.dialog.smoothScrollY.ui-body-a.background-theme-a.adminAppsMenu.centeredDialog.opened div {
-  color: #7F7F7F !important; }
+  color: #F707DF !important; }
 
 div.focuscontainer.dialog.smoothScrollY.ui-body-a.background-theme-a.adminAppsMenu.centeredDialog.opened a.adminAppsButton:hover, div.focuscontainer.dialog.smoothScrollY.ui-body-a.background-theme-a.adminAppsMenu.centeredDialog.opened div:hover {
   color: #9b9b9b !important; }
 
 /* --- Metadata Editor Page & Left Side Panels --- */
 div.jstree-wholerow.jstree-wholerow-clicked:hover, div.jstree-wholerow.jstree-wholerow-clicked, a.sidebarLink.lnkMediaFolder.selectedMediaFolder, .adminDrawer .sidebarLink.selectedSidebarLink, .drawerContent a.sidebarLink.selectedSidebarLink {
-  background: #7F7F7F !important;
+  background: #F707DF !important;
   color: #FFFFFF !important; }
 
 div.jstree-wholerow.jstree-wholerow-hovered, a.sidebarLink.lnkMediaFolder:hover {
@@ -303,58 +303,58 @@ a.sidebarLink.lnkMediaFolder.selectedMediaFolder i.md-icon.sidebarLinkIcon {
 
 /* --- Others --- */
 :focus {
-  outline: #7F7F7F auto 5px; }
+  outline: #F707DF auto 5px; }
 
 ::selection {
-  background-color: #535353 !important; }
+  background-color: #C604B3 !important; }
 
 .mdl-spinner__layer-1, .mdl-spinner__layer-2, .mdl-spinner__layer-3, .mdl-spinner__layer-4 {
-  border-color: #7F7F7F !important; }
+  border-color: #F707DF !important; }
 
 /* Input/Select/Textarea Highlights */
 .inputLabel.focused:not(.blank), .ui-body-a .paper-input-container-0 .input-content.label-is-highlighted.paper-input-container label, .textareaLabel.focused:not(.blank), .selectLabelFocused, label.textareaLabel.blank.focused, label.inputLabel.nofloat.blank.focused {
-  color: #7F7F7F !important; }
+  color: #F707DF !important; }
 
 paper-input .focused-line, paper-textarea .focused-line, [is="emby-select"]:focus + .emby-select-selectionbar, [is="emby-input"]:focus + .emby-input-selectionbar, [is="emby-textarea"]:focus + .emby-textarea-selectionbar {
-  background-color: #7F7F7F !important; }
+  background-color: #F707DF !important; }
 
 div.focused-line.style-scope.paper-input-container {
-  background-color: #7F7F7F !important; }
+  background-color: #F707DF !important; }
 
 /* Home Page */
 .galleryImageContainer:hover {
-  -moz-box-shadow: 0 0 0 5px #7F7F7F;
-  -webkit-box-shadow: 0 0 0 5px #7F7F7F;
-  box-shadow: 0 0 0 5px #7F7F7F; }
+  -moz-box-shadow: 0 0 0 5px #F707DF;
+  -webkit-box-shadow: 0 0 0 5px #F707DF;
+  box-shadow: 0 0 0 5px #F707DF; }
 
 .itemDetailGalleryLink img:hover {
-  -moz-box-shadow: 0 0 20px 3px #7F7F7F;
-  -webkit-box-shadow: 0 0 20px 3px #7F7F7F;
-  box-shadow: 0 0 20px 3px #7F7F7F; }
+  -moz-box-shadow: 0 0 20px 3px #F707DF;
+  -webkit-box-shadow: 0 0 20px 3px #F707DF;
+  box-shadow: 0 0 20px 3px #F707DF; }
 
 /*Glow for userview cards */
 .itemsContainer.homeTopViews .cardContent {
-  border: 1px solid rgba(127, 127, 127, 0.5);
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(127, 127, 127, 0.6);
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(127, 127, 127, 0.6); }
+  border: 1px solid rgba(247, 7, 233, 0.5);
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(247, 7, 233, 0.6);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(247, 7, 233, 0.6); }
 
 .remoteImageContainer .remoteImage:hover, .remoteImageContainer .searchImageContainer:hover {
-  -moz-box-shadow: 0 0 0 5px #7F7F7F;
-  -webkit-box-shadow: 0 0 0 5px #7F7F7F;
-  box-shadow: 0 0 0 5px #7F7F7F; }
+  -moz-box-shadow: 0 0 0 5px #F707DF;
+  -webkit-box-shadow: 0 0 0 5px #F707DF;
+  box-shadow: 0 0 0 5px #F707DF; }
 
 /* Home Page Selection */
 div.selectionCommandsPanel {
-  background: #7F7F7F; }
+  background: #F707DF; }
 
 .itemSelectionPanel {
-  border: 1px solid #7F7F7F !important; }
+  border: 1px solid #F707DF !important; }
 
 .checkboxOutline {
-  border: 2px solid #7F7F7F; }
+  border: 2px solid #F707DF; }
 
 .ui-body-b a {
-  color: #7F7F7F; }
+  color: #F707DF; }
 
 .itemSelectionPanel:hover {
   border: 1px solid #9b9b9b !important; }
@@ -367,15 +367,15 @@ div.selectionCommandsPanel {
 
 /* Chrome Progress bar */
 progress::-webkit-progress-value {
-  background: #7F7F7F !important; }
+  background: #F707DF !important; }
 
 /* Firefox Progress bar */
 progress::-moz-progress-bar {
-  background: #7F7F7F; }
+  background: #F707DF; }
 
 /* Edge Progress bar */
 progress {
-  color: #7F7F7F !important; }
+  color: #F707DF !important; }
 
 /* ------ 2.0 : Removed Elements ------ */
 /* --- 2.1 : Home Page --- */
@@ -401,7 +401,7 @@ iron-autogrow-textarea#input.paper-input-input.style-scope.paper-textarea.x-scop
 div.readOnlyContent.dashboardHomeRightColumn.firstDashboardHomeRightColumn div.paperList.activityItems paper-fab.x-scope.paper-fab-0 {
   background-color: transparent !important;
   box-shadow: 0 2px 2px 0 transparent, 0 1px 5px 0 transparent, 0 3px 1px -2px transparent;
-  color: #7F7F7F !important; }
+  color: #F707DF !important; }
 
 .ui-body-a div.dialogHeader, .ui-body-b div.dialogHeader {
   background-color: #101010;
@@ -462,10 +462,10 @@ div.scrollContainer.smoothScrollY::-webkit-scrollbar-thumb {
 
 /* --- Images Files --- */
 .imgLogoIcon, .adminDrawerLogo img {
-  content: url(https://cdn.rawgit.com/BenZuser/Emby-Dark-Themes-Resources/master/images/logos-and-icons/GRAY/logo.png) !important; }
+  content: url(https://cdn.rawgit.com/BenZuser/Emby-Dark-Themes-Resources/master/images/logos-and-icons/PINK/logo.png) !important; }
 
 .lnkMediaFolder div:first-child {
-  background-image: url(https://cdn.rawgit.com/BenZuser/Emby-Dark-Themes-Resources/master/images/logos-and-icons/GRAY/mblogoicon.png) !important; }
+  background-image: url(https://cdn.rawgit.com/BenZuser/Emby-Dark-Themes-Resources/master/images/logos-and-icons/PINK/mblogoicon.png) !important; }
 
 /* ------ 4.0 : Dark Theme (Can be removed) ------ */
 /* --- 4.1 : Buttons --- */
@@ -654,4 +654,4 @@ input:not(.paper-input):not([type='checkbox']):not([type='radio']):not([type='fi
 [is="emby-input"] {
   border-bottom: 1px solid #737373 !important; }
 
-/*# sourceMappingURL=GRAY%20-%20Dark%20Theme.css.map */
+/*# sourceMappingURL=PINK%20-%20Dark%20Theme.css.map */
