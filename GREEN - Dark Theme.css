@@ -136,6 +136,9 @@ button.fab.mini.btnCloseDialog, paper-fab.btnCancelVoiceInput.x-scope.paper-fab-
 .scheduledTaskPaperIconItem[data-status="Running"] paper-fab {
   background-color: #3E8437 !important; }
 
+#pendingInstallations {
+  color: #52B54B; }
+
 /* Home Page */
 [is="emby-button"].detailFloatingButton, paper-fab.btnCancelSupporterInfo.x-scope.paper-fab-0 {
   background-color: #52B54B !important; }
@@ -363,16 +366,15 @@ div.selectionCommandsPanel {
   color: #9b9b9b; }
 
 /* Chrome Progress bar */
-progress::-webkit-progress-value, .itemProgressBarForeground {
+progress::-webkit-progress-value {
   background: #52B54B !important; }
 
 /* Firefox Progress bar */
-progress::-moz-progress-bar, .itemProgressBarForeground {
+progress::-moz-progress-bar {
   background: #52B54B; }
 
-/* Edge Progress bar */
-progress, .itemProgressBarForeground {
-  color: #52B54B !important; }
+.itemProgressBarForeground {
+  background-color: #52B54B !important; }
 
 /* ------ 2.0 : Removed Elements ------ */
 /* --- 2.1 : Home Page --- */
