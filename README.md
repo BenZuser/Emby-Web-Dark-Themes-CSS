@@ -56,7 +56,7 @@ Feel free to download the CSS files on GitHub but you won't get auto updates thi
 
 ##Screenshots
 
-![alt tag](https://cdn.rawgit.com/BenZuser/Emby-Dark-Themes-Resources/master/images/screenshots/Dark%20Themes%201.png)
+![alt tag](https://cdn.rawgit.com/BenZuser/Emby-Dark-Themes-Resources/master/images/screenshots/Themes.png)
 
 ###**The web app is getting older and start being retro-fitted to adopt the newer techniques of Emby Theater.** 
 It means there are more fixes needed on every update. As long as we can't install themes as plugins like Emby Theater, I can't guarantee perfection with future updates, sorry for the inconvenience.
