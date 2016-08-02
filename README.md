@@ -64,7 +64,7 @@ I hope you like it!
 
 ######_**Ben Z**_
 
+[**Emby Dark Themes**](https://benzuser.github.io/Emby-Web-Dark-Themes-CSS/) is maintained by [**Ben Z (BenZuser)**](https://github.com/BenZuser) with the contribution of [**Happy2Play**](https://github.com/Happy2Play).
+
 ##Credits
 ######[Shaefurr's Disparity Icons](http://emby.media/community/index.php?/topic/7413-shaefurrs-disparity-icons/)
-
-[**Emby Dark Themes**](https://benzuser.github.io/Emby-Web-Dark-Themes-CSS/) is maintained by [**Ben Z (BenZuser)**](https://github.com/BenZuser) with the contribution of [**Happy2Play**](https://github.com/Happy2Play).
