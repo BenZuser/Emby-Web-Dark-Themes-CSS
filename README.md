@@ -62,8 +62,6 @@ It means there are more fixes needed on every update. As long as we can't instal
 
 I hope you like it!
 
-######_**Ben Z**_
-
 [**Emby Dark Themes**](https://benzuser.github.io/Emby-Web-Dark-Themes-CSS/) is maintained by [**Ben Z (BenZuser)**](https://github.com/BenZuser) with the contribution of [**Happy2Play**](https://github.com/Happy2Play).
 
 ##Credits
