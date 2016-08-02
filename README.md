@@ -1,5 +1,5 @@
 #![alt tag](https://cdn.rawgit.com/BenZuser/Emby-Dark-Themes-Resources/master/images/screenshots/Header.png)
-<h2 align="center">Complete dark themes for Emby web client in 8 different accent colors</h2>
+<h2 align="center">Complete dark themes for Emby web client in 9 different accent colors</h2>
 <h4 align="center">For Beta releases</h4>
 ######*Screenshots below*
 ##Emby for Emby beta releases
@@ -45,13 +45,18 @@ Choose an accent color and *copy* the link in the CSS box at `settings -> brandi
 ![alt tag](https://cdn.rawgit.com/BenZuser/Emby-Dark-Themes-Resources/master/images/logos-and-icons/GRAY/icon%20small.png)
 ######`@import url('https://rawgit.com/BenZuser/Emby-Web-Dark-Themes-CSS/beta/GRAY%20-%20Dark%20Theme.css');`  
 
+![alt tag](https://cdn.rawgit.com/BenZuser/Emby-Dark-Themes-Resources/master/images/logos-and-icons/PINK/icon%20small.png)
+**PINK**
+![alt tag](https://cdn.rawgit.com/BenZuser/Emby-Dark-Themes-Resources/master/images/logos-and-icons/PINK/icon%20small.png)
+######`@import url('https://rawgit.com/BenZuser/Emby-Web-Dark-Themes-CSS/beta/PINK%20-%20Dark%20Theme.css');`
+
 ##Note
 
 Feel free to download the CSS files on GitHub but you won't get auto updates this way. You can also get the _**Logos & Icons Pack**_ [**HERE**](https://github.com/BenZuser/Emby-Dark-Themes-Resources/tree/master/images/logos-and-icons) if you want them locally, but you don't have to.
 
 ##Screenshots
 
-![alt tag](https://cdn.rawgit.com/BenZuser/Emby-Dark-Themes-Resources/master/images/screenshots/Dark%20Themes%201.png)
+![alt tag](https://cdn.rawgit.com/BenZuser/Emby-Dark-Themes-Resources/master/images/screenshots/Themes.png)
 
 ###**The web app is getting older and start being retro-fitted to adopt the newer techniques of Emby Theater.** 
 It means there are more fixes needed on every update. As long as we can't install themes as plugins like Emby Theater, I can't guarantee perfection with future updates, sorry for the inconvenience.

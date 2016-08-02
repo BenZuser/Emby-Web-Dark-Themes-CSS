@@ -1,28 +1,31 @@
 /* Emby version : 3.1.84.0 */
 /* Color HEX codes */
-/* RED	       : #E81123 & (232,17,35)
+/* RED	       : #E81123 & (232, 17, 35)
 /* DARK COLOR  : #94131E
 
-/* ORANGE      : #FF8000 & (255,128,0)
+/* ORANGE      : #FF8000 & (255, 128, 0)
 /* DARK COLOR  : #BF6000
 
-/* ORANGE PLEX : #CC7B19 & (204,123,25)
+/* ORANGE PLEX : #CC7B19 & (204, 123, 25)
 /* DARK COLOR  : #B35A00
 
-/* YELLOW      : #BDBD00 & (189,189,0)
+/* YELLOW      : #BDBD00 & (189, 189, 0)
 /* DARK COLOR  : #757500
 
-/* GREEN       : #52B54B & (82,181,75)
+/* GREEN       : #52B54B & (82, 181, 75)
 /* DARK COLOR  : #3E8437
 
-/* BLUE	       : #4285F4 & (66,133,244)
+/* BLUE	       : #4285F4 & (66, 133, 244)
 /* DARK COLOR  : #0C57D6
 
-/* PURPLE      : #673AB7 & (103,58,183)
+/* PURPLE      : #673AB7 & (103, 58, 183)
 /* DARK COLOR  : #3F2471
 
-/* GRAY	       : #7F7F7F & (127,127,127)
+/* GRAY	       : #7F7F7F & (127, 127, 127)
 /* DARK COLOR  : #535353
+
+/* PINK	       : #F707DF & (247, 7, 223)
+/* PINK (DARK) : #C604B3
 
 /* Gray 1      : #9b9b9b              (Link hover & Disabled)
 /* Gray 2      : #4D4D4D              (Sidelink Panel hover backgrounds)
@@ -135,6 +138,9 @@ button.fab.mini.btnCloseDialog, paper-fab.btnCancelVoiceInput.x-scope.paper-fab-
 
 .scheduledTaskPaperIconItem[data-status="Running"] paper-fab {
   background-color: #0C57D6 !important; }
+
+#pendingInstallations {
+  color: #4285F4; }
 
 /* Home Page */
 [is="emby-button"].detailFloatingButton, paper-fab.btnCancelSupporterInfo.x-scope.paper-fab-0 {
@@ -363,16 +369,15 @@ div.selectionCommandsPanel {
   color: #9b9b9b; }
 
 /* Chrome Progress bar */
-progress::-webkit-progress-value, .itemProgressBarForeground {
+progress::-webkit-progress-value {
   background: #4285F4 !important; }
 
 /* Firefox Progress bar */
-progress::-moz-progress-bar, .itemProgressBarForeground {
+progress::-moz-progress-bar {
   background: #4285F4; }
 
-/* Edge Progress bar */
-progress, .itemProgressBarForeground {
-  color: #4285F4 !important; }
+.itemProgressBarForeground {
+  background-color: #4285F4 !important; }
 
 /* ------ 2.0 : Removed Elements ------ */
 /* --- 2.1 : Home Page --- */
