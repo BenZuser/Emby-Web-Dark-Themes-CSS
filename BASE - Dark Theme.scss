@@ -1,4 +1,4 @@
-/* Emby version : 3.0.6020 */
+/* Emby version : 3.0.6030 */
 
 /* Color HEX codes */
 
@@ -235,6 +235,7 @@ a.sidebarLink.lnkMediaFolder.selectedMediaFolder i.md-icon.sidebarLinkIcon  {col
 ::selection{ background-color: $accent-color-dark !important;}
 .mdl-spinner__layer-1, .mdl-spinner__layer-2, .mdl-spinner__layer-3, .mdl-spinner__layer-4 {border-color: $accent-color !important;}
 /* Input/Select/Textarea Highlights */
+.inputLabelFocused {color: $accent-color !important;}
 .inputLabel.focused:not(.blank) , .ui-body-a .paper-input-container-0 .input-content.label-is-highlighted.paper-input-container label, .textareaLabel.focused:not(.blank), .selectLabelFocused, label.textareaLabel.blank.focused, label.inputLabel.nofloat.blank.focused {color: $accent-color !important;}
 paper-input .focused-line, paper-textarea .focused-line, [is="emby-select"]:focus + .emby-select-selectionbar, [is="emby-input"]:focus + .emby-input-selectionbar, [is="emby-textarea"]:focus + .emby-textarea-selectionbar {background-color: $accent-color !important;}
 div.focused-line.style-scope.paper-input-container {background-color: $accent-color !important;}
@@ -375,7 +376,7 @@ color: #FFFFFF !important;}
 /* --- 4.2 : Details --- */
 /* --- Backgrounds --- */
 /* General */
-div.ui-page-theme-a.ui-body-a, .background-theme-a, .background-theme-b, .noBackdrop, div.backdropContainer {
+div.ui-page-theme-a.ui-body-a, .background-theme-a .backgroundContainer, .background-theme-b .backgroundContainer, .noBackdrop, div.backdropContainer {
 background-color: #19191A;}
 /* Panels */
 div.paperList, .activeSession:not(.playingSession) .sessionNowPlayingInnerContent, div.cardBox.visualCardBox, div.editorTileFooter {
