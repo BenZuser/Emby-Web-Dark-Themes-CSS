@@ -1,8 +1,6 @@
-#![alt tag](https://cdn.rawgit.com/BenZuser/Emby-Dark-Themes-Resources/master/images/screenshots/Header.png)
-<h2 align="center">Complete dark themes for Emby web client in 9 different accent colors</h2>
-<h4 align="center">For Beta releases</h4>
 #![alt tag](https://cdn.rawgit.com/BenZuser/Emby-Dark-Themes-Resources/master/images/screenshots/Header%20Dark%20Themes.png)
 <h2 align="center">Complete dark themes for Emby web client in 9 different accent colors</h2>
+<h4 align="center">For Beta releases</h4>
 
 ###See [HERE](https://benzuser.github.io/Emby-Web-Dark-Themes-CSS/) for instructions.
 
