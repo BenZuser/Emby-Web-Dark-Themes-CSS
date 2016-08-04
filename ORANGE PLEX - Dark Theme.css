@@ -373,6 +373,10 @@ div.selectionCommandsPanel {
 .ui-body-b a:hover {
   color: #9b9b9b; }
 
+/* temp progress bar */
+.itemProgressBarForeground {
+  background-color: #CC7B19 !important; }
+
 /* Chrome Progress bar */
 progress::-webkit-progress-value {
   background: #CC7B19 !important; }
