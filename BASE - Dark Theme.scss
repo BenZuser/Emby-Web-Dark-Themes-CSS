@@ -269,6 +269,8 @@ div.selectionCommandsPanel {background: $accent-color;}
 .itemSelectionPanel:hover {border: 1px solid #9b9b9b !important;}
 .checkboxOutline:hover {border: 2px solid #9b9b9b;}
 .ui-body-b a:hover {color: #9b9b9b;}
+/* temp progress bar */
+.itemProgressBarForeground {background-color: $accent-color !important;}
 /* Chrome Progress bar */
 progress::-webkit-progress-value {background: $accent-color !important;}
 /* Firefox Progress bar */
