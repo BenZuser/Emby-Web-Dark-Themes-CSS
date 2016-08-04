@@ -7,11 +7,6 @@
 
 ![alt tag](https://cdn.rawgit.com/BenZuser/Emby-Dark-Themes-Resources/master/images/screenshots/Themes%20No%20Header.png)
 
-###**The web app is getting older and start being retro-fitted to adopt the newer techniques of Emby Theater.** 
-It means there are more fixes needed on every update. As long as we can't install themes as plugins like Emby Theater, I can't guarantee perfection with future updates, sorry for the inconvenience.
-
-I hope you like it!
-
 [**Emby Dark Themes**](https://benzuser.github.io/Emby-Web-Dark-Themes-CSS/) is maintained by [**Ben Z (BenZuser)**](https://github.com/BenZuser) with the contribution of [**Happy2Play**](https://github.com/Happy2Play).
 
 ##Credits
