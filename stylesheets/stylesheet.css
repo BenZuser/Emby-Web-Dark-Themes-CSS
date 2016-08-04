@@ -243,3 +243,26 @@ a {
 @media screen and (max-width: 42em) {
   .site-footer {
     font-size: 0.9rem; } }
+    
+button {
+    background-color: #404040;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    width: 31.744%;
+    margin-bottom: 4px;
+    border-radius: 0.3em;
+}
+
+button:focus {
+outline: transparent auto 1px;
+color: #94131E;}
+
+@media screen and (max-width: 42em) {
+  button {width: 100%;}}
+@media screen and (min-width: 42em) and (max-width: 64em) {
+  button {width: 47.692%;}}
