@@ -1,4 +1,4 @@
-/* Emby version : 3.1.86.0 */
+/* Emby version : 3.1.89.0 */
 /* Color HEX codes */
 /* RED	       : #E81123 & (232, 17, 35)
 /* DARK COLOR  : #94131E
@@ -323,6 +323,9 @@ a.sidebarLink.lnkMediaFolder.selectedMediaFolder i.md-icon.sidebarLinkIcon {
   border-color: #4285F4 !important; }
 
 /* Input/Select/Textarea Highlights */
+.inputLabelFocused {
+  color: #4285F4 !important; }
+
 .inputLabel.focused:not(.blank), .ui-body-a .paper-input-container-0 .input-content.label-is-highlighted.paper-input-container label, .textareaLabel.focused:not(.blank), .selectLabelFocused, label.textareaLabel.blank.focused, label.inputLabel.nofloat.blank.focused {
   color: #4285F4 !important; }
 
@@ -526,7 +529,7 @@ div#boxsetsConfigurationPage.page.type-interior.pluginConfigurationPage.mainAnim
 /* --- 4.2 : Details --- */
 /* --- Backgrounds --- */
 /* General */
-div.ui-page-theme-a.ui-body-a, .background-theme-a, .background-theme-b, .noBackdrop, div.backdropContainer {
+div.ui-page-theme-a.ui-body-a, .background-theme-a .backgroundContainer, .background-theme-b .backgroundContainer, .noBackdrop, div.backdropContainer {
   background-color: #19191A; }
 
 /* Panels */
