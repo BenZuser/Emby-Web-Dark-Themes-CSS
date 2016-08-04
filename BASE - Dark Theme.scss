@@ -249,6 +249,10 @@ div.focused-line.style-scope.paper-input-container {background-color: $accent-co
     -webkit-box-shadow: 0 0 20px 3px $accent-color;
     box-shadow: 0 0 20px 3px $accent-color;}
 /*Glow for userview cards */
+div.homePageSection.section0 button.clearButton.cardContent.itemAction {
+  border: 1px solid rgba($red,$green,$blue,.5);
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba($red,$green,$blue,.6);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba($red,$green,$blue,.6);}
 .itemsContainer.homeTopViews .cardContent {
   border: 1px solid rgba($red,$green,$blue,.5);
   -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba($red,$green,$blue,.6);
