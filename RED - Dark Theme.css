@@ -506,7 +506,7 @@ div#checkbox.style-scope.paper-checkbox {
   border-color: #404040 !important;
   color: #FFFFFF !important; }
 
-[is="emby-button"].raised, [is="emby-button"].fab {
+[is="emby-button"].raised {
   color: #FFFFFF !important;
   background: #404040;
   border-color: #404040; }
