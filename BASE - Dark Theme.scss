@@ -385,6 +385,9 @@ color: #FFFFFF !important;}
 div.ui-page-theme-a.ui-body-a, .background-theme-a .backgroundContainer, .background-theme-b .backgroundContainer, .noBackdrop, div.backdropContainer {
 background-color: #19191A;}
 /* Panels */
+.ui-body-a .visualCardBox .cardScalable, .ui-body-a .visualCardBox .cardFooter {
+  background-color: #2B2B2B !important;
+  color: #FFFFFF !important; }
 div.paperList, .activeSession:not(.playingSession) .sessionNowPlayingInnerContent, div.cardBox.visualCardBox, div.editorTileFooter, .ui-body-a .visualCardBox .cardScalable, .ui-body-a .visualCardBox .cardFooter {
   background-color: #2B2B2B !important;
   color: #FFFFFF !important;}
