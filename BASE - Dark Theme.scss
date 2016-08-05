@@ -213,6 +213,12 @@ div#primaryProgress.style-scope.paper-progress {
 /* Dashboard */
 .type-interior h2, p.disclaimer {color: $accent-color !important;}
 /* --- Pop-up Windows --- */
+.dialogButton {
+    color: $accent-color !important;
+    background-color: transparent !important;}
+.dialogButton:hover {
+    color: #9b9b9b !important;
+    background-color: transparent !important;}
 .dialog .buttons button {color: $accent-color !important;}
 .dialog .buttons button:hover {color: #9b9b9b !important;}
 .dialog .buttons button:focus {background-color: #080808 !important;}
