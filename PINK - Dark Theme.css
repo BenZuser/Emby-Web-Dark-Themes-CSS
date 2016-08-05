@@ -105,6 +105,12 @@ div[data-role="controlgroup"] a.ui-btn-active[data-role='button'] {
 div#checkbox.checked.style-scope.paper-checkbox {
   border-color: #F707DF !important; }
 
+.mdl-radio__button:checked + .mdl-radio__label + .mdl-radio__outer-circle {
+  border: 2px solid #F707DF !important; }
+
+.mdl-radio__inner-circle {
+  background: #F707DF !important; }
+
 /* Home Page */
 .paper-radio-button-0 #onRadio.paper-radio-button {
   background-color: #F707DF !important; }
