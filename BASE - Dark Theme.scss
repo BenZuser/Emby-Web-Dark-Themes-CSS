@@ -108,6 +108,12 @@ div[data-role="controlgroup"] a.ui-btn-active[data-role='button'] {
 .ui-page-theme-a .ui-radio-on:after, html .ui-bar-a .ui-radio-on:after, html .ui-body-a .ui-radio-on:after, html body .ui-group-theme-a .ui-radio-on:after, .ui-btn.ui-radio-on.ui-btn-a:after {
     border-color: $accent-color !important;}
 div#checkbox.checked.style-scope.paper-checkbox {border-color: $accent-color !important;}
+.mdl-radio__button:checked + .mdl-radio__label + .mdl-radio__outer-circle {
+    border: 2px solid $accent-color !important;
+}
+.mdl-radio__inner-circle {
+    background: $accent-color !important;
+}
 /* Home Page */
 .paper-radio-button-0 #onRadio.paper-radio-button {background-color: $accent-color !important;}
 .paper-radio-button-0[checked] #offRadio.paper-radio-button {
