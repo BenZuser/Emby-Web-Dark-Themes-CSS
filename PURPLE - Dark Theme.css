@@ -1,4 +1,4 @@
-/* Emby version : 3.1.89.0 */
+/* Emby version : 3.1.91.0 */
 /* Color HEX codes */
 /* RED	       : #E81123 & (232, 17, 35)
 /* DARK COLOR  : #94131E
@@ -104,6 +104,12 @@ div[data-role="controlgroup"] a.ui-btn-active[data-role='button'] {
 
 div#checkbox.checked.style-scope.paper-checkbox {
   border-color: #673AB7 !important; }
+
+.mdl-radio__button:checked + .mdl-radio__label + .mdl-radio__outer-circle {
+  border: 2px solid #673AB7 !important; }
+
+.mdl-radio__inner-circle {
+  background: #673AB7 !important; }
 
 /* Home Page */
 .paper-radio-button-0 #onRadio.paper-radio-button {
@@ -243,6 +249,9 @@ button[is="emby-button"].accent {
   background: rgba(103, 58, 183, 0.8); }
 
 /* Dashboard */
+p#appVersionNumber i.md-icon {
+  background-color: #673AB7 !important; }
+
 paper-icon-item.scheduledTaskPaperIconItem.x-scope.paper-icon-item-0 span, div#divRunningTasks span {
   color: #673AB7 !important; }
 
