@@ -249,7 +249,7 @@ button[is="emby-button"].accent {
   background: rgba(189, 189, 0, 0.8); }
 
 /* Dashboard */
-p#appVersionNumber i.md-icon {
+p#pUpToDate i.md-icon {
   background-color: #BDBD00 !important; }
 
 paper-icon-item.scheduledTaskPaperIconItem.x-scope.paper-icon-item-0 span, div#divRunningTasks span {
