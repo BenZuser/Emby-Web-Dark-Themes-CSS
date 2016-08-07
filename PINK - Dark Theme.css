@@ -1,4 +1,4 @@
-/* Emby version : 3.1.91.0 */
+/* Emby version : 3.1.94.0 */
 /* Color HEX codes */
 /* RED	       : #E81123 & (232, 17, 35)
 /* DARK COLOR  : #94131E
@@ -538,8 +538,11 @@ div#boxsetsConfigurationPage.page.type-interior.pluginConfigurationPage.mainAnim
 /* --- 4.2 : Details --- */
 /* --- Backgrounds --- */
 /* General */
-div.ui-page-theme-a.ui-body-a, .background-theme-a .backgroundContainer, .background-theme-b .backgroundContainer, .noBackdrop, div.backdropContainer {
+div.ui-page-theme-a.ui-body-a, .background-theme-a .backgroundContainer, .noBackdrop, div.backdropContainer {
   background-color: #19191A !important; }
+
+.background-theme-b .backgroundContainer {
+  background-color: #19191A; }
 
 /* Panels */
 .ui-body-a .visualCardBox .cardScalable, .ui-body-a .visualCardBox .cardFooter {
