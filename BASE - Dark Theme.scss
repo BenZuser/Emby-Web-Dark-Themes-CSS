@@ -1,4 +1,4 @@
-/* Emby version : 3.1.84.0 */
+/* Emby version : 3.1.94.0 */
 
 /* Color HEX codes */
 
@@ -108,6 +108,12 @@ div[data-role="controlgroup"] a.ui-btn-active[data-role='button'] {
 .ui-page-theme-a .ui-radio-on:after, html .ui-bar-a .ui-radio-on:after, html .ui-body-a .ui-radio-on:after, html body .ui-group-theme-a .ui-radio-on:after, .ui-btn.ui-radio-on.ui-btn-a:after {
     border-color: $accent-color !important;}
 div#checkbox.checked.style-scope.paper-checkbox {border-color: $accent-color !important;}
+.mdl-radio__button:checked + .mdl-radio__label + .mdl-radio__outer-circle {
+    border: 2px solid $accent-color !important;
+}
+.mdl-radio__inner-circle {
+    background: $accent-color !important;
+}
 /* Home Page */
 .paper-radio-button-0 #onRadio.paper-radio-button {background-color: $accent-color !important;}
 .paper-radio-button-0[checked] #offRadio.paper-radio-button {
@@ -197,6 +203,8 @@ button[is="emby-button"].accent {color: $accent-color;}
 .starRatingContainer i {color: $accent-color !important;}
 .missingPosterRibbon {background: rgba($red,$green,$blue,.8);}
 /* Dashboard */
+p#pUpToDate i.md-icon {
+    background-color: $accent-color !important;}
 paper-icon-item.scheduledTaskPaperIconItem.x-scope.paper-icon-item-0 span, div#divRunningTasks span {color: $accent-color !important;}
 p#pUpToDate svg.style-scope.iron-icon {
     background-color: $accent-color !important;
@@ -214,6 +222,12 @@ div#primaryProgress.style-scope.paper-progress {
 /* Dashboard */
 .type-interior h2, p.disclaimer {color: $accent-color !important;}
 /* --- Pop-up Windows --- */
+.dialogButton {
+    color: $accent-color !important;
+    background-color: transparent !important;}
+.dialogButton:hover {
+    color: #9b9b9b !important;
+    background-color: transparent !important;}
 .dialog .buttons button {color: $accent-color !important;}
 .dialog .buttons button:hover {color: #9b9b9b !important;}
 .dialog .buttons button:focus {background-color: #080808 !important;}
@@ -236,6 +250,7 @@ a.sidebarLink.lnkMediaFolder.selectedMediaFolder i.md-icon.sidebarLinkIcon  {col
 ::selection{ background-color: $accent-color-dark !important;}
 .mdl-spinner__layer-1, .mdl-spinner__layer-2, .mdl-spinner__layer-3, .mdl-spinner__layer-4 {border-color: $accent-color !important;}
 /* Input/Select/Textarea Highlights */
+.inputLabelFocused {color: $accent-color !important;}
 .inputLabel.focused:not(.blank) , .ui-body-a .paper-input-container-0 .input-content.label-is-highlighted.paper-input-container label, .textareaLabel.focused:not(.blank), .selectLabelFocused, label.textareaLabel.blank.focused, label.inputLabel.nofloat.blank.focused {color: $accent-color !important;}
 paper-input .focused-line, paper-textarea .focused-line, [is="emby-select"]:focus + .emby-select-selectionbar, [is="emby-input"]:focus + .emby-input-selectionbar, [is="emby-textarea"]:focus + .emby-textarea-selectionbar {background-color: $accent-color !important;}
 div.focused-line.style-scope.paper-input-container {background-color: $accent-color !important;}
@@ -355,7 +370,7 @@ div#checkbox.style-scope.paper-checkbox {border-color: #FFFFFF;}
 .ui-page-theme-a .ui-btn, html .ui-bar-a .ui-btn, html .ui-body-a .ui-btn, html body .ui-group-theme-a .ui-btn, html head + body .ui-btn.ui-btn-a, .ui-page-theme-a .ui-btn:visited, html .ui-bar-a .ui-btn:visited, html .ui-body-a .ui-btn:visited, html body .ui-group-theme-a .ui-btn:visited, html head + body .ui-btn.ui-btn-a:visited, ul[data-role="listview"] a + a {background-color: #404040 !important;
     border-color: #404040 !important;
     color: #FFFFFF !important;}
-[is="emby-button"].raised, [is="emby-button"].fab {
+[is="emby-button"].raised {
 color: #FFFFFF !important;
 background: #404040;
 border-color: #404040;}
@@ -375,9 +390,14 @@ color: #FFFFFF !important;}
 /* --- 4.2 : Details --- */
 /* --- Backgrounds --- */
 /* General */
-div.ui-page-theme-a.ui-body-a, .background-theme-a, .background-theme-b, .noBackdrop, div.backdropContainer {
+div.ui-page-theme-a.ui-body-a, .background-theme-a .backgroundContainer {
+background-color: #19191A !important;}
+.background-theme-b .backgroundContainer, .noBackdrop, div.backdropContainer {
 background-color: #19191A;}
 /* Panels */
+.ui-body-a .visualCardBox .cardScalable, .ui-body-a .visualCardBox .cardFooter {
+  background-color: #2B2B2B !important;
+  color: #FFFFFF !important; }
 div.paperList, .activeSession:not(.playingSession) .sessionNowPlayingInnerContent, div.cardBox.visualCardBox, div.editorTileFooter, .ui-body-a .visualCardBox .cardScalable, .ui-body-a .visualCardBox .cardFooter {
   background-color: #2B2B2B !important;
   color: #FFFFFF !important;}
@@ -406,6 +426,10 @@ a.sidebarLink:hover {background-color: #4D4D4D !important;}
 a.sidebarLink span {color: #FFFFFF !important;}
 .adminDrawerLogo {border-bottom: 1px solid #343434 !important;}
 /* --- Icons --- */
+.selectArrow, .emby-button.iconRight i, .paper-icon-button-light, div.dialogContent.smoothScrollY .paper-icon-button-light > i {
+	color: #ffffff !important;}
+.listItem.lnkPath.lnkDirectory i.md-icon {
+	color: #ffffff !important;}
 /* Dashboard */
 .ui-body-a .emby-collapsible-button iron-icon.x-scope.iron-icon-0, form.syncSettingsForm i.md-icon, {color: #FFFFFF;}
 [is=paper-icon-button-light][title="Select Directory"] {color: #FFFFFF !important;}
