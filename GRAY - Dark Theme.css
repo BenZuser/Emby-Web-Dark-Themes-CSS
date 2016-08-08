@@ -1,4 +1,4 @@
-/* Emby version : 3.1.94.0 */
+/* Emby version : 3.1.95.0 */
 /* Color HEX codes */
 /* RED	       : #E81123 & (232, 17, 35)
 /* DARK COLOR  : #94131E
@@ -148,6 +148,9 @@ button.fab.mini.btnCloseDialog, paper-fab.btnCancelVoiceInput.x-scope.paper-fab-
 #pendingInstallations {
   color: #7F7F7F; }
 
+.listItem .secondary span {
+  color: #535353 !important; }
+
 /* Home Page */
 [is="emby-button"].detailFloatingButton, paper-fab.btnCancelSupporterInfo.x-scope.paper-fab-0 {
   background-color: #7F7F7F !important; }
@@ -280,11 +283,11 @@ div#primaryProgress.style-scope.paper-progress {
   color: #7F7F7F !important; }
 
 /* --- Pop-up Windows --- */
-.dialogButton {
+.promptDialogButton {
   color: #7F7F7F !important;
   background-color: transparent !important; }
 
-.dialogButton:hover {
+.promptDialogButton:hover {
   color: #9b9b9b !important;
   background-color: transparent !important; }
 
