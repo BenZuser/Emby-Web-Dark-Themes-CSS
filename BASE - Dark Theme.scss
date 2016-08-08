@@ -1,4 +1,4 @@
-/* Emby version : 3.1.94.0 */
+/* Emby version : 3.1.95.0 */
 
 /* Color HEX codes */
 
@@ -136,6 +136,7 @@ color: #FFFFFF !important;}
 .scheduledTaskPaperIconItem[data-status='Idle'] paper-fab, div.devicesList paper-fab.x-scope.paper-fab-0, div.paperList.folderList button.fab.mini, paper-icon-item.localReaderOption.x-scope.paper-icon-item-0 paper-fab.x-scope.paper-fab-0 {background-color: $accent-color !important;}
 .scheduledTaskPaperIconItem[data-status="Running"] paper-fab {background-color: $accent-color-dark !important;}
 #pendingInstallations {color: $accent-color;}
+.listItem .secondary span  { color: $accent-color-dark !important; }
 /* Home Page */
 [is="emby-button"].detailFloatingButton, paper-fab.btnCancelSupporterInfo.x-scope.paper-fab-0 {
 background-color: $accent-color !important;}
@@ -222,10 +223,10 @@ div#primaryProgress.style-scope.paper-progress {
 /* Dashboard */
 .type-interior h2, p.disclaimer {color: $accent-color !important;}
 /* --- Pop-up Windows --- */
-.dialogButton {
+.promptDialogButton {
     color: $accent-color !important;
     background-color: transparent !important;}
-.dialogButton:hover {
+.promptDialogButton:hover {
     color: #9b9b9b !important;
     background-color: transparent !important;}
 .dialog .buttons button {color: $accent-color !important;}
