@@ -131,6 +131,9 @@ div#checkbox.checked.style-scope.paper-checkbox {
   border-color: #F707DF !important; }
 
 /* --- Circles --- */
+.levelError {
+  background-color: #F707DF !important; }
+
 .fab.blue, .fab.red, .fab.green, .fab.orange, paper-fab.blue, paper-fab.red, paper-fab.green, paper-fab.orange {
   background-color: #F707DF !important; }
 
@@ -235,6 +238,10 @@ button[is="emby-button"].accent {
 
 /* --- 1.2 : Details --- */
 /* --- Icons & Indicators --- */
+/*Needs added to 3.0.6050 - Dashboard Up to Date checkbox*/
+p#pUpToDate i.md-icon {
+  background-color: #F707DF !important; }
+
 /* Home Page */
 .playedIndicator, .countIndicator {
   background-color: #F707DF !important; }
@@ -269,11 +276,24 @@ div#primaryProgress.style-scope.paper-progress {
   background-color: transparent; }
 
 /* --- Fonts --- */
+/*needs added Scheduled Task percentages*/
+.listItem .secondary span {
+  color: #F707DF !important; }
+
 /* Dashboard */
 .type-interior h2, p.disclaimer {
   color: #F707DF !important; }
 
 /* --- Pop-up Windows --- */
+/*change for(.dialogButton) Starup-Shutdown popup*/
+.promptDialogButton {
+  color: #F707DF !important;
+  background-color: transparent !important; }
+
+.promptDialogButton:hover {
+  color: #9b9b9b !important;
+  background-color: transparent !important; }
+
 .dialogButton {
   color: #F707DF !important;
   background-color: transparent !important; }

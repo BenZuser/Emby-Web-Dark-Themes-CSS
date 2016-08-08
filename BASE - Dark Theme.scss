@@ -127,6 +127,8 @@ div#checkbox.checked.style-scope.paper-checkbox {border-color: $accent-color !im
     background-color: $accent-color !important;
     border-color: $accent-color !important;}
 /* --- Circles --- */
+.levelError {
+    background-color: $accent-color !important;}
 .fab.blue, .fab.red, .fab.green, .fab.orange, paper-fab.blue, paper-fab.red, paper-fab.green, paper-fab.orange {
     background-color: $accent-color !important;}
 button.fab.mini.btnCloseDialog, paper-fab.btnCancelVoiceInput.x-scope.paper-fab-0 {
@@ -197,6 +199,9 @@ button[is="emby-button"].accent {color: $accent-color;}
 
 /* --- 1.2 : Details --- */
 /* --- Icons & Indicators --- */
+/*Needs added to 3.0.6050 - Dashboard Up to Date checkbox*/
+p#pUpToDate i.md-icon {
+  background-color: $accent-color !important; }
 /* Home Page */
 .playedIndicator, .countIndicator {background-color: $accent-color !important;}
 .starRatingContainer i {color: $accent-color !important;}
@@ -216,9 +221,19 @@ div#primaryProgress.style-scope.paper-progress {
 .listItemIcon {background-color: $accent-color !important;}
 .mdl-checkbox__input:focus + span + .mdl-checkbox__focus-helper {background-color: transparent;}
 /* --- Fonts --- */
+/*needs added Scheduled Task percentages*/
+.listItem .secondary span  {
+  color: $accent-color !important; }
 /* Dashboard */
 .type-interior h2, p.disclaimer {color: $accent-color !important;}
 /* --- Pop-up Windows --- */
+/*change for(.dialogButton) Starup-Shutdown popup*/
+.promptDialogButton {
+  color: $accent-color !important;
+  background-color: transparent !important; }
+.promptDialogButton:hover {
+  color: #9b9b9b !important;
+  background-color: transparent !important; }
 .dialogButton {
     color: $accent-color !important;
     background-color: transparent !important;}
