@@ -338,6 +338,9 @@ div.editorNode:hover + div.jstree-wholerow.jstree-wholerow-clicked {
 	
 /* 1.2.5 Others */
 /* Progress Bars */
+.paper-progress-0 #primaryProgress.paper-progress {
+    background: $accent-color !important; }
+
 .itemProgressBarForeground {
     background-color: $accent-color !important; }
 
@@ -348,7 +351,7 @@ progress::-moz-progress-bar {
 	background: $accent-color; }
 	
 progress {
-    color: $accent-color !important; }
+    background: $accent-color !important; }
 
 /* Playing Bars */
 .mdl-slider__background-lower, .sliderBubble, 
