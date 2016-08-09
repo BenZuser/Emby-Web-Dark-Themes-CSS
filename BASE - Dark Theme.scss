@@ -1,4 +1,4 @@
-/* Emby version : 3.1.95.0 */
+/* Emby version : 3.1.96.0 */
 
 /* Color HEX codes */
 
@@ -265,16 +265,16 @@ div.focused-line.style-scope.paper-input-container {background-color: $accent-co
     -webkit-box-shadow: 0 0 20px 3px $accent-color;
     box-shadow: 0 0 20px 3px $accent-color;}
 /*Glow for userview cards */
-div.homePageSection.section0 button.cardContent {
-  border: 1px solid rgba($red,$green,$blue,.5) !important;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba($red,$green,$blue,.6) !important;
-  box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba($red,$green,$blue,.6) !important;}
+div.homePageSection.section0 div.cardScalable, div.homePageSection.section0 div.cardScalable.withHoverMenu {
+  border: 1px solid rgba($red,$green,$blue,.5);
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba($red,$green,$blue,.6);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba($red,$green,$blue,.6);}
 .remoteImageContainer .remoteImage:hover, .remoteImageContainer .searchImageContainer:hover {
     -moz-box-shadow: 0 0 0 5px $accent-color;
     -webkit-box-shadow: 0 0 0 5px $accent-color;
     box-shadow: 0 0 0 5px $accent-color;}
 /* Home Page Selection */
-div.selectionCommandsPanel {background: $accent-color;}
+div.selectionCommandsPanel, .ui-body-a div.formDialogHeader {background: $accent-color;}
 .itemSelectionPanel {border: 1px solid $accent-color !important;}
 .checkboxOutline {border: 2px solid $accent-color;}
 .ui-body-b a {color: $accent-color;}
