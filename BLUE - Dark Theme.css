@@ -315,7 +315,7 @@ html body .ui-group-theme-b a:active {
   color: #4285F4 !important; }
 
 /* Individual Elements */
-div#pendingInstallations, .listItem .secondary span, p.disclaimer, .type-interior h2 {
+div#pendingInstallations, .listItem .secondary span, p.disclaimer, .type-interior h2, div#divRunningTasks span {
   color: #4285F4 !important; }
 
 a.nowPlayingTabButton.selectedNowPlayingTabButton {
