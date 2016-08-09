@@ -392,6 +392,9 @@ div.selectionCommandsPanel {
 .itemSelectionPanel {
   border: 1px solid #FF8000 !important; }
 
+.mdl-spinner__layer-1, .mdl-spinner__layer-2, .mdl-spinner__layer-3, .mdl-spinner__layer-4 {
+  border-color: #FF8000 !important; }
+
 /* ------------------ 2. MISCELLANEOUS MODIFICATIONS ----------------- */
 /* ----- 2.1 Buttons ----- */
 /* Multiple Elements */
