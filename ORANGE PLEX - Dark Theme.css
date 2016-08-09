@@ -370,7 +370,7 @@ div.homePageSection.section0 div.cardScalable, div.homePageSection.section0 div.
   box-shadow: 0 0 0 5px #CC7B19; }
 
 /* Home Page Selection */
-div.selectionCommandsPanel, .ui-body-a div.formDialogHeader {
+div.selectionCommandsPanel {
   background: #CC7B19; }
 
 .itemSelectionPanel {
@@ -640,6 +640,9 @@ form.newCollectionForm div {
 
 /* --- Pop-up Windows --- */
 /* Dashboard */
+.ui-body-a div.formDialogHeader, .ui-body-b div.formDialogHeader {
+  background: #101010 !important; }
+
 .dialog.background-theme-a, .dialog.background-theme-b {
   background-color: #19191A; }
 

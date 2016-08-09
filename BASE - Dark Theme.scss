@@ -274,7 +274,7 @@ div.homePageSection.section0 div.cardScalable, div.homePageSection.section0 div.
     -webkit-box-shadow: 0 0 0 5px $accent-color;
     box-shadow: 0 0 0 5px $accent-color;}
 /* Home Page Selection */
-div.selectionCommandsPanel, .ui-body-a div.formDialogHeader {background: $accent-color;}
+div.selectionCommandsPanel {background: $accent-color;}
 .itemSelectionPanel {border: 1px solid $accent-color !important;}
 .checkboxOutline {border: 2px solid $accent-color;}
 .ui-body-b a {color: $accent-color;}
@@ -448,6 +448,7 @@ legend, div.syncActivity, form.localAccessForm.localAccessSection div, .ui-body-
 form.newCollectionForm div {color: #AAAAAA !important;}
 /* --- Pop-up Windows --- */
 /* Dashboard */
+.ui-body-a div.formDialogHeader, .ui-body-b div.formDialogHeader {background: #101010 !important;}
 .dialog.background-theme-a, .dialog.background-theme-b {
 background-color: #19191A;}
 .ui-bar-a, .ui-page-theme-a .ui-bar-inherit, html .ui-bar-a .ui-bar-inherit, html .ui-body-a .ui-bar-inherit, html body .ui-group-theme-a .ui-bar-inherit {background-color: #101010 !important;
