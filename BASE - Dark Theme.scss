@@ -330,8 +330,8 @@ iron-autogrow-textarea#input.paper-input-input.style-scope.paper-textarea.x-scop
 div.readOnlyContent.dashboardHomeRightColumn.firstDashboardHomeRightColumn div.paperList.activityItems paper-fab.x-scope.paper-fab-0 {background-color: transparent !important;
 box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0), 0 1px 5px 0 rgba(0, 0, 0, 0), 0 3px 1px -2px rgba(0, 0, 0, 0);
 color: $accent-color !important;}
-.ui-body-a div.dialogHeader, .ui-body-b div.dialogHeader {
-background-color: #101010;
+.ui-body-a div.formDialogHeader, .ui-body-b div.formDialogHeader {
+background-color: #101010 !important;
     color: #FFFFFF;}
 /* Home Page */
 div#criticRatingSummary.paperList {
