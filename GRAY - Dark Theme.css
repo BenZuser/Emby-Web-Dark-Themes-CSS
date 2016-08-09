@@ -1,4 +1,4 @@
-/* Emby version : 3.1.95.0 */
+/* Emby version : 3.1.96.0 */
 /* Color HEX codes */
 /* RED	       : #E81123 & (232, 17, 35)
 /* DARK COLOR  : #94131E
@@ -359,10 +359,10 @@ div.focused-line.style-scope.paper-input-container {
   box-shadow: 0 0 20px 3px #7F7F7F; }
 
 /*Glow for userview cards */
-div.homePageSection.section0 button.cardContent {
-  border: 1px solid rgba(127, 127, 127, 0.5) !important;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(127, 127, 127, 0.6) !important;
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(127, 127, 127, 0.6) !important; }
+div.homePageSection.section0 div.cardScalable, div.homePageSection.section0 div.cardScalable.withHoverMenu {
+  border: 1px solid rgba(127, 127, 127, 0.5);
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(127, 127, 127, 0.6);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(127, 127, 127, 0.6); }
 
 .remoteImageContainer .remoteImage:hover, .remoteImageContainer .searchImageContainer:hover {
   -moz-box-shadow: 0 0 0 5px #7F7F7F;
@@ -370,7 +370,7 @@ div.homePageSection.section0 button.cardContent {
   box-shadow: 0 0 0 5px #7F7F7F; }
 
 /* Home Page Selection */
-div.selectionCommandsPanel {
+div.selectionCommandsPanel, .ui-body-a div.formDialogHeader {
   background: #7F7F7F; }
 
 .itemSelectionPanel {
