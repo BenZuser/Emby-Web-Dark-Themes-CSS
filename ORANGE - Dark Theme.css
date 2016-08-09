@@ -133,7 +133,8 @@ html body .ui-group-theme-a .ui-checkbox-on:after,
 /* 1.1.2 Circles */
 /* Multiple Elements */
 .fab.blue, .fab.red, .fab.green, .fab.orange,
-button.fab.mini.btnCloseDialog.autoSize.emby-button {
+button.fab.mini.btnCloseDialog.autoSize.emby-button,
+button.fab.mini.btnCloseDialog.emby-button {
   background-color: #FF8000 !important; }
 
 i.listItemIcon.md-icon {
