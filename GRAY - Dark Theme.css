@@ -1,4 +1,4 @@
-/* Emby version : 3.1.94.0 */
+/* Emby version : 3.1.96.0 */
 /* Color HEX codes */
 /* RED	       : #E81123 & (232, 17, 35)
 /* DARK COLOR  : #94131E
@@ -148,6 +148,9 @@ button.fab.mini.btnCloseDialog, paper-fab.btnCancelVoiceInput.x-scope.paper-fab-
 #pendingInstallations {
   color: #7F7F7F; }
 
+.listItem .secondary span {
+  color: #535353 !important; }
+
 /* Home Page */
 [is="emby-button"].detailFloatingButton, paper-fab.btnCancelSupporterInfo.x-scope.paper-fab-0 {
   background-color: #7F7F7F !important; }
@@ -280,11 +283,11 @@ div#primaryProgress.style-scope.paper-progress {
   color: #7F7F7F !important; }
 
 /* --- Pop-up Windows --- */
-.dialogButton {
+.promptDialogButton {
   color: #7F7F7F !important;
   background-color: transparent !important; }
 
-.dialogButton:hover {
+.promptDialogButton:hover {
   color: #9b9b9b !important;
   background-color: transparent !important; }
 
@@ -356,10 +359,10 @@ div.focused-line.style-scope.paper-input-container {
   box-shadow: 0 0 20px 3px #7F7F7F; }
 
 /*Glow for userview cards */
-div.homePageSection.section0 button.cardContent {
-  border: 1px solid rgba(127, 127, 127, 0.5) !important;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(127, 127, 127, 0.6) !important;
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(127, 127, 127, 0.6) !important; }
+div.homePageSection.section0 div.cardScalable, div.homePageSection.section0 div.cardScalable.withHoverMenu {
+  border: 1px solid rgba(127, 127, 127, 0.5);
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(127, 127, 127, 0.6);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(127, 127, 127, 0.6); }
 
 .remoteImageContainer .remoteImage:hover, .remoteImageContainer .searchImageContainer:hover {
   -moz-box-shadow: 0 0 0 5px #7F7F7F;
@@ -637,6 +640,9 @@ form.newCollectionForm div {
 
 /* --- Pop-up Windows --- */
 /* Dashboard */
+.ui-body-a div.formDialogHeader, .ui-body-b div.formDialogHeader {
+  background: #101010 !important; }
+
 .dialog.background-theme-a, .dialog.background-theme-b {
   background-color: #19191A; }
 
