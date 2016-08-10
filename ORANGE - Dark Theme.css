@@ -237,7 +237,8 @@ div.supporterPromotion button.raised.block {
 #containerProfilePopup > div.ui-content > form > p:nth-child(4) > button:nth-child(1),
 #codecProfilePopup > div.ui-content > form > p:nth-child(4) > button:nth-child(1),
 #responseProfilePopup > div.ui-content > form > p > button:nth-child(1),
-#subtitleProfilePopup > div.ui-content > form > p > button:nth-child(1) {
+#subtitleProfilePopup > div.ui-content > form > p > button:nth-child(1),
+#popupSchedule > div:nth-child(2) > form > ul > li:nth-child(4) > button:nth-child(2) {
   background: #FF8000 !important;
   border-color: #FF8000 !important;
   color: #ffffff !important; }
@@ -251,9 +252,11 @@ button.btnSubmit.emby-button, button.btnCancel.emby-button {
   color: #FF8000 !important;
   background: transparent !important; }
 
-.promptDialogButton:hover, button.actionSheetMenuItem[is="emby-button"]:hover,
-button.btnPromptExit.emby-button:hover, button.btnSubmit.emby-button:hover,
-button.btnCancel.emby-button:hover {
+.promptDialogButton:hover, button.btnPromptExit.emby-button:hover,
+button.btnSubmit.emby-button:hover, button.btnCancel.emby-button:hover {
+  color: #9b9b9b !important; }
+
+button.actionSheetMenuItem[is="emby-button"]:hover {
   color: #9b9b9b !important;
   background-color: transparent !important; }
 
@@ -554,6 +557,10 @@ button[is="emby-button"].cancel, button[is="emby-button"].subdued,
   background: #404040 !important;
   color: #ffffff !important; }
 
+button[is="emby-button"].cancel:hover, button[is="emby-button"].subdued:hover {
+  background: #404040 !important;
+  color: #ffffff !important; }
+
 [is="emby-button"].raised {
   color: #ffffff;
   background: #404040; }
@@ -587,7 +594,10 @@ html head + body .ui-btn.ui-btn-a:visited, ul[data-role="listview"] a + a {
 #containerProfilePopup > div.ui-content > form > p:nth-child(4) > button:nth-child(2),
 #codecProfilePopup > div.ui-content > form > p:nth-child(4) > button:nth-child(2),
 #responseProfilePopup > div.ui-content > form > p > button:nth-child(2),
-#subtitleProfilePopup > div.ui-content > form > p > button:nth-child(2) {
+#subtitleProfilePopup > div.ui-content > form > p > button:nth-child(2),
+#userParentalControlPage > div.ui-content > div > form > div.accessScheduleSection > div > div > button,
+#popupSchedule > div:nth-child(2) > form > ul > li:nth-child(4) > button:nth-child(3),
+#serverSecurityPage > div > div > table > tbody > tr > td:nth-child(1) > button {
   background: #404040 !important;
   border-color: #404040 !important;
   color: #ffffff !important; }
@@ -608,7 +618,7 @@ div.dialogContent.smoothScrollY .paper-icon-button-light > i {
 
 /* 4.2.2 Fonts */
 /* Multiple Elements */
-select, input, h1, h2, h3, p, table, legend {
+select, input, h1, h2, h3, p, table, legend, div.legend {
   color: #ffffff !important; }
 
 .checkboxLabel, .paperListLabel, .listItemBodyText, .detailSectionHeader, .visualCardBox .cardFooter,
@@ -632,6 +642,9 @@ div#checkboxLabel.style-scope.paper-checkbox, div#appVersionNumber,
 div.criticRatingSummaryText.secondary, div.syncActivity, div#ratingLine,
 span.storeItemReviewText, div#revisionHistory div {
   color: #ffffff !important; }
+
+form.localAccessForm.localAccessSection div {
+  color: #ffffff; }
 
 /* 4.2.3 Dashboard Drawer */
 /* Backgrounds */
@@ -679,7 +692,7 @@ html .ui-body-a .ui-bar-inherit, html body .ui-group-theme-a .ui-bar-inherit {
 
 .ui-page-theme-a .ui-body-inherit, html .ui-bar-a .ui-body-inherit,
 html .ui-body-a .ui-body-inherit, html body .ui-group-theme-a .ui-body-inherit,
-html .ui-panel-page-container-a {
+html .ui-panel-page-container-a, .ui-popup.ui-body-a {
   background-color: #010101 !important;
   border-color: #101010 !important; }
 
