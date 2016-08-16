@@ -1,5 +1,5 @@
 /* 
------------------------- EMBY VERSION : 3.1.97.0 ------------------------
+------------------------ EMBY VERSION : 3.1.106.0 -----------------------
 _________________________________________________________________________
 ------------------------- COLOR HEX & RGB CODES -------------------------
 		
@@ -206,7 +206,7 @@ button[is="emby-button"].raised:not(.subdued):not(.cancel) {
 /* Individual Elements */
 button#btnShutdown.raised.subdued, button#btnRestart.raised.subdued,
 #btnUpdateApplication, button.raised.subdued.btnRestartContainer,
-button.btnHeaderSave.accent.autoSize.emby-button {
+button.btnHeaderSave.accent.autoSize.emby-button, #pPluginUpdates button {
   background: #101010 !important;
   color: #FF8000 !important;
   border-color: #101010 !important; }
@@ -267,7 +267,7 @@ button.btnCancel.emby-button:active {
 
 /* 1.1.7 Others */
 /* Multiple Elements */
-.pageTabButton.is-active .pageTabButtonSelectionBar {
+button.emby-tab-button-active .emby-tab-button-selection-bar {
   background: #FF8000 !important; }
 
 /* Individual Elements */
@@ -310,7 +310,7 @@ html body .ui-group-theme-b a:active {
   color: #BF6000 !important; }
 
 /* Multiple Elements */
-.pageTabButton.is-active {
+button.emby-tab-button-active {
   color: #FF8000 !important; }
 
 .selectLabelFocused, .inputLabelFocused, .textareaLabelFocused,
