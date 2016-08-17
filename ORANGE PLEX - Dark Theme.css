@@ -1,5 +1,5 @@
 /* 
------------------------- EMBY VERSION : 3.1.106.0 -----------------------
+------------------------ EMBY VERSION : 3.1.109.0 -----------------------
 _________________________________________________________________________
 ------------------------- COLOR HEX & RGB CODES -------------------------
 		
@@ -267,7 +267,7 @@ button.btnCancel.emby-button:active {
 
 /* 1.1.7 Others */
 /* Multiple Elements */
-button.emby-tab-button-active .emby-tab-button-selection-bar {
+button.emby-tab-button-active .emby-tab-button-selection-bar, .emby-tabs-selection-bar {
   background: #CC7B19 !important; }
 
 /* Individual Elements */
