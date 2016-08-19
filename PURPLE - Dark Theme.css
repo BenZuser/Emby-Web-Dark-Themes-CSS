@@ -1,5 +1,5 @@
 /* 
------------------------- EMBY VERSION : 3.0.6060 ------------------------
+------------------------ EMBY VERSION : 3.0.6070 ------------------------
 _________________________________________________________________________
 ------------------------- COLOR HEX & RGB CODES -------------------------
 		
@@ -267,7 +267,7 @@ button.btnCancel.emby-button:active {
 
 /* 1.1.7 Others */
 /* Multiple Elements */
-.pageTabButton.is-active .pageTabButtonSelectionBar {
+button.emby-tab-button-active .emby-tab-button-selection-bar, .emby-tabs-selection-bar {
   background: #673AB7 !important; }
 
 /* Individual Elements */
@@ -310,7 +310,7 @@ html body .ui-group-theme-b a:active {
   color: #3F2471 !important; }
 
 /* Multiple Elements */
-.pageTabButton.is-active {
+button.emby-tab-button-active {
   color: #673AB7 !important; }
 
 .selectLabelFocused, .inputLabelFocused, .textareaLabelFocused,
