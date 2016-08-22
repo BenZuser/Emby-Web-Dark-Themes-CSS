@@ -1,5 +1,5 @@
 /* 
------------------------- EMBY VERSION : 3.1.115.0 -----------------------
+------------------------ EMBY VERSION : 3.1.116.0 -----------------------
 _________________________________________________________________________
 ------------------------- COLOR HEX & RGB CODES -------------------------
 		
@@ -267,6 +267,7 @@ button.btnCancel.emby-button:active {
 	
 /* 1.1.7 Others */
 /* Multiple Elements */
+div.emby-tabs-selection-bar {background: $accent-color !important; }
 
 /* Individual Elements */
 /* ----- 1.2 Details ----- */
@@ -308,7 +309,7 @@ html body .ui-group-theme-b a:active {
     color: $accent-color-dark !important; }
 
 /* Multiple Elements */
-button.emby-tab-button-active {
+button.emby-tab-button.emby-tab-button-active.emby-button {
 	color: $accent-color !important; border-color: $accent-color !important; }
 	
 .selectLabelFocused, .inputLabelFocused, .textareaLabelFocused,
