@@ -1,5 +1,5 @@
 /* 
------------------------- EMBY VERSION : 3.1.116.0 -----------------------
+	EMBY VERSION : 3.1.6084.26495
 _________________________________________________________________________
 ------------------------- COLOR HEX & RGB CODES -------------------------
 		
@@ -495,8 +495,8 @@ a#MediaFolders_anchor.jstree-anchor {
 	
 /* ----- 2.3 Corrections ----- */
 /* CSS Box */
-iron-autogrow-textarea#input.paper-input-input.style-scope.paper-textarea.x-scope.iron-autogrow-textarea-0 {
-	height: 300px !important; }
+#txtCustomCss {
+	color: height: 300px !important; overflow-y: scroll !important;}
 	
 /* Tomatometer */
 div#criticRatingSummary.paperList {
@@ -644,6 +644,9 @@ span.storeItemReviewText, div#revisionHistory div {
 	
 form.localAccessForm.localAccessSection div {
 	color: #ffffff; }
+
+#txtCustomCss {
+	color: #ffffff !important;}
 	
 /* 4.2.3 Dashboard Drawer */
 /* Backgrounds */
