@@ -340,7 +340,7 @@ div.editorNode:hover + div.jstree-wholerow.jstree-wholerow-clicked {
 	
 /* 1.2.5 Others */
 /* Progress Bars */
-.paper-progress-0 #primaryProgress.paper-progress {
+.taskProgressInner {
     background: $accent-color !important; }
 
 .itemProgressBarForeground {
@@ -497,7 +497,7 @@ a#MediaFolders_anchor.jstree-anchor {
 /* CSS Box */
 #txtCustomCss {
 	height: 300px !important; 
-	overflow-y: scroll !important;}
+	overflow-y: scroll !important; }
 	
 /* Tomatometer */
 div#criticRatingSummary.paperList {
@@ -647,7 +647,7 @@ form.localAccessForm.localAccessSection div {
 	color: #ffffff; }
 
 #txtCustomCss {
-	color: #ffffff !important;}
+	color: #ffffff !important; }
 	
 /* 4.2.3 Dashboard Drawer */
 /* Backgrounds */
