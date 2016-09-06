@@ -1,5 +1,5 @@
 /* 
-	EMBY VERSION : 3.0.6300
+	EMBY VERSION : 3.0.6400
 _________________________________________________________________________
 ------------------------- COLOR HEX & RGB CODES -------------------------
 		
@@ -342,7 +342,7 @@ div.editorNode:hover + div.jstree-wholerow.jstree-wholerow-clicked {
 
 /* 1.2.5 Others */
 /* Progress Bars */
-.paper-progress-0 #primaryProgress.paper-progress {
+.taskProgressInner {
   background: #E81123 !important; }
 
 .itemProgressBarForeground {
