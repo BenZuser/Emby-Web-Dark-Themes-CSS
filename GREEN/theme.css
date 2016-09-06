@@ -342,7 +342,7 @@ div.editorNode:hover + div.jstree-wholerow.jstree-wholerow-clicked {
 
 /* 1.2.5 Others */
 /* Progress Bars */
-.paper-progress-0 #primaryProgress.paper-progress {
+.taskProgressInner {
   background: #52B54B !important; }
 
 .itemProgressBarForeground {
