@@ -274,7 +274,7 @@ div.emby-tabs-selection-bar {
 /* ----- 1.2 Details ----- */
 /* 1.2.1 Icons */
 /* Multiple Elements */
-.starIcon, button[is="emby-button"].accent {
+.starIcon, .button-accent-flat {
   color: #CC7B19 !important; }
 
 div#pluginTiles i.md-icon, div.catalog i.md-icon {
