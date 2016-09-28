@@ -689,6 +689,9 @@ form.localAccessForm.localAccessSection div {
 .ui-body-a div.formDialogHeader, .ui-body-b div.formDialogHeader {
   background-color: #101010; }
 
+.formDialogFooter {
+  background-color: #101010 !important; }
+
 /* Medium Pop-up Dialogs */
 .ui-bar-a, .ui-page-theme-a .ui-bar-inherit, html .ui-bar-a .ui-bar-inherit,
 html .ui-body-a .ui-bar-inherit, html body .ui-group-theme-a .ui-bar-inherit {
