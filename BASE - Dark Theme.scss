@@ -552,10 +552,16 @@ div[data-role="controlgroup"] a[data-role='button'],
 /* Individual Elements */	
 /* 4.1.3 Rectangles */
 /* Multiple Elements */
-button[is="emby-button"].cancel, button[is="emby-button"].subdued, 
-.ui-body-a .emby-collapsible-button {
+button[is="emby-button"].cancel, button[is="emby-button"].subdued {
 	background: #404040 !important;
 	color: #ffffff !important; }
+	
+.ui-body-a .emby-collapsible-button {
+    background: transparent !important;
+    color: #ffffff !important; }
+
+.ui-body-a .emby-collapsible-button {
+    border-color: #FFFFFF !important; }
 	
 button[is="emby-button"].cancel:hover , button[is="emby-button"].subdued:hover {
 	background: #404040 !important;
