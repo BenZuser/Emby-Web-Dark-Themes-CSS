@@ -1,6 +1,6 @@
 /* ----------------------- REMOVED ELEMENTS ----------------------- */
 /* ----- Home ----- */
-/* Glow Light around image in Media Detail Page */
+/* Glow Light around image/poster in Media Detail Page */
 .itemDetailGalleryLink img:hover {
     -moz-box-shadow: 0 0 20px 3px transparent !Important;
     -webkit-box-shadow: 0 0 20px 3px transparent !Important;
