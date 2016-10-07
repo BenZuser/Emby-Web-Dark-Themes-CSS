@@ -1,0 +1,11 @@
+/* ----------------------- REMOVED ELEMENTS ----------------------- */
+/* ----- Home ----- */
+/* Glow Light around image in Media Detail Page */
+.itemDetailGalleryLink img:hover {
+    -moz-box-shadow: 0 0 20px 3px transparent !Important;
+    -webkit-box-shadow: 0 0 20px 3px transparent !Important;
+    box-shadow: 0 0 20px 3px transparent !Important; }
+
+/* Similar Contents and Scenes in Media Detail Page */
+	#similarCollapsible, #scenesCollapsible { 
+	display: none !important; }	
