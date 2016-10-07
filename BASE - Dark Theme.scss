@@ -78,11 +78,7 @@ _________________________________________________________________________
 		   2.2.3 Metadata Editor
 	       2.2.4 Others
 	   2.3 Corrections
-	3. REMOVED ELEMENTS
-	   3.1 Home
-	   3.2 Dashboard
-	   3.3 Metadata Editor
-	   3.4 Others
+	3. PLACEHOLDER
 	4. DARK COLORS 	
 	   4.1 Buttons
 	       4.1.1 Checkboxes
@@ -518,21 +514,7 @@ div#criticRatingSummary.paperList {
 select:focus {
   outline: transparent auto 5px !important; }
   
-/* ----------------------- 3. REMOVED ELEMENTS ----------------------- */
-/* ----- 3.1 Home ----- */
-/* Glow Light around image in Media Detail Page */
-.itemDetailGalleryLink img:hover {
-    -moz-box-shadow: 0 0 20px 3px transparent !Important;
-    -webkit-box-shadow: 0 0 20px 3px transparent !Important;
-    box-shadow: 0 0 20px 3px transparent !Important; }
-
-/* Similar Contents and Scenes in Media Detail Page */
-	#similarCollapsible, #scenesCollapsible { 
-	display: none !important; }	
-	
-/* ----- 3.2 Dashboard ----- */
-/* ----- 3.3 Metadata Editor ----- */
-/* ----- 3.4 Others ----- */
+/* ----------------------- 3. PLACEHOLDER ----------------------- */
 /* ------------------------- 4. DARK COLORS -------------------------- */
 /* ----- 4.1 Buttons ----- */
 /* 4.1.1 Checkboxes */
