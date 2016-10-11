@@ -386,6 +386,11 @@ div.focused-line.style-scope.paper-input-container {
 .emby-textarea:focus + .emby-textarea-selectionbar {
   background-color: #52B54B !important; }
 
+.remoteImage:hover, .searchImageContainer:hover {
+  -moz-box-shadow: 0 0 0 5px #52B54B !important;
+  -webkit-box-shadow: 0 0 0 5px #52B54B !important;
+  box-shadow: 0 0 0 5px #52B54B !important; }
+
 /* Individual Elements */
 p#pUpToDate i.md-icon {
   background-color: #52B54B !important; }
@@ -473,6 +478,10 @@ a.sidebarLink.lnkMediaFolder.selectedMediaFolder i.md-icon.sidebarLinkIcon {
 div.editorNode, div.editorNode:hover, div.editorNode:active,
 a#MediaFolders_anchor.jstree-anchor {
   color: #ffffff !important; }
+
+/* Dashboard Metadata Section Moved background */
+#metadataConfigurationPage form div {
+  background: none !important; }
 
 /* 2.2.4 Others */
 /* Image Files */
@@ -595,6 +604,10 @@ html head + body .ui-btn.ui-btn-a:visited, ul[data-role="listview"] a + a {
 /* 4.1.4 Others */
 /* Multiple Elements */
 /* Individual Elements */
+/* Dashboard Access Help Buttons */
+#dashboardPage a:nth-child(2) {
+  background: #181818 !important; }
+
 /* ----- 4.2 Details ----- */
 /* 4.2.1 Icons */
 /* Multiple Elements */
@@ -670,6 +683,10 @@ form.localAccessForm.localAccessSection div {
   border-bottom: 1px solid #343434 !important; }
 
 /* 4.2.4 Pop-up Dialogs */
+/* Edit Image Selectors */
+#selectImageProvider, #selectBrowsableImageType, #selectImageType {
+  background: #181818; }
+
 /* Big Pop-up Dialogs */
 .dialog.background-theme-a, .dialog.background-theme-b {
   background-color: #181818; }
