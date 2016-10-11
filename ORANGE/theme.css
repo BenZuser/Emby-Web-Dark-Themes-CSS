@@ -386,6 +386,11 @@ div.focused-line.style-scope.paper-input-container {
 .emby-textarea:focus + .emby-textarea-selectionbar {
   background-color: #FF8000 !important; }
 
+.remoteImage:hover, .searchImageContainer:hover {
+  -moz-box-shadow: 0 0 0 5px #FF8000 !important;
+  -webkit-box-shadow: 0 0 0 5px #FF8000 !important;
+  box-shadow: 0 0 0 5px #FF8000 !important; }
+
 /* Individual Elements */
 p#pUpToDate i.md-icon {
   background-color: #FF8000 !important; }
