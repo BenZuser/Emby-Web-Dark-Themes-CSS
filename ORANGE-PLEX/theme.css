@@ -604,6 +604,10 @@ html head + body .ui-btn.ui-btn-a:visited, ul[data-role="listview"] a + a {
 /* 4.1.4 Others */
 /* Multiple Elements */
 /* Individual Elements */
+/* Dashboard Access Help Buttons */
+#dashboardPage a:nth-child(2) {
+  background: #181818 !important; }
+
 /* ----- 4.2 Details ----- */
 /* 4.2.1 Icons */
 /* Multiple Elements */
@@ -679,6 +683,10 @@ form.localAccessForm.localAccessSection div {
   border-bottom: 1px solid #343434 !important; }
 
 /* 4.2.4 Pop-up Dialogs */
+/* Edit Image Selectors */
+#selectImageProvider, #selectBrowsableImageType, #selectImageType {
+  background: #181818; }
+
 /* Big Pop-up Dialogs */
 .dialog.background-theme-a, .dialog.background-theme-b {
   background-color: #181818; }
