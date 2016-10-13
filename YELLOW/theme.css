@@ -267,6 +267,14 @@ div.emby-tabs-selection-bar {
   background: #BDBD00 !important; }
 
 /* Individual Elements */
+#dashboardPage > div > div > div.dashboardContent > div.readOnlyContent.dashboardHomeLeftColumn > div:nth-child(2) > div.paperList > p.localUrl > a:nth-child(2),
+#dashboardPage > div > div > div.dashboardContent > div.readOnlyContent.dashboardHomeLeftColumn > div:nth-child(2) > div.paperList > p.externalUrl > a:nth-child(2) {
+  margin-left: 1em;
+  color: #ffffff !important;
+  background: #BDBD00 !important;
+  padding: .25em 1em;
+  border-radius: .5em; }
+
 /* ----- 1.2 Details ----- */
 /* 1.2.1 Icons */
 /* Multiple Elements */
