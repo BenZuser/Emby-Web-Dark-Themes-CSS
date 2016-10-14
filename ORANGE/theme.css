@@ -738,6 +738,9 @@ div.focuscontainer.dialog.smoothScrollY.ui-body-a.background-theme-a.formDialog.
 ul[data-role="listview"] > li[data-role="list-divider"] {
   background: #2b2b2b !important; }
 
+select {
+  background-color: #2b2b2b; }
+
 /* Individual Elements */
 div.card.activeSession > div > div:nth-child(2) {
   background: #2b2b2b !important;
