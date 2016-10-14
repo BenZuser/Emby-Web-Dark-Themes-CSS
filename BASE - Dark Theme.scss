@@ -1,5 +1,5 @@
 /* 
-	EMBY VERSION : 3.0.7300
+	EMBY VERSION : 3.0.8100
 _________________________________________________________________________
 ------------------------- COLOR HEX & RGB CODES -------------------------
 		
@@ -750,6 +750,9 @@ div.directPlayProfiles, div.transcodingProfiles, .containerProfiles,
 .codecProfiles, .mediaProfiles {
     border: 1px solid transparent;
     background-color: #080808; }
+
+#metadataConfigurationPage form div {
+	background: none !important; }
 	
 /* 4.2.6 Others */
 /* Multiple Elements */
