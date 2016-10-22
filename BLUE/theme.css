@@ -1,5 +1,5 @@
 /* 
-	EMBY VERSION : 3.1.6084.26495
+	EMBY VERSION : 3.1.196.0 beta
 _________________________________________________________________________
 ------------------------- COLOR HEX & RGB CODES -------------------------
 		
@@ -240,9 +240,7 @@ div.supporterPromotion button.raised.block {
   color: #ffffff !important; }
 
 /* 1.1.6 Pop-up Dialogs */
-/* Big Pop-up Dialogs */
-/* Medium Pop-up Dialogs */
-/* Small Pop-up Dialogs */
+/* Pop-up Dialogs */
 .promptDialogButton, .actionSheetScroller, button.btnPromptExit.emby-button,
 button.btnSubmit.emby-button, button.btnCancel.emby-button {
   color: #4285F4 !important;
@@ -260,6 +258,11 @@ button.actionSheetMenuItem[is="emby-button"]:hover {
 button.btnPromptExit.emby-button:active, button.btnSubmit.emby-button:active,
 button.btnCancel.emby-button:active {
   color: #0C57D6 !important; }
+
+#popupAddTrigger > form > div.ui-content > div:nth-child(7) > button:nth-child(1) {
+  background-color: #4285F4 !important;
+  border-color: #4285F4 !important;
+  color: #ffffff !important; }
 
 /* 1.1.7 Others */
 /* Multiple Elements */
@@ -601,6 +604,11 @@ html head + body .ui-btn.ui-btn-a:visited, ul[data-role="listview"] a + a {
   border-color: #404040 !important;
   color: #ffffff !important; }
 
+#popupAddTrigger > form > div.ui-content > div:nth-child(7) > button:nth-child(2) {
+  background-color: #404040  !important;
+  border-color: #404040  !important;
+  color: #ffffff !important; }
+
 /* 4.1.4 Others */
 /* Multiple Elements */
 /* Individual Elements */
@@ -691,17 +699,15 @@ form.localAccessForm.localAccessSection div {
 select {
   background-color: #2b2b2b; }
 
-/* Big Pop-up Dialogs */
+/* Pop-up Dialogs */
 .dialog.background-theme-a, .dialog.background-theme-b {
   background-color: #181818; }
 
-.ui-body-a div.formDialogHeader, .ui-body-b div.formDialogHeader {
-  background-color: #101010; }
+.formDialogHeader, .formDialogFooter, .ui-body-a div.formDialogHeader,
+.ui-body-b div.formDialogHeader {
+  background-color: #181818 !important; }
 
-.formDialogFooter {
-  background-color: #101010 !important; }
-
-/* Medium Pop-up Dialogs */
+/* Other Pop-up Dialogs */
 .ui-bar-a, .ui-page-theme-a .ui-bar-inherit, html .ui-bar-a .ui-bar-inherit,
 html .ui-body-a .ui-bar-inherit, html body .ui-group-theme-a .ui-bar-inherit {
   background-color: #101010 !important;
@@ -710,20 +716,15 @@ html .ui-body-a .ui-bar-inherit, html body .ui-group-theme-a .ui-bar-inherit {
 .ui-page-theme-a .ui-body-inherit, html .ui-bar-a .ui-body-inherit,
 html .ui-body-a .ui-body-inherit, html body .ui-group-theme-a .ui-body-inherit,
 html .ui-panel-page-container-a, .ui-popup.ui-body-a {
-  background-color: #010101 !important;
+  background-color: #101010 !important;
   border-color: #101010 !important; }
 
 div.focuscontainer.dialog.smoothScrollY.ui-body-a.background-theme-a.formDialog.centeredDialog.opened {
-  background-color: #010101 !important;
+  background-color: #101010 !important;
   color: #bbbbbb; }
 
 .mdl-radio__outer-circle {
   border-color: #101010 !important; }
-
-/* Small Pop-up Dialogs */
-.dialog:not(.background-theme-a):not(.background-theme-b) {
-  background-color: #010101 !important;
-  color: #bbbbbb; }
 
 /* 4.2.5 Backgrounds */
 /* Multiple Elements */
