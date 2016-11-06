@@ -1,5 +1,5 @@
 /* 
-	EMBY VERSION : 3.1.196.0 beta
+	EMBY VERSION : 3.1.211.0 beta
 _________________________________________________________________________
 ------------------------- COLOR HEX & RGB CODES -------------------------
 		
@@ -259,7 +259,7 @@ button.btnPromptExit.emby-button:active, button.btnSubmit.emby-button:active,
 button.btnCancel.emby-button:active {
   color: #94131E !important; }
 
-#popupAddTrigger > form > div.ui-content > div:nth-child(7) > button:nth-child(1) {
+#popupAddTrigger > form > div.ui-content > div:nth-child(7) > button:nth-child(1), button.block.submit.btnDone.emby-button {
   background-color: #E81123 !important;
   border-color: #E81123 !important;
   color: #ffffff !important; }
@@ -651,7 +651,7 @@ label, .selectLabel, .inputLabel, .textareaLabel {
 /* Individual Elements */
 div#checkboxLabel.style-scope.paper-checkbox, div#appVersionNumber,
 div.criticRatingSummaryText.secondary, div.syncActivity, div#ratingLine,
-span.storeItemReviewText, div#revisionHistory div {
+span.storeItemReviewText, div#revisionHistory div, ul[data-role="listview"], ul[data-role="listview"] > li {
   color: #ffffff !important; }
 
 form.localAccessForm.localAccessSection div {
