@@ -368,6 +368,12 @@ div.homePageSection.section0 div.cardScalable.withHoverMenu {
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(127, 127, 127, 0.6);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(127, 127, 127, 0.6); }
 
+/* Glow for Media Detail Page */
+.itemDetailGalleryLink img:hover {
+  -moz-box-shadow: 0 0 20px 3px #7F7F7F;
+  -webkit-box-shadow: 0 0 20px 3px #7F7F7F;
+  box-shadow: 0 0 20px 3px #7F7F7F; }
+
 /* Multiple Elements */
 :focus {
   outline: #7F7F7F auto 5px; }

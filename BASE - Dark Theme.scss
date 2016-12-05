@@ -366,6 +366,12 @@ div.homePageSection.section0 div.cardScalable.withHoverMenu {
    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba($red,$green,$blue, 0.6);
    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba($red,$green,$blue, 0.6); }
 
+/* Glow for Media Detail Page */
+.itemDetailGalleryLink img:hover {
+    -moz-box-shadow: 0 0 20px 3px $accent-color;
+    -webkit-box-shadow: 0 0 20px 3px $accent-color;
+    box-shadow: 0 0 20px 3px $accent-color; }
+   
 /* Multiple Elements */
 :focus {
 	outline: $accent-color auto 5px; }
