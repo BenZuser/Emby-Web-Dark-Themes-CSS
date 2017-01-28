@@ -186,7 +186,8 @@ button.autoSize.btnUserData.btnUserData.btnUserDataOn.paper-icon-button-light,
 /* Individual Elements */
 button.autoSize.fab.btnUserData.btnUserData.btnUserDataOn.mini.emby-button,
 button.autoSize.btnUserData.listItemButton.btnUserData.btnUserDataOn.paper-icon-button-light,
-button.autoSize.btnUserData.btnUserData.btnUserDataOn.paper-icon-button-light {
+button.autoSize.btnUserData.btnUserData.btnUserDataOn.paper-icon-button-light,
+button.btnCast.paper-icon-button-light.btnActiveCast i.md-icon {
   color: #673AB7 !important; }
 
 button.autoSize.fab.btnUserData.btnUserData.mini.emby-button {
