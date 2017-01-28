@@ -1,5 +1,5 @@
 /* 
-	EMBY VERSION : 3.1.211.0 beta
+	EMBY VERSION : 3.1.287 beta
 _________________________________________________________________________
 ------------------------- COLOR HEX & RGB CODES -------------------------
 		
@@ -709,6 +709,10 @@ select {
 .formDialogHeader, .formDialogFooter, .ui-body-a div.formDialogHeader,
  .ui-body-b div.formDialogHeader {
     background-color: #181818 !important; }
+
+/* Fix */
+body > div.dialogContainer > div > div.formDialogFooter.formDialogFooter-clear.formDialogFooter-flex {
+    background-color: transparent !important; }
 
 /* Other Pop-up Dialogs */
 .ui-bar-a, .ui-page-theme-a .ui-bar-inherit, html .ui-bar-a .ui-bar-inherit, 
