@@ -495,7 +495,7 @@ a#MediaFolders_anchor.jstree-anchor {
 
 /* 2.2.4 Others */
 /* Image Files */
-.imgLogoIcon, .adminDrawerLogo img {
+h3.libraryMenuButtonText.headerButton img {
   content: url(https://cdn.rawgit.com/BenZuser/Emby-Dark-Themes-Resources/master/images/logos-and-icons/PINK/logo.png) !important; }
 
 .lnkMediaFolder div:first-child {
