@@ -499,7 +499,7 @@ a#MediaFolders_anchor.jstree-anchor {
 
 /* 2.2.4 Others */
 /* Image Files */
-.imgLogoIcon, .adminDrawerLogo img, #loginPage img.imgLogoIcon {
+.imgLogoIcon, .adminDrawerLogo img, #loginPage img.imgLogoIcon, body > div.skinHeader > div > div.primaryIcons > h3 > img {
   content: url(https://cdn.rawgit.com/BenZuser/Emby-Dark-Themes-Resources/master/images/logos-and-icons/PINK/logo.png) !important; }
 
 .lnkMediaFolder div:first-child {
