@@ -499,7 +499,7 @@ a#MediaFolders_anchor.jstree-anchor {
 
 /* 2.2.4 Others */
 /* Image Files */
-h3.libraryMenuButtonText.headerButton img {
+.imgLogoIcon, .adminDrawerLogo img, #loginPage img.imgLogoIcon {
   content: url(https://cdn.rawgit.com/BenZuser/Emby-Dark-Themes-Resources/master/images/logos-and-icons/ORANGE/logo.png) !important; }
 
 .lnkMediaFolder div:first-child {
