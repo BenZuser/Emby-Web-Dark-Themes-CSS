@@ -502,6 +502,20 @@ a#MediaFolders_anchor.jstree-anchor {
 h3.libraryMenuButtonText.headerButton img {
   content: url(https://cdn.rawgit.com/BenZuser/Emby-Dark-Themes-Resources/master/images/logos-and-icons/PURPLE/logo.png) !important; }
 
+img.imgLogoIcon {
+  width: 0;
+  height: 0;
+  padding: 40px 0 0 131px;
+  background: url(https://cdn.rawgit.com/BenZuser/Emby-Dark-Themes-Resources/master/images/logos-and-icons/PURPLE/logo.png);
+  background-size: 100% 100%; }
+
+h3 img {
+  width: 0;
+  height: 0;
+  padding: 0 0 0 66px;
+  background: url(https://cdn.rawgit.com/BenZuser/Emby-Dark-Themes-Resources/master/images/logos-and-icons/PURPLE/logo.png);
+  background-size: 100% 100%; }
+
 .lnkMediaFolder div:first-child {
   background-image: url(https://cdn.rawgit.com/BenZuser/Emby-Dark-Themes-Resources/master/images/logos-and-icons/PURPLE/mblogoicon.png) !important; }
 

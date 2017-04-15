@@ -499,7 +499,21 @@ a#MediaFolders_anchor.jstree-anchor {
 /* Image Files */
 h3.libraryMenuButtonText.headerButton img {
 	content: url($logo) !important; }
-	
+
+img.imgLogoIcon {
+width: 0;
+height: 0;
+padding: 40px 0 0 131px;
+background: url($logo);
+background-size: 100% 100%; }
+
+h3 img {
+width: 0;
+height: 0;
+padding: 0 0 0 66px;
+background: url($logo);
+background-size: 100% 100%; }
+
 .lnkMediaFolder div:first-child{
 	background-image: url($mblogoicon) !important; }
 	
