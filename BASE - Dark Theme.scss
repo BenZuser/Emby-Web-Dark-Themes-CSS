@@ -1,5 +1,5 @@
 /* 
-	EMBY VERSION : 3.1.5
+	EMBY STABLE
 _________________________________________________________________________
 ------------------------- COLOR HEX & RGB CODES -------------------------
 		
@@ -513,6 +513,9 @@ height: 0;
 padding: 0 0 0 66px;
 background: url($logo);
 background-size: 100% 100%; }
+
+a.adminDrawerLogo.clearLink img {
+  content: url($logo)!important; }
 
 .lnkMediaFolder div:first-child{
 	background-image: url($mblogoicon) !important; }

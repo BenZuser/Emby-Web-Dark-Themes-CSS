@@ -1,5 +1,5 @@
 /* 
-	EMBY VERSION : 3.1.5
+	EMBY STABLE
 _________________________________________________________________________
 ------------------------- COLOR HEX & RGB CODES -------------------------
 		
@@ -515,6 +515,9 @@ h3 img {
   padding: 0 0 0 66px;
   background: url(https://cdn.rawgit.com/BenZuser/Emby-Dark-Themes-Resources/master/images/logos-and-icons/RED/logo.png);
   background-size: 100% 100%; }
+
+a.adminDrawerLogo.clearLink img {
+  content: url(https://cdn.rawgit.com/BenZuser/Emby-Dark-Themes-Resources/master/images/logos-and-icons/RED/logo.png) !important; }
 
 .lnkMediaFolder div:first-child {
   background-image: url(https://cdn.rawgit.com/BenZuser/Emby-Dark-Themes-Resources/master/images/logos-and-icons/RED/mblogoicon.png) !important; }
