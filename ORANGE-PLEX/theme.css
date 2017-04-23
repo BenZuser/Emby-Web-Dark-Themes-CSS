@@ -200,6 +200,13 @@ button[is="emby-button"].raised:not(.subdued):not(.cancel) {
   background: #CC7B19 !important;
   color: #ffffff !important; }
 
+.ui-body-b .raised {
+  background: #cc7b19;
+  color: #fff; }
+
+html .ui-body-b a {
+  color: #fff !important; }
+
 /* Individual Elements */
 button#btnShutdown.raised.subdued, button#btnRestart.raised.subdued,
 #btnUpdateApplication, button.raised.subdued.btnRestartContainer,
