@@ -201,8 +201,8 @@ background: $accent-color !important;
 color: #ffffff !important; }
 
 .ui-body-b .raised {
-    background: rgba($red,$green,$blue,1);
-    color: #fff; }
+    background: rgba($red,$green,$blue,1) !important;
+    color: #fff !important; }
 
 html .ui-body-b a {
     color: #fff !important; }
