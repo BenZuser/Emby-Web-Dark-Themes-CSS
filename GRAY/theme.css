@@ -201,8 +201,8 @@ button[is="emby-button"].raised:not(.subdued):not(.cancel) {
   color: #ffffff !important; }
 
 .ui-body-b .raised {
-  background: #7f7f7f;
-  color: #fff; }
+  background: #7f7f7f !important;
+  color: #fff !important; }
 
 html .ui-body-b a {
   color: #fff !important; }
