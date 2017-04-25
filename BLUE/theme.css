@@ -316,6 +316,10 @@ html .ui-body-a a:active, html body .ui-group-theme-a a:active,
 html body .ui-group-theme-b a:active {
   color: #0C57D6 !important; }
 
+a.button-link.emby-button {
+  color: #4285F4 !important;
+  text-decoration: none; }
+
 /* Multiple Elements */
 button.emby-tab-button.emby-tab-button-active.emby-button {
   color: #4285F4 !important;
