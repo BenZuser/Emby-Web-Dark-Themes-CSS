@@ -28,16 +28,16 @@ _________________________________________________________________________
 	DARK COLOR  : #535353
 
 	PINK	    : #F707DF & (247, 7, 223)
-	PINK (DARK) : #C604B3
+	DARK COLOR  : #C604B3
 
 	
 	White 1     : #ffffff - Real white
-	White 2		: #bbbbbb - Main drawer headers & some labels
+	White 2     : #bbbbbb - Main drawer headers & some labels
 	White 3     : #aaaaaa - Field descriptions & secondary texts
 							
 	Gray 1      : #9b9b9b - Hover links
-	Gray 2		: #252528 - Hover main drawer/tree backgrounds
-	Gray 3		: #aaaabe - Button backgrounds & general use
+	Gray 2      : #252528 - Hover main drawer/tree backgrounds
+	Gray 3      : #aaaabe - Button backgrounds & general use
 	
 	Dark Gray 1 : #262626 - Dividers & lines
 	Dark Gray 2 : #2b2b2b - Panel & card backgrounds
@@ -46,8 +46,8 @@ _________________________________________________________________________
 	Dark Gray 5 : #222326 - Dialog headers & footers (Not used)
 	Dark Gray 6 : #121314 - Dialog & action Sheet backgrounds
 	
-	Black 1 	: #080808 - Collapse backgrounds & general use
-	Black 2 	: #010101 - Input box backgrounds & general use
+	Black 1     : #080808 - Collapse backgrounds & general use
+	Black 2     : #010101 - Input box backgrounds & general use
 	
 */
 /*
@@ -312,6 +312,9 @@ div.jstree-wholerow.jstree-wholerow-hovered {
 
 /* 1.2.5 Others */
 /* Progress Bars */
+progress {
+  background: #52B54B !important; }
+
 .taskProgressInner {
   background: #52B54B !important; }
 
@@ -321,26 +324,11 @@ div.jstree-wholerow.jstree-wholerow-hovered {
 progress::-webkit-progress-value {
   background: #52B54B !important; }
 
+/* Firefox Progress Bar */
 progress::-moz-progress-bar {
-  background: #52B54B; }
-
-progress {
   background: #52B54B !important; }
 
-/* Glow for Userview Cards */
-div.verticalSection.section0 div.cardScalable,
-div.verticalSection.section0 div.cardScalable.withHoverMenu {
-  border: 1px solid rgba(82, 181, 75, 0.5);
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 181, 75, 0.6);
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 181, 75, 0.6); }
-
-/* Glow for Media Detail Page */
-.itemDetailGalleryLink img:hover {
-  -moz-box-shadow: 0 0 20px 3px #52B54B;
-  -webkit-box-shadow: 0 0 20px 3px #52B54B;
-  box-shadow: 0 0 20px 3px #52B54B; }
-
-/* Google Now Playing Bars */
+/* Now Playing Bars */
 .iconOsdProgressInner, .mdl-slider__background-lower, .sliderBubble,
 .mdl-slider::-webkit-slider-thumb {
   background: #52B54B !important; }
@@ -355,6 +343,23 @@ div.verticalSection.section0 div.cardScalable.withHoverMenu {
 
 .mdl-slider:focus::-moz-range-thumb {
   box-shadow: 0 0 0 10px rgba(82, 181, 75, 0.26) !important; }
+
+/* Edge */
+.mdl-slider::-ms-fill-lower {
+  background: #52B54B !important; }
+
+/* Glow for Userview Cards */
+div.verticalSection.section0 div.cardScalable,
+div.verticalSection.section0 div.cardScalable.withHoverMenu {
+  border: 1px solid rgba(82, 181, 75, 0.5);
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 181, 75, 0.6);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 181, 75, 0.6); }
+
+/* Glow for Media Detail Page */
+.itemDetailGalleryLink img:hover {
+  -moz-box-shadow: 0 0 20px 3px #52B54B;
+  -webkit-box-shadow: 0 0 20px 3px #52B54B;
+  box-shadow: 0 0 20px 3px #52B54B; }
 
 /* Up To Date Indicator */
 p#pUpToDate i.md-icon {
@@ -618,8 +623,8 @@ ul[data-role="listview"] {
 /*
 _____________________________________________________________________
 
-Emby Dark Themes is maintained by Ben Z (BenZuser)
-with the contribution of Happy2Play.
+	Emby Dark Themes is maintained by Ben Z (BenZuser)
+	with the contribution of Happy2Play.
 _____________________________________________________________________
 
 */
