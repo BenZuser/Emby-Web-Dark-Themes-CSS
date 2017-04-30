@@ -5,7 +5,7 @@ See [HERE](https://benzuser.github.io/Emby-Web-Dark-Themes-CSS/) for instruction
 
 <h2>Screenshots</h2>
 
-![alt tag](https://cdn.rawgit.com/BenZuser/Emby-Dark-Themes-Resources/master/images/screenshots/Themes%20No%20Header.png)
+![alt tag](https://cdn.rawgit.com/BenZuser/Emby-Dark-Themes-Resources/fc06d3d5/images/screenshots/Dark%20Themes%20No%20Header%20V2.png)
 
 [**Emby Dark Themes**](https://benzuser.github.io/Emby-Web-Dark-Themes-CSS/) is maintained by [**Ben Z (BenZuser)**](https://github.com/BenZuser) with the contribution of [**Happy2Play**](https://github.com/Happy2Play).
 
