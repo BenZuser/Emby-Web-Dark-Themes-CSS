@@ -340,10 +340,21 @@ div.verticalSection.section0 div.cardScalable.withHoverMenu {
   -webkit-box-shadow: 0 0 20px 3px #7F7F7F;
   box-shadow: 0 0 20px 3px #7F7F7F; }
 
-/* Now Playing Bars */
+/* Google Now Playing Bars */
 .iconOsdProgressInner, .mdl-slider__background-lower, .sliderBubble,
 .mdl-slider::-webkit-slider-thumb {
   background: #7F7F7F !important; }
+
+.mdl-slider:focus::-webkit-slider-thumb {
+  -webkit-box-shadow: 0 0 0 10px rgba(127, 127, 127, 0.26);
+  box-shadow: 0 0 0 10px rgba(127, 127, 127, 0.26) !important; }
+
+/* Firefox Now Playing Bars */
+.mdl-slider::-moz-range-thumb, .mdl-slider::-moz-range-progress {
+  background: #7F7F7F !important; }
+
+.mdl-slider:focus::-moz-range-thumb {
+  box-shadow: 0 0 0 10px rgba(127, 127, 127, 0.26) !important; }
 
 /* Up To Date Indicator */
 p#pUpToDate i.md-icon {
