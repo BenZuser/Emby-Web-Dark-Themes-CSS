@@ -612,3 +612,13 @@ with the contribution of Happy2Play.
 _____________________________________________________________________
 
 */
+/* STABLE - TEMPORARY FIXES */
+/* Links */
+.ui-body-a a, .ui-body-a a:visited {
+  color: #CC7B19 !important; }
+
+.ui-body-a a:hover {
+  color: #9b9b9b !important; }
+
+.ui-body-a a:active {
+  color: #B35A00 !important; }
