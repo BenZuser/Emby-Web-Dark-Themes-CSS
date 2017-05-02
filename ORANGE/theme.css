@@ -549,8 +549,8 @@ div#revisionHistory div {
   color: #ffffff !important; }
 
 .formDialogFooter, .ui-body-a div.formDialogFooter {
-  background-color: #121314 !important;
-  border-top: 1px solid #121314 !important; }
+  background-color: #121314;
+  border-top: 1px solid transparent; }
 
 html .ui-body-a .ui-body-inherit {
   background-color: #121314 !important;
