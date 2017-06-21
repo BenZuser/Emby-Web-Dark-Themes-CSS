@@ -219,8 +219,7 @@ div#pendingInstallations, div#divRunningTasks span {
   color: #94131E !important; }
 
 /* Url Help Links */
-#dashboardPage > div > div > div.dashboardContent > div.readOnlyContent.dashboardHomeLeftColumn > div:nth-child(2) > div.paperList > p.localUrl > a:nth-child(2),
-#dashboardPage > div > div > div.dashboardContent > div.readOnlyContent.dashboardHomeLeftColumn > div:nth-child(2) > div.paperList > p.externalUrl > a:nth-child(2) {
+#dashboardPage p.localUrl > a:nth-child(2), #dashboardPage p.externalUrl > a:nth-child(2) {
   color: #ffffff !important;
   background: #E81123 !important; }
 
