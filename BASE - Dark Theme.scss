@@ -367,6 +367,9 @@ p#pUpToDate i.md-icon {
 /* Loading Spinners */
 .mdl-spinner__layer-1, .mdl-spinner__layer-2, .mdl-spinner__layer-3, .mdl-spinner__layer-4 {
 	border-color: $accent-color !important; }
+	
+.progressring-spiner {
+     border: .25em solid $accent-color !important; }
 
 /* Home Page Selection Tool */
 div.selectionCommandsPanel {

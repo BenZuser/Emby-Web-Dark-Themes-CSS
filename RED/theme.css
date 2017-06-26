@@ -368,6 +368,9 @@ p#pUpToDate i.md-icon {
 .mdl-spinner__layer-1, .mdl-spinner__layer-2, .mdl-spinner__layer-3, .mdl-spinner__layer-4 {
   border-color: #E81123 !important; }
 
+.progressring-spiner {
+  border: 0.25em solid #E81123 !important; }
+
 /* Home Page Selection Tool */
 div.selectionCommandsPanel {
   background: #E81123 !important; }
