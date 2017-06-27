@@ -459,9 +459,11 @@ div.scrollContainer.smoothScrollY::-webkit-scrollbar-thumb {
 
 /* 2.2.2 Logos */
 /* Login Page - Home Page - Main Drawer Mobile */
-#loginPage img.imgLogoIcon, .libraryMenuButtonText.headerButton img,
-a.adminDrawerLogo.clearLink img {
+#loginPage img.imgLogoIcon, a.adminDrawerLogo.clearLink img {
   content: url(https://cdn.rawgit.com/BenZuser/Emby-Dark-Themes-Resources/master/images/logos-and-icons/RED/logo.png) !important; }
+
+.pageTitleWithDefaultLogo {
+  background-image: url(https://cdn.rawgit.com/BenZuser/Emby-Dark-Themes-Resources/master/images/logos-and-icons/RED/logo.png) !important; }
 
 /* 2.2.3 Others */
 /* Dashboard Misc */
