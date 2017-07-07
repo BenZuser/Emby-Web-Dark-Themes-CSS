@@ -120,7 +120,8 @@ i.listItemIcon.md-icon, .listItemIcon:not(.listItemIcon-transparent) {
 a.clearLink.lnkDisplayPreferences i.md-icon.listItemIcon,
 a.clearLink.lnkHomeScreenPreferences i.md-icon.listItemIcon,
 a.clearLink.lnkLanguagePreferences i.md-icon.listItemIcon,
-a.clearLink.lnkMyProfile i.md-icon.listItemIcon {
+a.clearLink.lnkMyProfile i.md-icon.listItemIcon,
+a.clearLink.lnkSubtitleSettings i.md-icon.listItemIcon {
   background-color: #757500 !important; }
 
 /* Other Circles */
