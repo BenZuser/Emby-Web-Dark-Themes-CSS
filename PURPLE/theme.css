@@ -467,6 +467,9 @@ div.scrollContainer.smoothScrollY::-webkit-scrollbar-thumb {
 #loginPage img.imgLogoIcon, a.adminDrawerLogo.clearLink img {
   content: url(https://cdn.rawgit.com/BenZuser/Emby-Dark-Themes-Resources/master/images/logos-and-icons/PURPLE/logo.png) !important; }
 
+.pageTitleWithLogo {
+  background-image: url(https://cdn.rawgit.com/BenZuser/Emby-Dark-Themes-Resources/master/images/logos-and-icons/PURPLE/logo.png) !important; }
+
 .pageTitleWithDefaultLogo {
   background-image: url(https://cdn.rawgit.com/BenZuser/Emby-Dark-Themes-Resources/master/images/logos-and-icons/PURPLE/logo.png) !important; }
 
