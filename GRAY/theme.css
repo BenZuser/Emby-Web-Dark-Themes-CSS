@@ -120,7 +120,8 @@ i.listItemIcon.md-icon, .listItemIcon:not(.listItemIcon-transparent) {
 a.clearLink.lnkDisplayPreferences i.md-icon.listItemIcon,
 a.clearLink.lnkHomeScreenPreferences i.md-icon.listItemIcon,
 a.clearLink.lnkLanguagePreferences i.md-icon.listItemIcon,
-a.clearLink.lnkMyProfile i.md-icon.listItemIcon {
+a.clearLink.lnkMyProfile i.md-icon.listItemIcon,
+a.clearLink.lnkSubtitleSettings i.md-icon.listItemIcon {
   background-color: #535353 !important; }
 
 /* Other Circles */
@@ -463,9 +464,14 @@ div.scrollContainer.smoothScrollY::-webkit-scrollbar-thumb {
 
 /* 2.2.2 Logos */
 /* Login Page - Home Page - Main Drawer Mobile */
-#loginPage img.imgLogoIcon, .libraryMenuButtonText.headerButton img,
-a.adminDrawerLogo.clearLink img {
+#loginPage img.imgLogoIcon, a.adminDrawerLogo.clearLink img {
   content: url(https://cdn.rawgit.com/BenZuser/Emby-Dark-Themes-Resources/master/images/logos-and-icons/GRAY/logo.png) !important; }
+
+.pageTitleWithLogo {
+  background-image: url(https://cdn.rawgit.com/BenZuser/Emby-Dark-Themes-Resources/master/images/logos-and-icons/GRAY/logo.png) !important; }
+
+.pageTitleWithDefaultLogo {
+  background-image: url(https://cdn.rawgit.com/BenZuser/Emby-Dark-Themes-Resources/master/images/logos-and-icons/GRAY/logo.png) !important; }
 
 /* 2.2.3 Others */
 /* Dashboard Misc */
