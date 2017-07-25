@@ -179,6 +179,10 @@ button.raised.subdued.btnPlay.btnPlaySimple.emby-button {
 .emby-tab-button-active, .button-accent-flat {
   color: #F707DF !important; }
 
+.alphaPickerButton-selected, .alphaPickerButton-tv:focus {
+  background-color: #F707DF !important;
+  color: #fff; }
+
 /* Other Circles Focus Buttons */
 .paper-icon-button-light:focus {
   color: #F707DF !important; }
