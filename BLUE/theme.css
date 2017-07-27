@@ -574,12 +574,14 @@ html .ui-body-a .ui-body-inherit {
 
 /* 3.2.4 Backgrounds */
 /* Main Backgrounds */
-.background-theme-a .backgroundContainer,
-.background-theme-b .backgroundContainer {
+.backgroundContainer {
   background-color: #141414; }
 
+.dashboardDocument .backgroundContainer {
+  background-color: #141414 !important; }
+
 /* Panels */
-.ui-body-a .paperList, .ui-body-b .paperList, .visualCardBox {
+.paperList, .visualCardBox {
   background-color: #2b2b2b !important;
   color: #ffffff !important; }
 
