@@ -248,37 +248,31 @@ div#viewPanel.viewPanel a:active {
 
 /* 1.2.3 Main Drawers */
 /* Divider */
-.sidebarDivider {
+.navMenuDivider {
     background: #262626 !important; }
 
 .adminDrawerLogo {
     border-bottom: 1px solid #262626 !important; }
 	
 /* Dashboard - Background */
-.adminDrawer .scrollContainer {
-	background-color: #181818 !important; }
+.mainDrawer {
+    background: #181818 !important; }
 
-/* Dashboard - Font */
-.adminDrawer div.sidebarHeader {
+/* Dashboard - Font & Icon */
+.sidebarHeader {
     color: #bbbbbb !important; }
 
-.adminDrawer a.sidebarLink {
-    color: #ffffff !important; } 
-
-/* Dashboard - Icon */
-.adminDrawer .sidebarLinkIcon {
+.navMenuOption {
     color: #ffffff !important; }
+
+.navMenuOption.navMenuOption-selected {
+    background: #252528 !important;
+    color: $accent-color !important; }
 	
 /* Dashboard - Hover */
-.adminDrawer a.sidebarLink:hover {
+.navMenuOption:hover {
     background: #252528 !important;
-	color: #ffffff !important; }
-
-/* Dashboard - Selected */
-.drawerContent a.sidebarLink.selectedSidebarLink,
-.drawerContent a.sidebarLink.selectedSidebarLink .sidebarLinkIcon {
-    background : #252528 !important;
-	color: $accent-color !important; }
+    color: #ffffff !important; }
 	
 /* Home Page - Background */
 .darkDrawer {
