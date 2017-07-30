@@ -566,7 +566,7 @@ _____________________________________________________________________
 .searchSuggestionsList a:hover, .noItemsMessage a:hover,
 a.lnkPremiere:hover {
     color: #9b9b9b !important; }
-
-.ui-body-a a:active {
-    color: $accent-color-dark !important; }
 	
+.searchSuggestionsList a:active, .noItemsMessage a:active,
+a.lnkPremiere:active {
+    color: $accent-color-dark !important; }	
