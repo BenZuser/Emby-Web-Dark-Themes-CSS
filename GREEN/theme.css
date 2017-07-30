@@ -207,7 +207,7 @@ p#pUpToDate i.md-icon {
 .selectLabelFocused, .textareaLabelFocused, .inputLabelFocused {
   color: #52B54B !important; }
 
-.secondary.listItemBodyText span {
+.secondary.listItemBodyText span, div#divRunningTasks span {
   color: #52B54B !important; }
 
 /* 1.2.4 Icons */
