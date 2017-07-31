@@ -58,6 +58,7 @@ _________________________________________________________________________
 	       2.2.2 Logos
 	       2.2.3 Others
 	   2.3 Fixes
+	       2.3.1 Dark Colors
 
 	3. DARK COLORS 	
 	   3.1 Buttons
@@ -332,7 +333,6 @@ div.jstree-wholerow.jstree-wholerow-hovered {
 /* Circles */
 .fab {
 	background-color: transparent !important;
-    color: #fff !important; 
     -webkit-box-shadow: none !important;
     box-shadow: none !important;
     -webkit-transition: none !important;
@@ -461,84 +461,13 @@ select option {
     color: #ccc !important; }
 	
 /* ----- 2.3 Fixes ----- */
-/* Report Manager Page */
-.detailTable tbody tr:nth-child(odd) td, 
-.detailTable tbody tr:nth-child(odd) th,
- .stripedTable tbody tr:nth-child(odd) td, 
- .stripedTable tbody tr:nth-child(odd) th {
-    background-color: #252528 !important; }
-
-/* ------------------------- 3. DARK COLORS -------------------------- */
-/* ----- 3.1 Buttons ----- */
-/* 3.1.1 Checkboxes */
-.checkboxOutline {
-    border-color: #fff !important; }
-	
-/* 3.1.2 Rectangles */
-/* 3.1.3 Links & Text buttons */
-/* 3.1.4 Others */
-/* ----- 3.2 Details ----- */
-/* 3.2.1 Fonts */
-html {
-    color: #fff !important; }
-
-.paperListLabel, .selectLabelUnfocused, .inputLabelUnfocused, 
-.textareaLabelUnfocused, .secondaryText, .inputLabel, 
-.fieldDescription {
-    color: #aaa !important; }
-
-.cardText-secondary {
-    color: #888 !important; }
-
-.visualCardBox .cardText-secondary {
-    color: inherit !important;
-    opacity: .5 !important; }
-
-.listItem .secondary, .nowPlayingBarSecondaryText {
-    color: #999 !important; }
-	
-/* 3.2.2 Icons */
-.searchfields-icon.md-icon {
-    color: #fff !important; }
-	
-/* 3.2.3 Backgrounds */
-.backgroundContainer {
-    background-color: #191919 !important; }
-
-.backgroundContainer.withBackdrop {
-    background-color: rgba(6, 6, 6, .94) !important;
-    background: linear-gradient(to right, rgba(0, 0, 0, .99), rgba(0, 0, 0, .94), rgba(0, 0, 0, .5)) !important; }
-
-.paperList, .visualCardBox, .formDialogHeader:not(.formDialogHeader-clear) {
-    background-color: #222326 !important; }
-	
-.formDialogFooter:not(.formDialogFooter-clear) {
-    background-color: #222326 !important;
-    border-top: 1px solid #222326 !important;	}
-
-.sessionCardFooter {
-    border-top: 1px solid #383838 !important; }
-
-.collapseContent {
-    background-color: #121212 !important; }
-	
+/* 2.3.1 Dark Colors */
 .autoorganizetable tbody tr:nth-child(odd) td, .autoorganizetable tbody tr:nth-child(odd) th {
     background-color: #222326 !important; }
 
 .autoorganizetable > .table > tbody > tr {
     border: 1px solid #222326 !important; }
 	
-/* 3.2.4 Dialogs & Action Sheets */
-/* 3.2.5 Others */
-.emby-textarea, .emby-input, .emby-collapsible-button, .emby-select {
-    border-color: #383838 !important; }
-
-.dialog {
-    background-color: #191919 !important; }
-
-.actionSheetMenuItem:hover {
-	background-color: #222 !important; }
-
 /*
 _____________________________________________________________________
 
@@ -546,16 +475,6 @@ _____________________________________________________________________
     with the contribution of Happy2Play.
 _____________________________________________________________________
 
-*/
-/*
-    Wait for updates :
-
-    * a (accent color) 
-	   From : searchSuggestionsList
-	   From : noItemsMessage
-	   From : lnkPremiere
-	  
-    * -
 */
 /* TEMPORARY FIXES */
 /* Links */
