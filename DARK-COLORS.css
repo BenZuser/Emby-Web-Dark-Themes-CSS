@@ -87,9 +87,12 @@ html {
 .actionSheetMenuItem:hover {
 	background-color: #222 !important; }
 
-/* Report Manager Page */
+/* Report Manager Page & Auto-Organize */
 .detailTable tbody tr:nth-child(odd) td, 
 .detailTable tbody tr:nth-child(odd) th,
  .stripedTable tbody tr:nth-child(odd) td, 
  .stripedTable tbody tr:nth-child(odd) th {
     background-color: #252528 !important; }
+	
+.detailTableBodyRow-shaded:nth-child(even), .listItem-shaded:nth-child(even) {
+    background: rgba(30, 30, 30, 0.9) !important; }
