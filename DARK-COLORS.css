@@ -75,6 +75,20 @@ html {
 
 .collapseContent {
     background-color: #121212 !important; }
+
+.emby-select-withcolor {
+    color: inherit;
+    background: #383838 !important;
+    border: .07em solid rgba(0,0,0,.158);
+    -webkit-border-radius: .15em;
+    border-radius: .15em; }
+
+.emby-input, .emby-textarea {
+    color: inherit;
+    background: #383838 !important;
+    border: .07em solid rgba(0,0,0,.158);
+    -webkit-border-radius: .15em;
+    border-radius: .15em; }
 	
 /* 3.2.4 Dialogs & Action Sheets */
 /* 3.2.5 Others */
