@@ -145,20 +145,10 @@ div[data-role="controlgroup"] a.ui-btn-active[data-role='button'] {
 /* 1.2.1 Circles */
 /*.listItemIcon:not(.listItemIcon-transparent) {
     background-color: $accent-color !important; }*/
-i.listItemIcon.md-icon {
-  background-color: #52B54B; }
-
 .dashboardSection i.listItemIcon.md-icon {
   background-color: #52B54B !important; }
 
 .scheduledTaskPaperIconItem[data-status="Running"] i.listItemIcon.md-icon {
-  background-color: #3E8437 !important; }
-
-.lnkDisplayPreferences i.md-icon.listItemIcon,
-.lnkHomeScreenPreferences i.md-icon.listItemIcon,
-.lnkLanguagePreferences i.md-icon.listItemIcon,
-.lnkSubtitleSettings i.md-icon.listItemIcon,
-.lnkMyProfile i.md-icon.listItemIcon {
   background-color: #3E8437 !important; }
 
 /* Focus Helper circles */
@@ -221,6 +211,9 @@ select:focus {
 
 ::selection {
   background-color: #3E8437 !important; }
+
+.emby-input:focus, .emby-textarea:focus {
+  border-color: #52B54B !important; }
 
 /* Google Now Playing Bar & Now Playing Page */
 .iconOsdProgressInner, .mdl-slider__background-lower, .sliderBubble,
