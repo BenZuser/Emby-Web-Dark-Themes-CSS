@@ -68,14 +68,14 @@ _________________________________________________________________________
 /* ----- 1.1 Buttons ----- */
 /* 1.1.1 Checkboxes */
 .emby-checkbox:checked + span + span + .checkboxOutline > .checkboxOutlineTick {
-  background-color: #E81123 !important; }
+  background-color: #3367d6 !important; }
 
 .emby-checkbox:checked + span + span + .checkboxOutline,
 .progressring-spiner {
-  border-color: #E81123 !important; }
+  border-color: #3367d6 !important; }
 
 .emby-checkbox:focus + span + .emby-checkbox-focushelper {
-  background-color: #E81123 !important;
+  background-color: #3367d6 !important;
   opacity: 0.26 !important; }
 
 /* 1.1.2 Rectangles */
@@ -84,31 +84,31 @@ _________________________________________________________________________
   color: #fff !important; }
 
 .button-submit, .button-accent {
-  background: #E81123 !important;
+  background: #3367d6 !important;
   color: #fff; }
 
 .raised-mini.emby-button {
-  background: #E81123 !important;
+  background: #3367d6 !important;
   color: #ffffff !important; }
 
 /* Restart */
 .btnRestartContainer.emby-button {
-  background: #E81123 !important;
+  background: #3367d6 !important;
   color: #fff; }
 
 /* Play & Resume */
 .btnPlaySimple.emby-button {
-  background: #E81123 !important;
+  background: #3367d6 !important;
   color: #fff; }
 
 .btnResume.emby-button {
-  background: #94131E !important;
+  background: #1f4698 !important;
   color: #fff; }
 
 /* 1.1.3 Links & Text buttons */
 .button-link, .button-flat-accent, .button-accent-flat,
 .textlink {
-  color: #E81123 !important; }
+  color: #3367d6 !important; }
 
 .button-link:hover, .button-flat-accent:hover,
 .button-accent-flat:hover, .textlink:hover {
@@ -116,32 +116,32 @@ _________________________________________________________________________
 
 .button-link:active, .button-flat-accent:active,
 .button-accent-flat:active, .textlink:active {
-  color: #94131E !important; }
+  color: #1f4698 !important; }
 
 /* Top Header */
 .emby-tab-button-active {
-  color: #E81123 !important; }
+  color: #3367d6 !important; }
 
 /* 1.1.4 Others */
 /* Alpha Picker */
 .alphaPickerButton-selected, .alphaPickerButton-tv:focus {
-  background-color: #E81123 !important;
+  background-color: #3367d6 !important;
   color: #fff !important; }
 
 /* Radio Buttons */
 .mdl-radio__inner-circle {
-  background: #E81123 !important; }
+  background: #3367d6 !important; }
 
 .mdl-radio__button:checked + .mdl-radio__label + .mdl-radio__outer-circle {
-  border: 2px solid #E81123 !important; }
+  border: 2px solid #3367d6 !important; }
 
 .mdl-radio__button:checked:focus + .mdl-radio__label + .mdl-radio__outer-circle + .mdl-radio__inner-circle {
-  -webkit-box-shadow: 0 0 0 10px rgba(232, 17, 35, 0.26) !important;
-  box-shadow: 0 0 0 10px rgba(232, 17, 35, 0.26) !important; }
+  -webkit-box-shadow: 0 0 0 10px rgba(51, 103, 214, 0.26) !important;
+  box-shadow: 0 0 0 10px rgba(51, 103, 214, 0.26) !important; }
 
 /* Control Group Buttons */
 div[data-role="controlgroup"] a.ui-btn-active[data-role='button'] {
-  background: #E81123 !important;
+  background: #3367d6 !important;
   color: #ffffff !important; }
 
 /* ----- 1.2 Details ----- */
@@ -149,109 +149,109 @@ div[data-role="controlgroup"] a.ui-btn-active[data-role='button'] {
 /*.listItemIcon:not(.listItemIcon-transparent) {
     background-color: $accent-color !important; }*/
 .dashboardSection i.listItemIcon.md-icon {
-  background-color: #E81123 !important; }
+  background-color: #3367d6 !important; }
 
 .scheduledTaskPaperIconItem[data-status="Running"] i.listItemIcon.md-icon {
-  background-color: #94131E !important; }
+  background-color: #1f4698 !important; }
 
 /* Focus Helper circles */
 .paper-icon-button-light:focus {
-  color: #E81123 !important; }
+  color: #3367d6 !important; }
 
 /* 1.2.2 Indicators */
 .countIndicator, .playedIndicator {
-  background: #E81123 !important; }
+  background: #3367d6 !important; }
 
 .levelNormal {
-  background-color: #E81123 !important; }
+  background-color: #3367d6 !important; }
 
 .fullSyncIndicator {
-  background: #E81123 !important;
+  background: #3367d6 !important;
   color: #fff; }
 
 .playstatebutton-played i, .ratingbutton-withrating i {
-  color: #E81123 !important; }
+  color: #3367d6 !important; }
 
 p#pUpToDate i.md-icon {
-  background-color: #E81123 !important; }
+  background-color: #3367d6 !important; }
 
 /* Loading Spinners */
 .mdl-spinner__layer-1, .mdl-spinner__layer-2, .mdl-spinner__layer-3,
 .mdl-spinner__layer-4 {
-  border-color: #E81123 !important; }
+  border-color: #3367d6 !important; }
 
 .progressring-spiner {
-  border: 0.25em solid #E81123 !important; }
+  border: 0.25em solid #3367d6 !important; }
 
 /* 1.2.3 Fonts */
 .selectLabelFocused, .textareaLabelFocused, .inputLabelFocused {
-  color: #E81123 !important; }
+  color: #3367d6 !important; }
 
 .secondary.listItemBodyText span, div#divRunningTasks span {
-  color: #E81123 !important; }
+  color: #3367d6 !important; }
 
 /* 1.2.4 Icons */
 .starIcon, .mediaInfoTimerIcon {
-  color: #E81123 !important; }
+  color: #3367d6 !important; }
 
 /* Top Header */
 .btnActiveCast {
-  color: #E81123 !important; }
+  color: #3367d6 !important; }
 
 /* Now Playing Bar & Now Playing Page */
 .repeatActive,
 button.btnCommand.repeatToggleButton.autoSize.nowPlayingPageRepeatActive {
-  color: #E81123 !important; }
+  color: #3367d6 !important; }
 
 /* 1.2.5 Dialogs & Action Sheets */
 /* 1.2.6 Others */
 /* General Accent Color Modifications */
 :focus {
-  outline: #E81123 auto 5px; }
+  outline: #3367d6 auto 5px; }
 
 select:focus {
-  border-color: #E81123 !important; }
+  border-color: #3367d6 !important; }
 
 ::selection {
-  background-color: #94131E !important; }
+  background-color: #1f4698 !important; }
 
 .emby-input:focus, .emby-textarea:focus {
-  border-color: #E81123 !important; }
+  border-color: #3367d6 !important; }
 
 /* Google Now Playing Bar & Now Playing Page */
 .iconOsdProgressInner, .mdl-slider__background-lower, .sliderBubble,
 .mdl-slider::-webkit-slider-thumb {
-  background: #E81123 !important; }
+  background: #3367d6 !important; }
 
 .mdl-slider:focus::-webkit-slider-thumb {
-  -webkit-box-shadow: 0 0 0 10px rgba(232, 17, 35, 0.26);
-  box-shadow: 0 0 0 10px rgba(232, 17, 35, 0.26) !important; }
+  -webkit-box-shadow: 0 0 0 10px rgba(51, 103, 214, 0.26);
+  box-shadow: 0 0 0 10px rgba(51, 103, 214, 0.26) !important; }
 
 /* Firefox Now Playing Bar & Now Playing Page */
 .mdl-slider::-moz-range-thumb, .mdl-slider::-moz-range-progress {
-  background: #E81123 !important; }
+  background: #3367d6 !important; }
 
 .mdl-slider:focus::-moz-range-thumb {
-  box-shadow: 0 0 0 10px rgba(232, 17, 35, 0.26) !important; }
+  box-shadow: 0 0 0 10px rgba(51, 103, 214, 0.26) !important; }
 
 /* Progress Bars */
 .itemProgressBarForeground {
-  background-color: #E81123 !important; }
+  background-color: #3367d6 !important; }
 
 .taskProgressInner {
-  background: #E81123 !important; }
+  background: #3367d6 !important; }
 
 /* Google Progress Bars */
 progress::-webkit-progress-value {
-  background: #E81123 !important; }
+  background: #3367d6 !important; }
 
 /* Firefox Progress Bars */
 progress::-moz-progress-bar {
-  background: #E81123 !important; }
+  background: #3367d6 !important; }
 
 /* Edge Progress Bars */
 progress {
-  background: #E81123 !important; }
+  background: #3367d6 !important; }
 
 /* Main Drawers */
 .navMenuDivider {
@@ -271,7 +271,7 @@ progress {
 
 .navMenuOption.navMenuOption-selected {
   background: #252528 !important;
-  color: #E81123 !important; }
+  color: #3367d6 !important; }
 
 .navMenuOption:hover {
   background: #252528 !important;
@@ -286,28 +286,28 @@ div.jstree-wholerow.jstree-wholerow-hovered {
 .jstree-anchor.jstree-clicked,
 .jstree-anchor.jstree-clicked.jstree-hovered {
   background: #252528 !important;
-  color: #E81123 !important; }
+  color: #3367d6 !important; }
 
 /* Multi-select */
 .itemSelectionPanel {
-  border: 1px solid #E81123 !important; }
+  border: 1px solid #3367d6 !important; }
 
 .selectionCommandsPanel {
-  background: #E81123 !important;
+  background: #3367d6 !important;
   color: #fff; }
 
 /* upNextDialog */
 .upNextDialog-countdownText {
-  color: #E81123 !important; }
+  color: #3367d6 !important; }
 
 /* Selection Bars */
 .emby-select-selectionbar, .emby-textarea-selectionbar,
 .emby-input-selectionbar {
-  background-color: #E81123 !important; }
+  background-color: #3367d6 !important; }
 
 /* Media Info Detail Image */
 .itemDetailImage.loaded:hover {
-  border: 1px solid #E81123 !important; }
+  border: 1px solid #3367d6 !important; }
 
 /* 1.3 Fixes */
 /* ------------------ 2. MISCELLANEOUS MODIFICATIONS ----------------- */
@@ -368,15 +368,15 @@ div.scrollContainer.smoothScrollY::-webkit-scrollbar-thumb {
 /* 2.2.2 Logos */
 /* Login Page */
 .imgLogoIcon {
-  content: url(https://cdn.rawgit.com/BenZuser/Emby-Dark-Themes-Resources/master/images/logos-and-icons/RED/logo.png) !important; }
+  content: url(https://cdn.rawgit.com/BenZuser/Emby-Dark-Themes-Resources/master/images/logos-and-icons/BLUE-DARK/logo.png) !important; }
 
 /* Main Drawer Mobile */
 .adminDrawerLogo img {
-  content: url(https://cdn.rawgit.com/BenZuser/Emby-Dark-Themes-Resources/master/images/logos-and-icons/RED/logo.png) !important; }
+  content: url(https://cdn.rawgit.com/BenZuser/Emby-Dark-Themes-Resources/master/images/logos-and-icons/BLUE-DARK/logo.png) !important; }
 
 /* Home Page */
 .pageTitleWithLogo {
-  background-image: url(https://cdn.rawgit.com/BenZuser/Emby-Dark-Themes-Resources/master/images/logos-and-icons/RED/logo.png) !important; }
+  background-image: url(https://cdn.rawgit.com/BenZuser/Emby-Dark-Themes-Resources/master/images/logos-and-icons/BLUE-DARK/logo.png) !important; }
 
 /* 2.2.3 Others	*/
 /* CSS Box */
@@ -460,7 +460,7 @@ _____________________________________________________________________
 /* TEMPORARY FIXES */
 /* Links */
 .searchSuggestionsList a, .noItemsMessage a, a.lnkPremiere {
-  color: #E81123 !important; }
+  color: #3367d6 !important; }
 
 .searchSuggestionsList a:hover, .noItemsMessage a:hover,
 a.lnkPremiere:hover {
@@ -468,4 +468,4 @@ a.lnkPremiere:hover {
 
 .searchSuggestionsList a:active, .noItemsMessage a:active,
 a.lnkPremiere:active {
-  color: #94131E !important; }
+  color: #1f4698 !important; }
