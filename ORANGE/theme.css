@@ -212,6 +212,9 @@ select:focus {
 ::selection {
   background-color: #BF6000 !important; }
 
+.emby-input:focus, .emby-textarea:focus {
+  border-color: #FF8000 !important; }
+
 /* Google Now Playing Bar & Now Playing Page */
 .iconOsdProgressInner, .mdl-slider__background-lower, .sliderBubble,
 .mdl-slider::-webkit-slider-thumb {
