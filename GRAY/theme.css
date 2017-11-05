@@ -145,20 +145,10 @@ div[data-role="controlgroup"] a.ui-btn-active[data-role='button'] {
 /* 1.2.1 Circles */
 /*.listItemIcon:not(.listItemIcon-transparent) {
     background-color: $accent-color !important; }*/
-i.listItemIcon.md-icon {
-  background-color: #7F7F7F; }
-
 .dashboardSection i.listItemIcon.md-icon {
   background-color: #7F7F7F !important; }
 
 .scheduledTaskPaperIconItem[data-status="Running"] i.listItemIcon.md-icon {
-  background-color: #535353 !important; }
-
-.lnkDisplayPreferences i.md-icon.listItemIcon,
-.lnkHomeScreenPreferences i.md-icon.listItemIcon,
-.lnkLanguagePreferences i.md-icon.listItemIcon,
-.lnkSubtitleSettings i.md-icon.listItemIcon,
-.lnkMyProfile i.md-icon.listItemIcon {
   background-color: #535353 !important; }
 
 /* Focus Helper circles */
